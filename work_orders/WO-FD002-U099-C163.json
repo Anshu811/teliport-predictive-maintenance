@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U099-C163",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-099",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+  "cycles_seen": 163,
+  "pred_RUL": 8.5,
+  "rul_lower": 3.8,
+  "rul_upper": 14.0,
+  "decision_RUL": 3.8,
+  "anomaly_score": 6.67,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 27.7
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 19.8
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 18.8
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 4 <= 22"
+  ],
+  "model_version": "registry v1"
+}

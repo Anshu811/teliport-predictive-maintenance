@@ -1,0 +1,10 @@
+,0
+engines,707.0
+exact_severity_match_%,87.6
+within_one_level_%,99.9
+truly_critical_engines,123.0
+critical_missed (got MEDIUM/LOW),0.0
+under_triaged_%,5.1
+over_triaged_%,7.4
+work_orders_failing_before_due,1.0
+human_review_rate_%,0.8

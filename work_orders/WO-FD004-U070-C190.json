@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U070-C190",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-070",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 13,
+  "recommended_action": "Plan borescope inspection of Fan within 13 cycles; increase monitoring frequency.",
+  "cycles_seen": 190,
+  "pred_RUL": 42.2,
+  "rul_lower": 26.7,
+  "rul_upper": 59.7,
+  "decision_RUL": 42.2,
+  "anomaly_score": 1.62,
+  "alarm": true,
+  "suspected_component": "Fan",
+  "top_sensors": [
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 35.6
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 24.3
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 9.4
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 42 <= 75"
+  ],
+  "model_version": "registry v1"
+}

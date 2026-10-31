@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U078-C279",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-078",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+  "cycles_seen": 279,
+  "pred_RUL": 22.0,
+  "rul_lower": 15.9,
+  "rul_upper": 30.9,
+  "decision_RUL": 15.9,
+  "anomaly_score": 3.83,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 40.4
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 22.7
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 12.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 16 <= 22"
+  ],
+  "model_version": "registry v1"
+}

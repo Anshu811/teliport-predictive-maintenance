@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U039-C149",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD002/engine-039",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 21,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 21 cycles; increase monitoring frequency.",
+  "cycles_seen": 149,
+  "pred_RUL": 61.7,
+  "rul_lower": 43.2,
+  "rul_upper": 82.1,
+  "decision_RUL": 61.7,
+  "anomaly_score": 0.73,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 31.1
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 26.2
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 12.9
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 62 <= 75"
+  ],
+  "model_version": "registry v1"
+}

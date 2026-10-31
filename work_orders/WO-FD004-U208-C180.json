@@ -1,0 +1,44 @@
+{
+  "work_order_id": "WO-FD004-U208-C180",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-208",
+  "severity": "MEDIUM",
+  "status": "PENDING_HUMAN_REVIEW",
+  "due_within_cycles": 38,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 38 cycles; increase monitoring frequency.",
+  "cycles_seen": 180,
+  "pred_RUL": 105.8,
+  "rul_lower": 77.3,
+  "rul_upper": 135.7,
+  "decision_RUL": 105.8,
+  "anomaly_score": 1.55,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 42.1
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 38.5
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 6.6
+    }
+  ],
+  "needs_human_review": true,
+  "review_reasons": [
+    "Health monitor alarm but RUL model sees > 100 cycles: possible sensor fault or unseen failure mode"
+  ],
+  "rules_fired": [
+    "R4 pred_RUL 106 > 75 (healthy)",
+    "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)",
+    "X1 human review: Health monitor alarm but RUL model sees > 100 cycles: possible sensor fault or unseen failure mode"
+  ],
+  "model_version": "registry v1"
+}

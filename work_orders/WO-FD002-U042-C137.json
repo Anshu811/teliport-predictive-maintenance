@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD002-U042-C137",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD002/engine-042",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+  "cycles_seen": 137,
+  "pred_RUL": 26.8,
+  "rul_lower": 19.3,
+  "rul_upper": 35.4,
+  "decision_RUL": 19.3,
+  "anomaly_score": 3.26,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 30.2
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 17.3
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 14.6
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 19 <= 22",
+    "U1 point estimate 27 alone would give HIGH; uncertainty pushes it to CRITICAL"
+  ],
+  "model_version": "registry v1"
+}

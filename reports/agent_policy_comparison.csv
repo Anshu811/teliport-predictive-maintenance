@@ -1,0 +1,10 @@
+,v1: point estimate,v2: lower bound for CRITICAL,lower bound everywhere
+exact_severity_match_%,88.3,85.4,72.8
+within_one_level_%,99.9,99.9,99.9
+critical_missed (MEDIUM/LOW),0.0,0.0,0.0
+critical_labelled_HIGH,7.0,0.0,0.0
+under_triaged_%,5.5,4.5,0.4
+over_triaged_%,6.2,10.0,26.7
+work_orders,331.0,331.0,435.0
+work_orders_failing_before_due,0.0,0.0,0.0
+human_review_rate_%,1.0,1.0,1.8

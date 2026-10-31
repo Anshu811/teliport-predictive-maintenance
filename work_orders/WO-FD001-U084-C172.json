@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD001-U084-C172",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD001/engine-084",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 22,
+  "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 22 cycles; increase monitoring frequency.",
+  "cycles_seen": 172,
+  "pred_RUL": 61.5,
+  "rul_lower": 44.0,
+  "rul_upper": 82.5,
+  "decision_RUL": 61.5,
+  "anomaly_score": 1.83,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 23.8
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 20.6
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 10.8
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 62 <= 75"
+  ],
+  "model_version": "registry v2"
+}

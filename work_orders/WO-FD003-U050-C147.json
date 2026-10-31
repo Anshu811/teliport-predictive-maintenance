@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U050-C147",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-050",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Low-pressure turbine (LPT) before further operation.",
+  "cycles_seen": 147,
+  "pred_RUL": 13.4,
+  "rul_lower": 8.9,
+  "rul_upper": 18.0,
+  "decision_RUL": 8.9,
+  "anomaly_score": 4.89,
+  "alarm": true,
+  "suspected_component": "Low-pressure turbine (LPT)",
+  "top_sensors": [
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 22.2
+    },
+    {
+      "sensor": "s20",
+      "name": "HPT coolant bleed (W31)",
+      "share_%": 17.9
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 14.6
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 9 <= 22"
+  ],
+  "model_version": "registry v1"
+}

@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U009-C161",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD002/engine-009",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 161,
+  "pred_RUL": 10.3,
+  "rul_lower": 5.6,
+  "rul_upper": 15.8,
+  "decision_RUL": 5.6,
+  "anomaly_score": 11.22,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 40.8
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 30.9
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 18.3
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 6 <= 22"
+  ],
+  "model_version": "registry v1"
+}

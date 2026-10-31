@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U062-C224",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-062",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 25,
+  "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 25 cycles; increase monitoring frequency.",
+  "cycles_seen": 224,
+  "pred_RUL": 66.8,
+  "rul_lower": 50.2,
+  "rul_upper": 90.9,
+  "decision_RUL": 66.8,
+  "anomaly_score": 1.1,
+  "alarm": false,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 48.7
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 24.6
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 20.0
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 67 <= 75"
+  ],
+  "model_version": "registry v1"
+}

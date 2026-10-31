@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD002-U058-C247",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-058",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 247,
+  "pred_RUL": 26.4,
+  "rul_lower": 18.9,
+  "rul_upper": 35.0,
+  "decision_RUL": 18.9,
+  "anomaly_score": 8.27,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 54.7
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 17.8
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 9.8
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 19 <= 22",
+    "U1 point estimate 26 alone would give HIGH; uncertainty pushes it to CRITICAL"
+  ],
+  "model_version": "registry v1"
+}

@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U003-C234",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-003",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 12,
+  "recommended_action": "Schedule maintenance on High-pressure compressor (HPC) within 12 cycles; reserve parts and crew now.",
+  "cycles_seen": 234,
+  "pred_RUL": 31.6,
+  "rul_lower": 25.5,
+  "rul_upper": 40.5,
+  "decision_RUL": 31.6,
+  "anomaly_score": 1.91,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 48.6
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 21.6
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 9.6
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 32 <= 40"
+  ],
+  "model_version": "registry v1"
+}

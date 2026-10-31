@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U152-C090",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-152",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 21,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 21 cycles; increase monitoring frequency.",
+  "cycles_seen": 90,
+  "pred_RUL": 60.8,
+  "rul_lower": 42.3,
+  "rul_upper": 81.2,
+  "decision_RUL": 60.8,
+  "anomaly_score": 0.95,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 26.6
+    },
+    {
+      "sensor": "s3",
+      "name": "HPC outlet temperature (T30)",
+      "share_%": 19.7
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 15.3
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 61 <= 75"
+  ],
+  "model_version": "registry v1"
+}

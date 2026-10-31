@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U259-C123",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-259",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 22,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 22 cycles; increase monitoring frequency.",
+  "cycles_seen": 123,
+  "pred_RUL": 63.7,
+  "rul_lower": 45.2,
+  "rul_upper": 84.1,
+  "decision_RUL": 63.7,
+  "anomaly_score": 4.01,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 57.1
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 26.8
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 9.6
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 64 <= 75"
+  ],
+  "model_version": "registry v1"
+}

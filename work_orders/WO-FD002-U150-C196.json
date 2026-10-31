@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U150-C196",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-150",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 12,
+  "recommended_action": "Schedule maintenance on Engine core (HPC/HPT spool) within 12 cycles; reserve parts and crew now.",
+  "cycles_seen": 196,
+  "pred_RUL": 32.9,
+  "rul_lower": 25.4,
+  "rul_upper": 41.5,
+  "decision_RUL": 32.9,
+  "anomaly_score": 4.24,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 42.5
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 13.9
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 11.7
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 33 <= 40"
+  ],
+  "model_version": "registry v1"
+}

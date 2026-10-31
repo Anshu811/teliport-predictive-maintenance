@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U062-C240",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-062",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 11,
+  "recommended_action": "Schedule maintenance on High-pressure compressor (HPC) within 11 cycles; reserve parts and crew now.",
+  "cycles_seen": 240,
+  "pred_RUL": 34.9,
+  "rul_lower": 23.4,
+  "rul_upper": 47.2,
+  "decision_RUL": 34.9,
+  "anomaly_score": 3.2,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 38.3
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 17.7
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 13.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 35 <= 40"
+  ],
+  "model_version": "registry v1"
+}

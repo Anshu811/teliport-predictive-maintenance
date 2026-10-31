@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U160-C124",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-160",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 16,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 16 cycles; increase monitoring frequency.",
+  "cycles_seen": 124,
+  "pred_RUL": 44.9,
+  "rul_lower": 33.2,
+  "rul_upper": 57.3,
+  "decision_RUL": 44.9,
+  "anomaly_score": 2.72,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 57.9
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 12.8
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 11.4
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 45 <= 75"
+  ],
+  "model_version": "registry v1"
+}

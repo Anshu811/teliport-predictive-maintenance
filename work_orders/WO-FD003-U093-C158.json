@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U093-C158",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-093",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 25,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 25 cycles; increase monitoring frequency.",
+  "cycles_seen": 158,
+  "pred_RUL": 67.3,
+  "rul_lower": 50.7,
+  "rul_upper": 91.4,
+  "decision_RUL": 67.3,
+  "anomaly_score": 0.44,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 34.0
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 28.6
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 15.6
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 67 <= 75"
+  ],
+  "model_version": "registry v1"
+}

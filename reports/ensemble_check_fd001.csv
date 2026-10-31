@@ -1,0 +1,6 @@
+model,cv_RMSE
+LightGBM (tuned),12.75
+ExtraTrees,14.52
+blend 50% LGBM + 50% ET,13.32
+blend 70% LGBM + 30% ET,13.01
+blend 85% LGBM + 15% ET,12.85

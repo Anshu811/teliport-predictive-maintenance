@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD002-U115-C210",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-115",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 29,
+  "recommended_action": "Plan borescope inspection of Low-pressure turbine (LPT) within 29 cycles; increase monitoring frequency.",
+  "cycles_seen": 210,
+  "pred_RUL": 76.7,
+  "rul_lower": 58.2,
+  "rul_upper": 97.1,
+  "decision_RUL": 76.7,
+  "anomaly_score": 1.12,
+  "alarm": true,
+  "suspected_component": "Low-pressure turbine (LPT)",
+  "top_sensors": [
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 24.7
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 17.5
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 11.1
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R4 pred_RUL 77 > 75 (healthy)",
+    "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)"
+  ],
+  "model_version": "registry v1"
+}

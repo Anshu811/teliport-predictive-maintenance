@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U132-C122",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-132",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 13,
+  "recommended_action": "Schedule maintenance on Low-pressure turbine (LPT) within 13 cycles; reserve parts and crew now.",
+  "cycles_seen": 122,
+  "pred_RUL": 33.5,
+  "rul_lower": 26.0,
+  "rul_upper": 42.1,
+  "decision_RUL": 33.5,
+  "anomaly_score": 1.02,
+  "alarm": true,
+  "suspected_component": "Low-pressure turbine (LPT)",
+  "top_sensors": [
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 27.4
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 19.1
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 13.0
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 34 <= 40"
+  ],
+  "model_version": "registry v1"
+}

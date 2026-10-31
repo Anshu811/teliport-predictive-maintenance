@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U154-C122",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-154",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 12,
+  "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 12 cycles; increase monitoring frequency.",
+  "cycles_seen": 122,
+  "pred_RUL": 40.4,
+  "rul_lower": 24.9,
+  "rul_upper": 57.9,
+  "decision_RUL": 40.4,
+  "anomaly_score": 1.16,
+  "alarm": false,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 31.3
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 16.5
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 13.8
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 40 <= 75"
+  ],
+  "model_version": "registry v1"
+}

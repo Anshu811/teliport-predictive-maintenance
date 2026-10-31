@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U088-C140",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-088",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 20,
+  "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 20 cycles; increase monitoring frequency.",
+  "cycles_seen": 140,
+  "pred_RUL": 61.0,
+  "rul_lower": 40.9,
+  "rul_upper": 86.2,
+  "decision_RUL": 61.0,
+  "anomaly_score": 1.1,
+  "alarm": false,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 41.6
+    },
+    {
+      "sensor": "s3",
+      "name": "HPC outlet temperature (T30)",
+      "share_%": 11.4
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 9.7
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 61 <= 75"
+  ],
+  "model_version": "registry v1"
+}

@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U183-C150",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-183",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 21,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 21 cycles; increase monitoring frequency.",
+  "cycles_seen": 150,
+  "pred_RUL": 61.2,
+  "rul_lower": 42.7,
+  "rul_upper": 81.6,
+  "decision_RUL": 61.2,
+  "anomaly_score": 2.22,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 36.6
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 31.2
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 7.3
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 61 <= 75"
+  ],
+  "model_version": "registry v1"
+}

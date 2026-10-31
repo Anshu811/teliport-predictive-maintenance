@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD004-U187-C121",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-187",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 121,
+  "pred_RUL": 28.2,
+  "rul_lower": 16.7,
+  "rul_upper": 40.5,
+  "decision_RUL": 16.7,
+  "anomaly_score": 4.41,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 36.7
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 19.7
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 11.1
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 17 <= 22",
+    "U1 point estimate 28 alone would give HIGH; uncertainty pushes it to CRITICAL"
+  ],
+  "model_version": "registry v1"
+}

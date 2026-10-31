@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U142-C163",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-142",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 16,
+  "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 16 cycles; increase monitoring frequency.",
+  "cycles_seen": 163,
+  "pred_RUL": 45.2,
+  "rul_lower": 33.5,
+  "rul_upper": 57.6,
+  "decision_RUL": 45.2,
+  "anomaly_score": 1.44,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 30.1
+    },
+    {
+      "sensor": "s2",
+      "name": "LPC outlet temperature (T24)",
+      "share_%": 21.2
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 18.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 45 <= 75"
+  ],
+  "model_version": "registry v1"
+}

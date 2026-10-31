@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U213-C288",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-213",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+  "cycles_seen": 288,
+  "pred_RUL": 17.7,
+  "rul_lower": 10.9,
+  "rul_upper": 23.7,
+  "decision_RUL": 10.9,
+  "anomaly_score": 7.14,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 36.0
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 21.2
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 15.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 11 <= 22"
+  ],
+  "model_version": "registry v1"
+}

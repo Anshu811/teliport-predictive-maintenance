@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD004-U176-C185",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-176",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 35,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 35 cycles; increase monitoring frequency.",
+  "cycles_seen": 185,
+  "pred_RUL": 98.5,
+  "rul_lower": 70.0,
+  "rul_upper": 133.6,
+  "decision_RUL": 98.5,
+  "anomaly_score": 1.94,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 21.3
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 17.0
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 11.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R4 pred_RUL 98 > 75 (healthy)",
+    "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)"
+  ],
+  "model_version": "registry v1"
+}

@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD003-U038-C133",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-038",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Low-pressure turbine (LPT) before further operation.",
+  "cycles_seen": 133,
+  "pred_RUL": 26.8,
+  "rul_lower": 20.7,
+  "rul_upper": 35.7,
+  "decision_RUL": 20.7,
+  "anomaly_score": 3.12,
+  "alarm": true,
+  "suspected_component": "Low-pressure turbine (LPT)",
+  "top_sensors": [
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 25.3
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 23.1
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 12.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 21 <= 22",
+    "U1 point estimate 27 alone would give HIGH; uncertainty pushes it to CRITICAL"
+  ],
+  "model_version": "registry v1"
+}

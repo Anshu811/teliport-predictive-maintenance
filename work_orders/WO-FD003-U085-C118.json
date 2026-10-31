@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U085-C118",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-085",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 23,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 23 cycles; increase monitoring frequency.",
+  "cycles_seen": 118,
+  "pred_RUL": 62.8,
+  "rul_lower": 46.2,
+  "rul_upper": 86.9,
+  "decision_RUL": 62.8,
+  "anomaly_score": 0.4,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 52.6
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 21.4
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 9.1
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 63 <= 75"
+  ],
+  "model_version": "registry v1"
+}

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+mlruns/
+mlflow.db
+models/
+registry/
+data/
+*.joblib
+*.pkl
+*.log
+*.zip
+Untitled*.ipynb
+03_data_engineering.ipynb

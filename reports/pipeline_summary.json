@@ -1,0 +1,94 @@
+{
+  "finished_at": "2026-10-31T09:25:51+00:00",
+  "runtime_minutes": 2.1,
+  "subsets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "models": [
+    {
+      "subset": "FD001",
+      "champion": "v2",
+      "train_engines": 68,
+      "gate_engines": 12,
+      "gate_RMSE": 12.73,
+      "gate_coverage_%": 92.2,
+      "test_RMSE": 11.2,
+      "test_NASA_score": 180.4,
+      "test_RMSE_RUL<=30": 3.38
+    },
+    {
+      "subset": "FD002",
+      "champion": "v1",
+      "train_engines": 221,
+      "gate_engines": 39,
+      "gate_RMSE": 13.51,
+      "gate_coverage_%": 90.0,
+      "test_RMSE": 23.09,
+      "test_NASA_score": 4708.5,
+      "test_RMSE_RUL<=30": 2.87
+    },
+    {
+      "subset": "FD003",
+      "champion": "v1",
+      "train_engines": 85,
+      "gate_engines": 15,
+      "gate_RMSE": 11.63,
+      "gate_coverage_%": 90.9,
+      "test_RMSE": 12.34,
+      "test_NASA_score": 247.5,
+      "test_RMSE_RUL<=30": 2.51
+    },
+    {
+      "subset": "FD004",
+      "champion": "v1",
+      "train_engines": 212,
+      "gate_engines": 37,
+      "gate_RMSE": 14.05,
+      "gate_coverage_%": 90.8,
+      "test_RMSE": 24.22,
+      "test_NASA_score": 3430.9,
+      "test_RMSE_RUL<=30": 5.79
+    }
+  ],
+  "retraining": {
+    "subset": "FD001",
+    "started_at": "2026-10-31T09:25:29+00:00",
+    "drift_max_psi": 0.083,
+    "drift_top": {
+      "s14": 0.083,
+      "s9": 0.051,
+      "s13": 0.021
+    },
+    "challenger": {
+      "version": "2",
+      "gate_RMSE": 12.73,
+      "gate_RMSE_RUL_le_30": 2.98
+    },
+    "champion": {
+      "version": "1",
+      "gate_RMSE": 13.52,
+      "gate_RMSE_RUL_le_30": 2.87
+    },
+    "decision": "PROMOTED v2 to champion and deployed (gate RMSE 12.73 vs champion 13.52; gate critical-zone RMSE 2.98 vs 2.87)",
+    "test_RMSE_report_only": 11.2
+  },
+  "agent": {
+    "engines": 707,
+    "truly_critical_engines": 123,
+    "critical_missed": 1,
+    "exact_severity_match_%": 84.3,
+    "within_one_level_%": 99.9,
+    "work_orders": 333,
+    "work_orders_failing_before_due": 0,
+    "human_review_rate_%": 1.1
+  },
+  "severity_counts": {
+    "LOW": 374,
+    "CRITICAL": 157,
+    "MEDIUM": 141,
+    "HIGH": 35
+  }
+}

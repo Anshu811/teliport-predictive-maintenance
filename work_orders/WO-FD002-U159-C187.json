@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U159-C187",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-159",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Fan / bypass duct before further operation.",
+  "cycles_seen": 187,
+  "pred_RUL": 9.9,
+  "rul_lower": 5.2,
+  "rul_upper": 15.4,
+  "decision_RUL": 5.2,
+  "anomaly_score": 3.63,
+  "alarm": true,
+  "suspected_component": "Fan / bypass duct",
+  "top_sensors": [
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 25.9
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 17.6
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 15.7
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 5 <= 22"
+  ],
+  "model_version": "registry v1"
+}

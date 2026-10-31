@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD001-U061-C159",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD001/engine-061",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+  "cycles_seen": 159,
+  "pred_RUL": 21.9,
+  "rul_lower": 14.8,
+  "rul_upper": 30.8,
+  "decision_RUL": 14.8,
+  "anomaly_score": 5.2,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 15.5
+    },
+    {
+      "sensor": "s3",
+      "name": "HPC outlet temperature (T30)",
+      "share_%": 13.4
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 12.5
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 15 <= 22"
+  ],
+  "model_version": "registry v2"
+}

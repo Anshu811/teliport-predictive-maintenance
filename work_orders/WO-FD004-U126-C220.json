@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U126-C220",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-126",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 220,
+  "pred_RUL": 19.9,
+  "rul_lower": 13.1,
+  "rul_upper": 25.9,
+  "decision_RUL": 13.1,
+  "anomaly_score": 14.64,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 38.7
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 35.3
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 8.6
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 13 <= 22"
+  ],
+  "model_version": "registry v1"
+}

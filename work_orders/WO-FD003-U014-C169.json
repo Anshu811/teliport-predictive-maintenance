@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U014-C169",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-014",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 11,
+  "recommended_action": "Schedule maintenance on High-pressure compressor (HPC) within 11 cycles; reserve parts and crew now.",
+  "cycles_seen": 169,
+  "pred_RUL": 29.8,
+  "rul_lower": 23.7,
+  "rul_upper": 38.7,
+  "decision_RUL": 29.8,
+  "anomaly_score": 3.0,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 22.4
+    },
+    {
+      "sensor": "s20",
+      "name": "HPT coolant bleed (W31)",
+      "share_%": 17.0
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 13.4
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 30 <= 40"
+  ],
+  "model_version": "registry v1"
+}

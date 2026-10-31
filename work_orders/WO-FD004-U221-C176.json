@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U221-C176",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-221",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 27,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 27 cycles; increase monitoring frequency.",
+  "cycles_seen": 176,
+  "pred_RUL": 74.8,
+  "rul_lower": 54.7,
+  "rul_upper": 100.0,
+  "decision_RUL": 74.8,
+  "anomaly_score": 0.55,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 37.5
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 20.2
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 17.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 75 <= 75"
+  ],
+  "model_version": "registry v1"
+}

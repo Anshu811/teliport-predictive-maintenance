@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U195-C262",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-195",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 27,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 27 cycles; increase monitoring frequency.",
+  "cycles_seen": 262,
+  "pred_RUL": 73.0,
+  "rul_lower": 54.5,
+  "rul_upper": 93.4,
+  "decision_RUL": 73.0,
+  "anomaly_score": 8.41,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 53.4
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 40.6
+    },
+    {
+      "sensor": "s21",
+      "name": "LPT coolant bleed (W32)",
+      "share_%": 2.0
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 73 <= 75"
+  ],
+  "model_version": "registry v1"
+}

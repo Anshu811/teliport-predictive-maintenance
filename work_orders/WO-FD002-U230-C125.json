@@ -1,0 +1,44 @@
+{
+  "work_order_id": "WO-FD002-U230-C125",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-230",
+  "severity": "MEDIUM",
+  "status": "PENDING_HUMAN_REVIEW",
+  "due_within_cycles": 36,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 36 cycles; increase monitoring frequency.",
+  "cycles_seen": 125,
+  "pred_RUL": 100.2,
+  "rul_lower": 72.3,
+  "rul_upper": 130.9,
+  "decision_RUL": 100.2,
+  "anomaly_score": 1.0,
+  "alarm": true,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 44.8
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 27.9
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 10.6
+    }
+  ],
+  "needs_human_review": true,
+  "review_reasons": [
+    "Health monitor alarm but RUL model sees > 100 cycles: possible sensor fault or unseen failure mode"
+  ],
+  "rules_fired": [
+    "R4 pred_RUL 100 > 75 (healthy)",
+    "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)",
+    "X1 human review: Health monitor alarm but RUL model sees > 100 cycles: possible sensor fault or unseen failure mode"
+  ],
+  "model_version": "registry v1"
+}

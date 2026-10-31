@@ -1,0 +1,11 @@
+margin,due_basis,critical_not_CRITICAL,critical_as_MEDIUM/LOW,late_work_orders,false_CRITICAL_%,work_orders
+0,point,43,9,44,0.04,7633
+0,lower,43,9,9,0.04,7633
+2,point,27,9,40,0.27,7633
+2,lower,27,9,8,0.27,7633
+5,point,18,9,33,1.36,7633
+5,lower,18,9,4,1.36,7633
+8,point,8,7,25,4.4,7633
+8,lower,8,7,0,4.4,7633
+10,point,5,5,22,7.1,7633
+10,lower,5,5,0,7.1,7633

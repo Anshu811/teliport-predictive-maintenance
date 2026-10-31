@@ -1,0 +1,9 @@
+subset,method,engines,false_alarm_rate_%,engines_with_early_alarm_%,detected_before_failure_%,detected_before_RUL30_%,median_lead_time_cycles
+FD001,mahalanobis,100,1.08,7.0,100.0,100.0,77.0
+FD001,iforest,100,0.7,4.0,100.0,100.0,66.5
+FD002,mahalanobis,260,0.5,4.6,100.0,99.6,66.0
+FD002,iforest,260,0.65,3.5,100.0,98.5,64.0
+FD003,mahalanobis,100,2.91,6.0,100.0,100.0,71.5
+FD003,iforest,100,0.97,3.0,100.0,93.0,53.0
+FD004,mahalanobis,249,0.96,4.8,100.0,98.0,64.0
+FD004,iforest,249,0.99,4.4,100.0,90.0,61.0

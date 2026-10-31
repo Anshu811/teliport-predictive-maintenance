@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD002-U110-C219",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-110",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 30,
+  "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 30 cycles; increase monitoring frequency.",
+  "cycles_seen": 219,
+  "pred_RUL": 78.9,
+  "rul_lower": 60.4,
+  "rul_upper": 99.3,
+  "decision_RUL": 78.9,
+  "anomaly_score": 1.67,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 34.9
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 16.8
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 14.1
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R4 pred_RUL 79 > 75 (healthy)",
+    "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)"
+  ],
+  "model_version": "registry v1"
+}

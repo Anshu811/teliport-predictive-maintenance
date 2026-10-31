@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U216-C264",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-216",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 264,
+  "pred_RUL": 17.2,
+  "rul_lower": 10.4,
+  "rul_upper": 23.2,
+  "decision_RUL": 10.4,
+  "anomaly_score": 8.14,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 20.4
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 17.3
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 13.0
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 10 <= 22"
+  ],
+  "model_version": "registry v1"
+}

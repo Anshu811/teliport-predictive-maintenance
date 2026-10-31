@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U043-C120",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-043",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 18,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 18 cycles; increase monitoring frequency.",
+  "cycles_seen": 120,
+  "pred_RUL": 52.2,
+  "rul_lower": 36.7,
+  "rul_upper": 69.7,
+  "decision_RUL": 52.2,
+  "anomaly_score": 1.98,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 27.1
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 19.4
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 15.5
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 52 <= 75"
+  ],
+  "model_version": "registry v1"
+}

@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U107-C132",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-107",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 23,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 23 cycles; increase monitoring frequency.",
+  "cycles_seen": 132,
+  "pred_RUL": 65.0,
+  "rul_lower": 46.5,
+  "rul_upper": 85.4,
+  "decision_RUL": 65.0,
+  "anomaly_score": 0.7,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 32.3
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 24.3
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 12.6
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 65 <= 75"
+  ],
+  "model_version": "registry v1"
+}

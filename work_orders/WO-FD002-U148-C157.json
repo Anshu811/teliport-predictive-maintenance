@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U148-C157",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-148",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 157,
+  "pred_RUL": 9.6,
+  "rul_lower": 4.9,
+  "rul_upper": 15.1,
+  "decision_RUL": 4.9,
+  "anomaly_score": 12.11,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 53.8
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 29.5
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 7.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 5 <= 22"
+  ],
+  "model_version": "registry v1"
+}

@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD004-U131-C193",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-131",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 34,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 34 cycles; increase monitoring frequency.",
+  "cycles_seen": 193,
+  "pred_RUL": 97.5,
+  "rul_lower": 69.0,
+  "rul_upper": 132.6,
+  "decision_RUL": 97.5,
+  "anomaly_score": 1.09,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 23.5
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 17.4
+    },
+    {
+      "sensor": "s21",
+      "name": "LPT coolant bleed (W32)",
+      "share_%": 13.9
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R4 pred_RUL 98 > 75 (healthy)",
+    "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)"
+  ],
+  "model_version": "registry v1"
+}

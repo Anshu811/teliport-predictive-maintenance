@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD001-U018-C133",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD001/engine-018",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 133,
+  "pred_RUL": 29.1,
+  "rul_lower": 22.0,
+  "rul_upper": 38.0,
+  "decision_RUL": 22.0,
+  "anomaly_score": 4.97,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 17.4
+    },
+    {
+      "sensor": "s3",
+      "name": "HPC outlet temperature (T30)",
+      "share_%": 14.6
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 13.7
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 22 <= 22",
+    "U1 point estimate 29 alone would give HIGH; uncertainty pushes it to CRITICAL"
+  ],
+  "model_version": "registry v2"
+}

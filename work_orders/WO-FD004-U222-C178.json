@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U222-C178",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-222",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 14,
+  "recommended_action": "Plan borescope inspection of Fan within 14 cycles; increase monitoring frequency.",
+  "cycles_seen": 178,
+  "pred_RUL": 43.7,
+  "rul_lower": 28.2,
+  "rul_upper": 61.2,
+  "decision_RUL": 43.7,
+  "anomaly_score": 1.35,
+  "alarm": true,
+  "suspected_component": "Fan",
+  "top_sensors": [
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 21.3
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 18.4
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 18.0
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 44 <= 75"
+  ],
+  "model_version": "registry v1"
+}

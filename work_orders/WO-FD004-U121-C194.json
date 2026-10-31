@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U121-C194",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-121",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 11,
+  "recommended_action": "Schedule maintenance on Engine core (HPC/HPT spool) within 11 cycles; reserve parts and crew now.",
+  "cycles_seen": 194,
+  "pred_RUL": 35.4,
+  "rul_lower": 23.9,
+  "rul_upper": 47.7,
+  "decision_RUL": 35.4,
+  "anomaly_score": 5.82,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 37.2
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 35.1
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 8.8
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 35 <= 40"
+  ],
+  "model_version": "registry v1"
+}

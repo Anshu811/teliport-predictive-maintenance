@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U086-C174",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-086",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 174,
+  "pred_RUL": 19.7,
+  "rul_lower": 15.2,
+  "rul_upper": 24.3,
+  "decision_RUL": 15.2,
+  "anomaly_score": 10.57,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 49.9
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 34.1
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 5.7
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 15 <= 22"
+  ],
+  "model_version": "registry v1"
+}

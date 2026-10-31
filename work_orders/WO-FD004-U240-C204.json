@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U240-C204",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-240",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 12,
+  "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 12 cycles; increase monitoring frequency.",
+  "cycles_seen": 204,
+  "pred_RUL": 41.3,
+  "rul_lower": 25.8,
+  "rul_upper": 58.8,
+  "decision_RUL": 41.3,
+  "anomaly_score": 1.74,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 42.8
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 16.8
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 13.3
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 41 <= 75"
+  ],
+  "model_version": "registry v1"
+}

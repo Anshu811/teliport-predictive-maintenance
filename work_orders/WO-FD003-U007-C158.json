@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U007-C158",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-007",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 27,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 27 cycles; increase monitoring frequency.",
+  "cycles_seen": 158,
+  "pred_RUL": 72.1,
+  "rul_lower": 55.5,
+  "rul_upper": 96.2,
+  "decision_RUL": 72.1,
+  "anomaly_score": 0.97,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s20",
+      "name": "HPT coolant bleed (W31)",
+      "share_%": 31.2
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 21.3
+    },
+    {
+      "sensor": "s2",
+      "name": "LPC outlet temperature (T24)",
+      "share_%": 13.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 72 <= 75"
+  ],
+  "model_version": "registry v1"
+}

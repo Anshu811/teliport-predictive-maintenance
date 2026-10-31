@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U248-C162",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-248",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 22,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 22 cycles; increase monitoring frequency.",
+  "cycles_seen": 162,
+  "pred_RUL": 57.4,
+  "rul_lower": 45.7,
+  "rul_upper": 69.8,
+  "decision_RUL": 57.4,
+  "anomaly_score": 4.75,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 57.2
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 31.6
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 4.8
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 57 <= 75"
+  ],
+  "model_version": "registry v1"
+}

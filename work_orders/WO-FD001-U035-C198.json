@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD001-U035-C198",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD001/engine-035",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 198,
+  "pred_RUL": 11.4,
+  "rul_lower": 6.6,
+  "rul_upper": 15.7,
+  "decision_RUL": 6.6,
+  "anomaly_score": 4.81,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 27.5
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 21.2
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 15.9
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 7 <= 22"
+  ],
+  "model_version": "registry v2"
+}

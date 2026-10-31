@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD001-U003-C126",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD001/engine-003",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 17,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 17 cycles; increase monitoring frequency.",
+  "cycles_seen": 126,
+  "pred_RUL": 48.7,
+  "rul_lower": 35.5,
+  "rul_upper": 60.8,
+  "decision_RUL": 48.7,
+  "anomaly_score": 0.91,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 30.1
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 16.0
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 14.4
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 49 <= 75"
+  ],
+  "model_version": "registry v2"
+}

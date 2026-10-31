@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD001-U017-C165",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD001/engine-017",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 17,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 17 cycles; increase monitoring frequency.",
+  "cycles_seen": 165,
+  "pred_RUL": 49.0,
+  "rul_lower": 35.8,
+  "rul_upper": 61.1,
+  "decision_RUL": 49.0,
+  "anomaly_score": 3.02,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 46.1
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 23.4
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 17.9
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 49 <= 75"
+  ],
+  "model_version": "registry v2"
+}

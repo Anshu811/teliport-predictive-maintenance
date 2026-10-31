@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U071-C292",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-071",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+  "cycles_seen": 292,
+  "pred_RUL": 18.8,
+  "rul_lower": 12.0,
+  "rul_upper": 24.8,
+  "decision_RUL": 12.0,
+  "anomaly_score": 4.27,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 17.0
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 15.4
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 12.1
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 12 <= 22"
+  ],
+  "model_version": "registry v1"
+}

@@ -1,0 +1,5 @@
+model,n,RMSE,MAE,NASA_score,RMSE_RUL<=30,critical_recall,critical_precision,late_pred_%,secs
+Constant (mean RUL),14738,44.97,38.35,6334540.8,72.38,0.0,0.0,52.2,0.3
+Ridge regression,14738,19.03,15.45,89973.4,12.09,0.727,0.95,35.7,1.0
+LightGBM,14738,13.06,9.24,36412.9,3.38,0.92,0.962,13.6,11.3
+LightGBM + imbalance wts,14738,12.98,9.17,36014.5,3.25,0.927,0.956,13.3,11.2

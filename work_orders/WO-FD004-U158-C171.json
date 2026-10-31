@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U158-C171",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-158",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+  "cycles_seen": 171,
+  "pred_RUL": 7.2,
+  "rul_lower": 0.4,
+  "rul_upper": 13.2,
+  "decision_RUL": 0.4,
+  "anomaly_score": 5.26,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 34.1
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 18.3
+    },
+    {
+      "sensor": "s3",
+      "name": "HPC outlet temperature (T30)",
+      "share_%": 12.1
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 0 <= 22"
+  ],
+  "model_version": "registry v1"
+}

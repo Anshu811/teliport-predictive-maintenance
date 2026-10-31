@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U044-C164",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD002/engine-044",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 164,
+  "pred_RUL": 5.7,
+  "rul_lower": 1.0,
+  "rul_upper": 11.2,
+  "decision_RUL": 1.0,
+  "anomaly_score": 15.89,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 47.2
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 34.1
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 4.8
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 1 <= 22"
+  ],
+  "model_version": "registry v1"
+}

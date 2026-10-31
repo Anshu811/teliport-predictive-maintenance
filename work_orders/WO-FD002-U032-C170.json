@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U032-C170",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD002/engine-032",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 170,
+  "pred_RUL": 12.2,
+  "rul_lower": 7.5,
+  "rul_upper": 17.7,
+  "decision_RUL": 7.5,
+  "anomaly_score": 7.9,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 32.8
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 29.0
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 11.0
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 8 <= 22"
+  ],
+  "model_version": "registry v1"
+}

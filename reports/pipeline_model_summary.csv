@@ -1,0 +1,5 @@
+subset,champion,train_engines,gate_engines,gate_RMSE,gate_coverage_%,test_RMSE,test_NASA_score,test_RMSE_RUL<=30
+FD001,v2,68,12,12.73,92.2,11.2,180.4,3.38
+FD002,v1,221,39,13.51,90.0,23.09,4708.5,2.87
+FD003,v1,85,15,11.63,90.9,12.34,247.5,2.51
+FD004,v1,212,37,14.05,90.8,24.22,3430.9,5.79

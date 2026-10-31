@@ -1,0 +1,7 @@
+critical_rul,due_fraction,critical_not_CRITICAL,critical_missed_MEDIUM/LOW,fail_before_due,work_orders,over_triaged_%,exact_match_%
+20,0.5,1,1,1,333,10.2,85.1
+20,0.4,1,1,1,333,10.2,85.1
+22,0.5,1,1,1,333,11.0,84.3
+22,0.4,1,1,1,333,11.0,84.3
+25,0.5,0,0,0,333,13.2,82.5
+25,0.4,0,0,0,333,13.2,82.5

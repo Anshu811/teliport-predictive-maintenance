@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U217-C141",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-217",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 22,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 22 cycles; increase monitoring frequency.",
+  "cycles_seen": 141,
+  "pred_RUL": 65.0,
+  "rul_lower": 44.9,
+  "rul_upper": 90.2,
+  "decision_RUL": 65.0,
+  "anomaly_score": 0.77,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 38.9
+    },
+    {
+      "sensor": "s3",
+      "name": "HPC outlet temperature (T30)",
+      "share_%": 19.4
+    },
+    {
+      "sensor": "s20",
+      "name": "HPT coolant bleed (W31)",
+      "share_%": 7.5
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 65 <= 75"
+  ],
+  "model_version": "registry v1"
+}

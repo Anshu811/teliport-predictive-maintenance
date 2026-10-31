@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD003-U077-C381",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-077",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 31,
+  "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 31 cycles; increase monitoring frequency.",
+  "cycles_seen": 381,
+  "pred_RUL": 82.9,
+  "rul_lower": 62.2,
+  "rul_upper": 117.0,
+  "decision_RUL": 82.9,
+  "anomaly_score": 1.36,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 64.6
+    },
+    {
+      "sensor": "s3",
+      "name": "HPC outlet temperature (T30)",
+      "share_%": 9.9
+    },
+    {
+      "sensor": "s20",
+      "name": "HPT coolant bleed (W31)",
+      "share_%": 8.9
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R4 pred_RUL 83 > 75 (healthy)",
+    "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)"
+  ],
+  "model_version": "registry v1"
+}

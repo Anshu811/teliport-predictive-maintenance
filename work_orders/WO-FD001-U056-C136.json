@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD001-U056-C136",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD001/engine-056",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+  "cycles_seen": 136,
+  "pred_RUL": 17.4,
+  "rul_lower": 12.6,
+  "rul_upper": 21.7,
+  "decision_RUL": 12.6,
+  "anomaly_score": 2.43,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 19.0
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 17.5
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 11.6
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 13 <= 22"
+  ],
+  "model_version": "registry v2"
+}

@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD003-U032-C120",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD003/engine-032",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 20,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 20 cycles; increase monitoring frequency.",
+  "cycles_seen": 120,
+  "pred_RUL": 53.5,
+  "rul_lower": 41.2,
+  "rul_upper": 70.0,
+  "decision_RUL": 53.5,
+  "anomaly_score": 2.26,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 43.3
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 39.7
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 5.8
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 54 <= 75"
+  ],
+  "model_version": "registry v1"
+}

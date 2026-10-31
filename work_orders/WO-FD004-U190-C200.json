@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U190-C200",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-190",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 17,
+  "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 17 cycles; increase monitoring frequency.",
+  "cycles_seen": 200,
+  "pred_RUL": 49.8,
+  "rul_lower": 34.3,
+  "rul_upper": 67.3,
+  "decision_RUL": 49.8,
+  "anomaly_score": 1.31,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 33.5
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 22.7
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 18.3
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 50 <= 75"
+  ],
+  "model_version": "registry v1"
+}

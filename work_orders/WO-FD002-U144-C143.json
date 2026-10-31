@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U144-C143",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-144",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 14,
+  "recommended_action": "Schedule maintenance on High-pressure compressor (HPC) within 14 cycles; reserve parts and crew now.",
+  "cycles_seen": 143,
+  "pred_RUL": 35.8,
+  "rul_lower": 28.3,
+  "rul_upper": 44.4,
+  "decision_RUL": 35.8,
+  "anomaly_score": 3.15,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 31.3
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 21.7
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 16.1
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 36 <= 40"
+  ],
+  "model_version": "registry v1"
+}

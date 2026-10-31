@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U020-C101",
+  "created_at": "2026-10-31T09:25:50+00:00",
+  "asset": "FD002/engine-020",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 21,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 21 cycles; increase monitoring frequency.",
+  "cycles_seen": 101,
+  "pred_RUL": 54.9,
+  "rul_lower": 43.2,
+  "rul_upper": 67.3,
+  "decision_RUL": 54.9,
+  "anomaly_score": 0.69,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 34.3
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 14.5
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 10.4
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 55 <= 75"
+  ],
+  "model_version": "registry v1"
+}

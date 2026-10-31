@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U086-C254",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-086",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 27,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 27 cycles; increase monitoring frequency.",
+  "cycles_seen": 254,
+  "pred_RUL": 74.4,
+  "rul_lower": 54.3,
+  "rul_upper": 99.6,
+  "decision_RUL": 74.4,
+  "anomaly_score": 0.61,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 29.7
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 15.8
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 15.5
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 74 <= 75"
+  ],
+  "model_version": "registry v1"
+}

@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U245-C265",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-245",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 265,
+  "pred_RUL": 12.7,
+  "rul_lower": 8.0,
+  "rul_upper": 18.2,
+  "decision_RUL": 8.0,
+  "anomaly_score": 20.01,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 51.8
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 38.3
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 3.8
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 8 <= 22"
+  ],
+  "model_version": "registry v1"
+}

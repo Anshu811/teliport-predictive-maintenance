@@ -1,0 +1,43 @@
+{
+  "work_order_id": "WO-FD004-U067-C150",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-067",
+  "severity": "HIGH",
+  "status": "PENDING_HUMAN_REVIEW",
+  "due_within_cycles": 13,
+  "recommended_action": "Schedule maintenance on the engine (full inspection, no single component stands out) within 13 cycles; reserve parts and crew now.",
+  "cycles_seen": 150,
+  "pred_RUL": 38.5,
+  "rul_lower": 27.0,
+  "rul_upper": 50.8,
+  "decision_RUL": 38.5,
+  "anomaly_score": 0.96,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 31.4
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 25.3
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 12.9
+    }
+  ],
+  "needs_human_review": true,
+  "review_reasons": [
+    "RUL model predicts near-failure but no anomaly alarm: verify sensors/data"
+  ],
+  "rules_fired": [
+    "R2 pred_RUL 38 <= 40",
+    "X1 human review: RUL model predicts near-failure but no anomaly alarm: verify sensors/data"
+  ],
+  "model_version": "registry v1"
+}

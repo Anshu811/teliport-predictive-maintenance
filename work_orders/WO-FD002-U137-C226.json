@@ -1,0 +1,41 @@
+{
+  "work_order_id": "WO-FD002-U137-C226",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-137",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 31,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 31 cycles; increase monitoring frequency.",
+  "cycles_seen": 226,
+  "pred_RUL": 89.8,
+  "rul_lower": 63.9,
+  "rul_upper": 120.7,
+  "decision_RUL": 89.8,
+  "anomaly_score": 1.53,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 44.1
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 15.0
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 11.5
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R4 pred_RUL 90 > 75 (healthy)",
+    "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)"
+  ],
+  "model_version": "registry v1"
+}

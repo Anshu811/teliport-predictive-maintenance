@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD002-U124-C149",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD002/engine-124",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 1,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 149,
+  "pred_RUL": 7.7,
+  "rul_lower": 3.0,
+  "rul_upper": 13.2,
+  "decision_RUL": 3.0,
+  "anomaly_score": 6.12,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 36.0
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 29.1
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 9.7
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 3 <= 22"
+  ],
+  "model_version": "registry v1"
+}

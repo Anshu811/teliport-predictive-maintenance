@@ -1,0 +1,40 @@
+{
+  "work_order_id": "WO-FD004-U036-C159",
+  "created_at": "2026-10-31T09:25:51+00:00",
+  "asset": "FD004/engine-036",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 25,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 25 cycles; increase monitoring frequency.",
+  "cycles_seen": 159,
+  "pred_RUL": 71.4,
+  "rul_lower": 51.3,
+  "rul_upper": 96.6,
+  "decision_RUL": 71.4,
+  "anomaly_score": 0.55,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 26.0
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 19.1
+    },
+    {
+      "sensor": "s17",
+      "name": "Bleed enthalpy (htBleed)",
+      "share_%": 18.6
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 71 <= 75"
+  ],
+  "model_version": "registry v1"
+}
