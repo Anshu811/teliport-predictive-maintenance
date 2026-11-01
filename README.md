@@ -27,3 +27,7 @@ Dataset: NASA C-MAPSS (https://data.nasa.gov)
 
 The pipeline can flag a broken sensor, name the suspect sensor and fall back to a backup RUL
 estimate computed without it. See `11_upgrades.ipynb` for the demo (10 engines, one broken sensor each).
+
+## Demo video
+
+[Watch the demo video](https://drive.google.com/file/d/1gKJINlAsDnuRDOmTR3IJOZNnB23j1Ol-/view?usp=sharing)
