@@ -1,0 +1,52 @@
+{
+  "work_order_id": "WO-FD001-U043-C162",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-043",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 17,
+  "due_by_cycle": 189,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 27 cycles; increase monitoring frequency.",
+  "cycles_seen": 172,
+  "pred_RUL": 58.2,
+  "rul_lower": 45.0,
+  "rul_upper": 70.3,
+  "decision_RUL": 58.2,
+  "anomaly_score": 1.2,
+  "alarm": true,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 37.5
+    },
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 26.0
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 9.9
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 73 <= 75"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 162,
+      "severity": "MEDIUM"
+    },
+    {
+      "cycle": 172,
+      "severity": "MEDIUM"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

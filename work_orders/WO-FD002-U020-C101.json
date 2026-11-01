@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD002-U020-C101",
-  "created_at": "2026-10-31T09:25:50+00:00",
+  "created_at": "2026-11-01T06:05:14+00:00",
   "asset": "FD002/engine-020",
   "severity": "MEDIUM",
   "status": "AUTO_APPROVED",
   "due_within_cycles": 21,
+  "due_by_cycle": 122,
   "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 21 cycles; increase monitoring frequency.",
   "cycles_seen": 101,
   "pred_RUL": 54.9,
@@ -36,5 +37,13 @@
   "rules_fired": [
     "R3 pred_RUL 55 <= 75"
   ],
-  "model_version": "registry v1"
+  "model_version": "registry v1",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 101,
+      "severity": "MEDIUM"
+    }
+  ]
 }

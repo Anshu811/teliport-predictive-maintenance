@@ -12,3 +12,4 @@ data/
 *.zip
 Untitled*.ipynb
 03_data_engineering.ipynb
+*_backup_before_upgrade*

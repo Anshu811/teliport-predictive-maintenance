@@ -144,7 +144,8 @@ with tab1:
     right.plotly_chart(fig, width="stretch")
 
     view = fleet[["unit", "cycles_seen", "severity", "pred_RUL", "rul_lower", "rul_upper", "anomaly_score",
-                  "alarm", "suspected_component", "needs_human_review", "wo_status", "due_within_cycles"]]
+                  "alarm", "suspected_component", "sensor_suspect", "needs_human_review", "wo_status",
+                  "due_within_cycles"]]
     if show_truth:
         view = view.merge(truth[["unit", "RUL"]].rename(columns={"RUL": "true_RUL"}), on="unit")
     st.subheader("Engines ranked by risk")
@@ -164,6 +165,9 @@ with tab2:
     m[3].metric("Anomaly score", f"{row['anomaly_score']:.2f}", "ALARM" if row["alarm"] else "normal",
                 delta_color="inverse" if row["alarm"] else "off")
     m[4].metric("Suspected component", row["suspected_component"].split(" (")[0])
+    if isinstance(row.get("sensor_suspect"), str) and row["sensor_suspect"]:
+        st.warning(f"Sensor {row['sensor_suspect']} disagrees with the other sensors: verify the sensor "
+                   "before acting. The engine was sent to human review.")
 
     a, b = st.columns(2)
     f1 = go.Figure()

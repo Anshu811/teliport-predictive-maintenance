@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD004-U176-C185",
-  "created_at": "2026-10-31T09:25:51+00:00",
+  "created_at": "2026-11-01T06:05:15+00:00",
   "asset": "FD004/engine-176",
   "severity": "MEDIUM",
   "status": "AUTO_APPROVED",
   "due_within_cycles": 35,
+  "due_by_cycle": 220,
   "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 35 cycles; increase monitoring frequency.",
   "cycles_seen": 185,
   "pred_RUL": 98.5,
@@ -37,5 +38,13 @@
     "R4 pred_RUL 98 > 75 (healthy)",
     "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)"
   ],
-  "model_version": "registry v1"
+  "model_version": "registry v1",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 185,
+      "severity": "MEDIUM"
+    }
+  ]
 }

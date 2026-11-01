@@ -1,0 +1,48 @@
+{
+  "work_order_id": "WO-FD001-U079-C101",
+  "created_at": "2026-11-01T05:24:40+00:00",
+  "asset": "FD001/engine-079",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 22,
+  "due_by_cycle": 123,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 22 cycles; increase monitoring frequency.",
+  "cycles_seen": 101,
+  "pred_RUL": 62.6,
+  "rul_lower": 45.1,
+  "rul_upper": 83.6,
+  "decision_RUL": 62.6,
+  "anomaly_score": 0.85,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 28.0
+    },
+    {
+      "sensor": "s20",
+      "name": "HPT coolant bleed (W31)",
+      "share_%": 16.6
+    },
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 12.2
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 63 <= 75"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 101,
+      "severity": "MEDIUM"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

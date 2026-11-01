@@ -22,3 +22,8 @@ rule-based triage agent, gated MLOps retraining, Streamlit dashboard.
 - work_orders/ : generated work orders
 
 Dataset: NASA C-MAPSS (https://data.nasa.gov)
+
+## Sensor fault detection (upgrade)
+
+The pipeline can flag a broken sensor, name the suspect sensor and fall back to a backup RUL
+estimate computed without it. See `11_upgrades.ipynb` for the demo (10 engines, one broken sensor each).

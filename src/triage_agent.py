@@ -6,6 +6,7 @@ v2: uses the 90% lower bound of the RUL prediction for the safety-critical rule.
 """
 from __future__ import annotations
 
+import ast
 import json
 from dataclasses import dataclass, asdict, field
 from datetime import datetime, timezone
@@ -59,6 +60,74 @@ class Decision:
     review_reasons: list = field(default_factory=list)
     rules_fired: list = field(default_factory=list)
     model_version: str = "unknown"
+    sensor_suspect: str = ""
+    rul_backup: float | None = None
+
+
+ACTIVE_STATUSES = {"AUTO_APPROVED", "PENDING_HUMAN_REVIEW", "APPROVED_BY_HUMAN"}
+
+
+def parse_top_sensors(raw):
+    """Accept a list of (sensor, name, pct) tuples, a list of dicts, or the same as a JSON/CSV string."""
+    if isinstance(raw, str):
+        try:
+            raw = json.loads(raw)
+        except ValueError:
+            try:
+                raw = ast.literal_eval(raw)
+            except (ValueError, SyntaxError):
+                raw = []
+    out = []
+    for item in raw if isinstance(raw, (list, tuple)) else []:
+        if isinstance(item, dict):
+            item = (item.get("sensor"), item.get("name", item.get("sensor")), item.get("share_%", 0))
+        if isinstance(item, (list, tuple)) and len(item) == 3:
+            sensor, name, pct = item
+            try:
+                pct = float(pct)
+            except (TypeError, ValueError):
+                continue
+            if sensor in SENSOR_COMPONENT and 0 <= pct <= 100:
+                out.append((sensor, str(name), pct))
+    return out
+
+
+class ActiveOrderRegistry:
+    """One active work order per engine. Re-scoring the same engine UPDATES its order instead of
+    creating a duplicate: severity can only go up and the due cycle can only move earlier."""
+
+    def __init__(self, path):
+        self.path = Path(path)
+        self.orders = json.loads(self.path.read_text()) if self.path.exists() else {}
+
+    def register(self, wo):
+        cur = self.orders.get(wo["asset"])
+        if cur is None or cur.get("status") not in ACTIVE_STATUSES:
+            wo = dict(wo, history=[{"cycle": wo["cycles_seen"], "severity": wo["severity"]}])
+            self.orders[wo["asset"]] = wo
+            return wo, True
+        if SEVERITY_ORDER[wo["severity"]] > SEVERITY_ORDER[cur["severity"]]:
+            for k in ("severity", "recommended_action", "rules_fired", "suspected_component", "top_sensors"):
+                cur[k] = wo[k]
+        if wo["status"] == "PENDING_HUMAN_REVIEW" and cur["status"] == "AUTO_APPROVED":
+            cur["status"], cur["review_reasons"] = "PENDING_HUMAN_REVIEW", wo["review_reasons"]
+        cur["due_by_cycle"] = min(cur["due_by_cycle"], wo["due_by_cycle"])
+        cur["due_within_cycles"] = max(0, cur["due_by_cycle"] - wo["cycles_seen"])
+        for k in ("cycles_seen", "pred_RUL", "rul_lower", "rul_upper", "decision_RUL", "anomaly_score",
+                  "alarm", "model_version"):
+            cur[k] = wo[k]
+        cur["last_updated"] = wo["created_at"]
+        entry = {"cycle": wo["cycles_seen"], "severity": wo["severity"]}
+        history = cur.setdefault("history", [])
+        if not history or history[-1] != entry:
+            history.append(entry)
+        return cur, False
+
+    def save(self):
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = self.path.with_suffix(".tmp")
+        tmp.write_text(json.dumps(self.orders, indent=2))
+        tmp.replace(self.path)
 
 
 class TriageAgent:
@@ -95,6 +164,20 @@ class TriageAgent:
         if alarm and sev == "LOW":
             sev = "MEDIUM"; rules.append("E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)")
 
+        suspect = snap.get("sensor_suspect") or ""
+        suspect = suspect if isinstance(suspect, str) else ""
+        backup = snap.get("rul_backup")
+        backup = None if backup is None or pd.isna(backup) else float(backup)
+        if suspect:
+            reasons.append(f"Sensor {suspect} disagrees with the other sensors: verify the sensor before acting")
+            if backup is not None:
+                b_low = float(snap.get("rul_backup_lower", backup))
+                b_rul = b_low if (c.conservative_mode == "all" or (c.conservative_mode == "critical" and b_low <= crit_limit)) else backup
+                alt = band(b_rul)
+                if SEVERITY_ORDER[alt] > SEVERITY_ORDER[sev]:
+                    rules.append(f"S1 RUL without suspect sensor {suspect} is {backup:.0f}: escalate {sev} to {alt}")
+                    sev, rul = alt, min(rul, b_rul)
+
         if alarm and point > c.disagreement_rul:
             reasons.append("Health monitor alarm but RUL model sees > "
                            f"{c.disagreement_rul:.0f} cycles: possible sensor fault or unseen failure mode")
@@ -104,7 +187,7 @@ class TriageAgent:
             reasons.append(f"Only {int(snap['cycles_seen'])} cycles of history: low-confidence prediction")
         rules += [f"X{i+1} human review: {r}" for i, r in enumerate(reasons)]
 
-        top = list(snap.get("top_sensors") or [])
+        top = parse_top_sensors(snap.get("top_sensors") or [])
         weights = {}
         for s, _, pct in top:
             comp = SENSOR_COMPONENT.get(s, "Unknown")
@@ -122,7 +205,8 @@ class TriageAgent:
                         severity=sev, suspected_component=component,
                         top_sensors=[{"sensor": s, "name": n, "share_%": p} for s, n, p in top],
                         needs_human_review=bool(reasons), review_reasons=reasons, rules_fired=rules,
-                        model_version=str(snap.get("model_version", "unknown")))
+                        model_version=str(snap.get("model_version", "unknown")),
+                        sensor_suspect=suspect, rul_backup=backup)
 
     # ---------- 2. act ----------
     def recommended_action(self, d: Decision, due: int) -> str:
@@ -134,7 +218,8 @@ class TriageAgent:
             return f"Schedule maintenance on {comp} within {due} cycles; reserve parts and crew now."
         return f"Plan borescope inspection of {comp} within {due} cycles; increase monitoring frequency."
 
-    def create_work_order(self, d: Decision, now: datetime | None = None) -> dict | None:
+    def create_work_order(self, d: Decision, now: datetime | None = None,
+                          write: bool = True) -> dict | None:
         if SEVERITY_ORDER[d.severity] < SEVERITY_ORDER[self.cfg.min_severity_for_wo]:
             return None
         now = now or datetime.now(timezone.utc)
@@ -147,38 +232,50 @@ class TriageAgent:
             "severity": d.severity,
             "status": "PENDING_HUMAN_REVIEW" if d.needs_human_review else "AUTO_APPROVED",
             "due_within_cycles": due,
+            "due_by_cycle": d.cycles_seen + due,
             "recommended_action": self.recommended_action(d, due),
             **{k: v for k, v in asdict(d).items() if k not in ("subset", "unit")},
         }
-        if self.out_dir:
+        if self.out_dir and write:
             self.out_dir.mkdir(parents=True, exist_ok=True)
             (self.out_dir / f"{wo['work_order_id']}.json").write_text(json.dumps(wo, indent=2))
         return wo
 
     # ---------- 3. run over a fleet snapshot ----------
+    def _write(self, wo):
+        self.out_dir.mkdir(parents=True, exist_ok=True)
+        target = self.out_dir / f"{wo['work_order_id']}.json"
+        tmp = target.with_suffix(".tmp")
+        tmp.write_text(json.dumps(wo, indent=2))
+        tmp.replace(target)
+
     def run(self, snapshots: pd.DataFrame) -> pd.DataFrame:
-        rows, orders = [], []
+        registry = ActiveOrderRegistry(self.out_dir / "active_registry.json") if self.out_dir else None
+        rows, new_orders = [], []
+        created = updated = 0
         for snap in snapshots.to_dict("records"):
             d = self.assess(snap)
-            wo = self.create_work_order(d)
+            wo = self.create_work_order(d, write=False)
+            if wo is not None and registry is not None:
+                wo, fresh = registry.register(wo)
+                self._write(wo)
+                created, updated = created + int(fresh), updated + int(not fresh)
+                if fresh:
+                    new_orders.append(wo)
             rows.append({"subset": d.subset, "unit": d.unit, "cycles_seen": d.cycles_seen,
                          "pred_RUL": d.pred_RUL, "rul_lower": d.rul_lower, "rul_upper": d.rul_upper,
                          "anomaly_score": d.anomaly_score, "alarm": d.alarm,
                          "severity": d.severity, "suspected_component": d.suspected_component,
-                         "needs_human_review": d.needs_human_review,
+                         "needs_human_review": d.needs_human_review, "sensor_suspect": d.sensor_suspect,
                          "work_order_id": wo["work_order_id"] if wo else None,
                          "wo_status": wo["status"] if wo else "NO_ACTION",
                          "due_within_cycles": wo["due_within_cycles"] if wo else None})
-            if wo:
-                orders.append(wo)
-        decisions = pd.DataFrame(rows)
-        if self.out_dir and orders:
-            log = pd.DataFrame([{k: (json.dumps(v) if isinstance(v, (list, dict)) else v)
-                                 for k, v in o.items()} for o in orders])
-            log_path = self.out_dir / "work_order_log.csv"
-            if log_path.exists():                       # idempotent: never log the same order twice
-                seen = set(pd.read_csv(log_path, usecols=["work_order_id"])["work_order_id"])
-                log = log[~log["work_order_id"].isin(seen)]
-            if len(log):
+        self.last_run_summary = {"new_orders": created, "updated_existing_orders": updated}
+        if registry is not None:
+            registry.save()
+            if new_orders:
+                log = pd.DataFrame([{k: (json.dumps(v) if isinstance(v, (list, dict)) else v)
+                                     for k, v in o.items()} for o in new_orders])
+                log_path = self.out_dir / "work_order_log.csv"
                 log.to_csv(log_path, mode="a", header=not log_path.exists(), index=False)
-        return decisions
+        return pd.DataFrame(rows)

@@ -1,0 +1,56 @@
+{
+  "work_order_id": "WO-FD001-U012-C207",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-012",
+  "severity": "MEDIUM",
+  "status": "PENDING_HUMAN_REVIEW",
+  "due_within_cycles": 30,
+  "due_by_cycle": 247,
+  "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 40 cycles; increase monitoring frequency.",
+  "cycles_seen": 217,
+  "pred_RUL": 112.2,
+  "rul_lower": 87.2,
+  "rul_upper": 142.3,
+  "decision_RUL": 112.2,
+  "anomaly_score": 1.17,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 48.8
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 24.0
+    },
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 11.1
+    }
+  ],
+  "needs_human_review": true,
+  "review_reasons": [
+    "Health monitor alarm but RUL model sees > 100 cycles: possible sensor fault or unseen failure mode"
+  ],
+  "rules_fired": [
+    "R4 pred_RUL 105 > 75 (healthy)",
+    "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)",
+    "X1 human review: Health monitor alarm but RUL model sees > 100 cycles: possible sensor fault or unseen failure mode"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 207,
+      "severity": "MEDIUM"
+    },
+    {
+      "cycle": 217,
+      "severity": "MEDIUM"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

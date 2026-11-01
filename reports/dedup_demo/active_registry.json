@@ -1,0 +1,2302 @@
+{
+  "FD001/engine-003": {
+    "work_order_id": "WO-FD001-U003-C116",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-003",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 11,
+    "due_by_cycle": 137,
+    "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 21 cycles; increase monitoring frequency.",
+    "cycles_seen": 126,
+    "pred_RUL": 48.7,
+    "rul_lower": 35.5,
+    "rul_upper": 60.8,
+    "decision_RUL": 48.7,
+    "anomaly_score": 0.91,
+    "alarm": false,
+    "suspected_component": "Not localised (sensors inside healthy envelope)",
+    "top_sensors": [
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 26.3
+      },
+      {
+        "sensor": "s13",
+        "name": "Corrected fan speed (NRf)",
+        "share_%": 22.2
+      },
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 12.6
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 60 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 116,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 126,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-012": {
+    "work_order_id": "WO-FD001-U012-C207",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-012",
+    "severity": "MEDIUM",
+    "status": "PENDING_HUMAN_REVIEW",
+    "due_within_cycles": 30,
+    "due_by_cycle": 247,
+    "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 40 cycles; increase monitoring frequency.",
+    "cycles_seen": 217,
+    "pred_RUL": 112.2,
+    "rul_lower": 87.2,
+    "rul_upper": 142.3,
+    "decision_RUL": 112.2,
+    "anomaly_score": 1.17,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 48.8
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 24.0
+      },
+      {
+        "sensor": "s12",
+        "name": "Fuel flow / Ps30 ratio (phi)",
+        "share_%": 11.1
+      }
+    ],
+    "needs_human_review": true,
+    "review_reasons": [
+      "Health monitor alarm but RUL model sees > 100 cycles: possible sensor fault or unseen failure mode"
+    ],
+    "rules_fired": [
+      "R4 pred_RUL 105 > 75 (healthy)",
+      "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)",
+      "X1 human review: Health monitor alarm but RUL model sees > 100 cycles: possible sensor fault or unseen failure mode"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 207,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 217,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-017": {
+    "work_order_id": "WO-FD001-U017-C155",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-017",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 11,
+    "due_by_cycle": 176,
+    "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 21 cycles; increase monitoring frequency.",
+    "cycles_seen": 165,
+    "pred_RUL": 49.0,
+    "rul_lower": 35.8,
+    "rul_upper": 61.1,
+    "decision_RUL": 49.0,
+    "anomaly_score": 3.02,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 41.4
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 19.5
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 10.1
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 60 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 155,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 165,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-018": {
+    "work_order_id": "WO-FD001-U018-C123",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-018",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 134,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 133,
+    "pred_RUL": 29.1,
+    "rul_lower": 22.0,
+    "rul_upper": 38.0,
+    "decision_RUL": 22.0,
+    "anomaly_score": 4.97,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 17.4
+      },
+      {
+        "sensor": "s3",
+        "name": "HPC outlet temperature (T30)",
+        "share_%": 14.6
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 13.7
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 22 <= 22",
+      "U1 point estimate 29 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 123,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 133,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-020": {
+    "work_order_id": "WO-FD001-U020-C174",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-020",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 175,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure turbine (HPT) cooling before further operation.",
+    "cycles_seen": 184,
+    "pred_RUL": 13.4,
+    "rul_lower": 8.6,
+    "rul_upper": 17.7,
+    "decision_RUL": 8.6,
+    "anomaly_score": 5.25,
+    "alarm": true,
+    "suspected_component": "High-pressure turbine (HPT) cooling",
+    "top_sensors": [
+      {
+        "sensor": "s20",
+        "name": "HPT coolant bleed (W31)",
+        "share_%": 18.5
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 15.5
+      },
+      {
+        "sensor": "s15",
+        "name": "Bypass ratio (BPR)",
+        "share_%": 13.8
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 20 <= 22",
+      "U1 point estimate 27 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 174,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 184,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-021": {
+    "work_order_id": "WO-FD001-U021-C138",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-021",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 16,
+    "due_by_cycle": 164,
+    "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 26 cycles; increase monitoring frequency.",
+    "cycles_seen": 148,
+    "pred_RUL": 59.4,
+    "rul_lower": 46.2,
+    "rul_upper": 71.5,
+    "decision_RUL": 59.4,
+    "anomaly_score": 7.02,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 51.2
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 39.7
+      },
+      {
+        "sensor": "s12",
+        "name": "Fuel flow / Ps30 ratio (phi)",
+        "share_%": 2.6
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 70 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 138,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 148,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-024": {
+    "work_order_id": "WO-FD001-U024-C176",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-024",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 187,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 186,
+    "pred_RUL": 20.8,
+    "rul_lower": 13.7,
+    "rul_upper": 29.7,
+    "decision_RUL": 13.7,
+    "anomaly_score": 28.87,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 55.4
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 38.4
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 2.4
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 14 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 176,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 186,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-029": {
+    "work_order_id": "WO-FD001-U029-C161",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-029",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 25,
+    "due_by_cycle": 196,
+    "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 35 cycles; increase monitoring frequency.",
+    "cycles_seen": 171,
+    "pred_RUL": 96.2,
+    "rul_lower": 72.1,
+    "rul_upper": 122.1,
+    "decision_RUL": 96.2,
+    "anomaly_score": 1.56,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 51.1
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 21.3
+      },
+      {
+        "sensor": "s15",
+        "name": "Bypass ratio (BPR)",
+        "share_%": 18.4
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R4 pred_RUL 95 > 75 (healthy)",
+      "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 161,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 171,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-031": {
+    "work_order_id": "WO-FD001-U031-C186",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-031",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 187,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+    "cycles_seen": 196,
+    "pred_RUL": 8.2,
+    "rul_lower": 3.4,
+    "rul_upper": 12.5,
+    "decision_RUL": 3.4,
+    "anomaly_score": 6.09,
+    "alarm": true,
+    "suspected_component": "High-pressure compressor (HPC)",
+    "top_sensors": [
+      {
+        "sensor": "s7",
+        "name": "HPC outlet pressure (P30)",
+        "share_%": 22.7
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 18.0
+      },
+      {
+        "sensor": "s13",
+        "name": "Corrected fan speed (NRf)",
+        "share_%": 11.3
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 10 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 186,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 196,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-032": {
+    "work_order_id": "WO-FD001-U032-C135",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-032",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 12,
+    "due_by_cycle": 157,
+    "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 22 cycles; increase monitoring frequency.",
+    "cycles_seen": 145,
+    "pred_RUL": 45.1,
+    "rul_lower": 31.9,
+    "rul_upper": 57.2,
+    "decision_RUL": 45.1,
+    "anomaly_score": 3.69,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 61.4
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 16.7
+      },
+      {
+        "sensor": "s12",
+        "name": "Fuel flow / Ps30 ratio (phi)",
+        "share_%": 7.6
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 62 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 135,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 145,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-034": {
+    "work_order_id": "WO-FD001-U034-C193",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-034",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 194,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 203,
+    "pred_RUL": 5.0,
+    "rul_lower": 0.2,
+    "rul_upper": 9.3,
+    "decision_RUL": 0.2,
+    "anomaly_score": 19.97,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 18.6
+      },
+      {
+        "sensor": "s7",
+        "name": "HPC outlet pressure (P30)",
+        "share_%": 13.3
+      },
+      {
+        "sensor": "s15",
+        "name": "Bypass ratio (BPR)",
+        "share_%": 12.7
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 13 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 193,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 203,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-035": {
+    "work_order_id": "WO-FD001-U035-C188",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-035",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 189,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 198,
+    "pred_RUL": 11.4,
+    "rul_lower": 6.6,
+    "rul_upper": 15.7,
+    "decision_RUL": 6.6,
+    "anomaly_score": 4.81,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 25.6
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 21.9
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 17.6
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 13 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 188,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 198,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-036": {
+    "work_order_id": "WO-FD001-U036-C116",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-036",
+    "severity": "CRITICAL",
+    "status": "PENDING_HUMAN_REVIEW",
+    "due_within_cycles": 1,
+    "due_by_cycle": 127,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Fan / bypass duct before further operation.",
+    "cycles_seen": 126,
+    "pred_RUL": 17.4,
+    "rul_lower": 12.6,
+    "rul_upper": 21.7,
+    "decision_RUL": 12.6,
+    "anomaly_score": 1.71,
+    "alarm": true,
+    "suspected_component": "Fan / bypass duct",
+    "top_sensors": [
+      {
+        "sensor": "s15",
+        "name": "Bypass ratio (BPR)",
+        "share_%": 24.0
+      },
+      {
+        "sensor": "s3",
+        "name": "HPC outlet temperature (T30)",
+        "share_%": 19.1
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 16.0
+      }
+    ],
+    "needs_human_review": true,
+    "review_reasons": [
+      "RUL model predicts near-failure but no anomaly alarm: verify sensors/data"
+    ],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 13 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 116,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 126,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-037": {
+    "work_order_id": "WO-FD001-U037-C111",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-037",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 122,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 121,
+    "pred_RUL": 25.7,
+    "rul_lower": 18.6,
+    "rul_upper": 34.6,
+    "decision_RUL": 18.6,
+    "anomaly_score": 6.68,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 22.6
+      },
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 13.8
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 10.5
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 19 <= 22",
+      "U1 point estimate 26 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 111,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 121,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-038": {
+    "work_order_id": "WO-FD001-U038-C115",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-038",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 10,
+    "due_by_cycle": 135,
+    "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 20 cycles; increase monitoring frequency.",
+    "cycles_seen": 125,
+    "pred_RUL": 46.6,
+    "rul_lower": 33.4,
+    "rul_upper": 58.7,
+    "decision_RUL": 46.6,
+    "anomaly_score": 4.11,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 63.2
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 10.7
+      },
+      {
+        "sensor": "s2",
+        "name": "LPC outlet temperature (T24)",
+        "share_%": 5.9
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 53 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 115,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 125,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-040": {
+    "work_order_id": "WO-FD001-U040-C123",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-040",
+    "severity": "HIGH",
+    "status": "PENDING_HUMAN_REVIEW",
+    "due_within_cycles": 5,
+    "due_by_cycle": 138,
+    "recommended_action": "Schedule maintenance on the engine (full inspection, no single component stands out) within 15 cycles; reserve parts and crew now.",
+    "cycles_seen": 133,
+    "pred_RUL": 30.3,
+    "rul_lower": 23.2,
+    "rul_upper": 39.2,
+    "decision_RUL": 30.3,
+    "anomaly_score": 1.12,
+    "alarm": true,
+    "suspected_component": "Not localised (sensors inside healthy envelope)",
+    "top_sensors": [
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 20.5
+      },
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 16.1
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 14.2
+      }
+    ],
+    "needs_human_review": true,
+    "review_reasons": [
+      "RUL model predicts near-failure but no anomaly alarm: verify sensors/data"
+    ],
+    "rules_fired": [
+      "R2 pred_RUL 38 <= 40",
+      "X1 human review: RUL model predicts near-failure but no anomaly alarm: verify sensors/data"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 123,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 133,
+        "severity": "HIGH"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-041": {
+    "work_order_id": "WO-FD001-U041-C113",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-041",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 124,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 123,
+    "pred_RUL": 22.8,
+    "rul_lower": 15.7,
+    "rul_upper": 31.7,
+    "decision_RUL": 15.7,
+    "anomaly_score": 7.72,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 27.7
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 13.4
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 12.9
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 16 <= 22",
+      "U1 point estimate 23 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 113,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 123,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-042": {
+    "work_order_id": "WO-FD001-U042-C146",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-042",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 147,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 156,
+    "pred_RUL": 14.1,
+    "rul_lower": 9.3,
+    "rul_upper": 18.4,
+    "decision_RUL": 9.3,
+    "anomaly_score": 12.31,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 21.2
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 12.8
+      },
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 12.7
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 16 <= 22",
+      "U1 point estimate 23 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 146,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 156,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-043": {
+    "work_order_id": "WO-FD001-U043-C162",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-043",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 17,
+    "due_by_cycle": 189,
+    "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 27 cycles; increase monitoring frequency.",
+    "cycles_seen": 172,
+    "pred_RUL": 58.2,
+    "rul_lower": 45.0,
+    "rul_upper": 70.3,
+    "decision_RUL": 58.2,
+    "anomaly_score": 1.2,
+    "alarm": true,
+    "suspected_component": "Not localised (sensors inside healthy envelope)",
+    "top_sensors": [
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 37.5
+      },
+      {
+        "sensor": "s15",
+        "name": "Bypass ratio (BPR)",
+        "share_%": 26.0
+      },
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 9.9
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 73 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 162,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 172,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-046": {
+    "work_order_id": "WO-FD001-U046-C136",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-046",
+    "severity": "HIGH",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 7,
+    "due_by_cycle": 153,
+    "recommended_action": "Schedule maintenance on Engine core (HPC/HPT spool) within 15 cycles; reserve parts and crew now.",
+    "cycles_seen": 146,
+    "pred_RUL": 37.2,
+    "rul_lower": 30.1,
+    "rul_upper": 46.1,
+    "decision_RUL": 37.2,
+    "anomaly_score": 1.85,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 32.5
+      },
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 20.5
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 18.1
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R2 pred_RUL 37 <= 40"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 136,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 146,
+        "severity": "HIGH"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-049": {
+    "work_order_id": "WO-FD001-U049-C293",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-049",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 304,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+    "cycles_seen": 303,
+    "pred_RUL": 19.4,
+    "rul_lower": 14.6,
+    "rul_upper": 23.7,
+    "decision_RUL": 14.6,
+    "anomaly_score": 10.75,
+    "alarm": true,
+    "suspected_component": "High-pressure compressor (HPC)",
+    "top_sensors": [
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 15.9
+      },
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 14.5
+      },
+      {
+        "sensor": "s15",
+        "name": "Bypass ratio (BPR)",
+        "share_%": 14.1
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 15 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 293,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 303,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-052": {
+    "work_order_id": "WO-FD001-U052-C179",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-052",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 190,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 189,
+    "pred_RUL": 26.9,
+    "rul_lower": 19.8,
+    "rul_upper": 35.8,
+    "decision_RUL": 19.8,
+    "anomaly_score": 17.34,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 59.0
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 29.0
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 4.7
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 20 <= 22",
+      "U1 point estimate 27 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 179,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 189,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-053": {
+    "work_order_id": "WO-FD001-U053-C154",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-053",
+    "severity": "HIGH",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 3,
+    "due_by_cycle": 167,
+    "recommended_action": "Schedule maintenance on Engine core (HPC/HPT spool) within 11 cycles; reserve parts and crew now.",
+    "cycles_seen": 164,
+    "pred_RUL": 30.2,
+    "rul_lower": 23.1,
+    "rul_upper": 39.1,
+    "decision_RUL": 30.2,
+    "anomaly_score": 12.58,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 57.9
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 37.2
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 1.4
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R2 pred_RUL 30 <= 40"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 154,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 164,
+        "severity": "HIGH"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-056": {
+    "work_order_id": "WO-FD001-U056-C126",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-056",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 127,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+    "cycles_seen": 136,
+    "pred_RUL": 17.4,
+    "rul_lower": 12.6,
+    "rul_upper": 21.7,
+    "decision_RUL": 12.6,
+    "anomaly_score": 2.43,
+    "alarm": true,
+    "suspected_component": "High-pressure compressor (HPC)",
+    "top_sensors": [
+      {
+        "sensor": "s12",
+        "name": "Fuel flow / Ps30 ratio (phi)",
+        "share_%": 51.2
+      },
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 10.7
+      },
+      {
+        "sensor": "s3",
+        "name": "HPC outlet temperature (T30)",
+        "share_%": 8.0
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 21 <= 22",
+      "U1 point estimate 28 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 126,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 136,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-058": {
+    "work_order_id": "WO-FD001-U058-C166",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-058",
+    "severity": "HIGH",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 10,
+    "due_by_cycle": 186,
+    "recommended_action": "Schedule maintenance on Fan within 15 cycles; reserve parts and crew now.",
+    "cycles_seen": 176,
+    "pred_RUL": 37.4,
+    "rul_lower": 30.3,
+    "rul_upper": 46.3,
+    "decision_RUL": 37.4,
+    "anomaly_score": 2.57,
+    "alarm": true,
+    "suspected_component": "Fan",
+    "top_sensors": [
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 24.5
+      },
+      {
+        "sensor": "s13",
+        "name": "Corrected fan speed (NRf)",
+        "share_%": 18.3
+      },
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 16.1
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R2 pred_RUL 37 <= 40"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 166,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 176,
+        "severity": "HIGH"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-061": {
+    "work_order_id": "WO-FD001-U061-C149",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-061",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 160,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+    "cycles_seen": 159,
+    "pred_RUL": 21.9,
+    "rul_lower": 14.8,
+    "rul_upper": 30.8,
+    "decision_RUL": 14.8,
+    "anomaly_score": 5.2,
+    "alarm": true,
+    "suspected_component": "High-pressure compressor (HPC)",
+    "top_sensors": [
+      {
+        "sensor": "s13",
+        "name": "Corrected fan speed (NRf)",
+        "share_%": 15.5
+      },
+      {
+        "sensor": "s3",
+        "name": "HPC outlet temperature (T30)",
+        "share_%": 13.4
+      },
+      {
+        "sensor": "s7",
+        "name": "HPC outlet pressure (P30)",
+        "share_%": 12.5
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 15 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 149,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 159,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-062": {
+    "work_order_id": "WO-FD001-U062-C222",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-062",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 15,
+    "due_by_cycle": 247,
+    "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 25 cycles; increase monitoring frequency.",
+    "cycles_seen": 232,
+    "pred_RUL": 49.9,
+    "rul_lower": 36.7,
+    "rul_upper": 62.0,
+    "decision_RUL": 49.9,
+    "anomaly_score": 6.65,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 44.7
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 23.8
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 12.2
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 69 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 222,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 232,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-064": {
+    "work_order_id": "WO-FD001-U064-C158",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-064",
+    "severity": "HIGH",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 6,
+    "due_by_cycle": 174,
+    "recommended_action": "Schedule maintenance on Low-pressure turbine (LPT) within 11 cycles; reserve parts and crew now.",
+    "cycles_seen": 168,
+    "pred_RUL": 29.8,
+    "rul_lower": 22.7,
+    "rul_upper": 38.7,
+    "decision_RUL": 29.8,
+    "anomaly_score": 3.03,
+    "alarm": true,
+    "suspected_component": "Low-pressure turbine (LPT)",
+    "top_sensors": [
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 17.8
+      },
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 17.8
+      },
+      {
+        "sensor": "s7",
+        "name": "HPC outlet pressure (P30)",
+        "share_%": 16.7
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R2 pred_RUL 30 <= 40"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 158,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 168,
+        "severity": "HIGH"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-066": {
+    "work_order_id": "WO-FD001-U066-C137",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-066",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 138,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 147,
+    "pred_RUL": 17.2,
+    "rul_lower": 12.4,
+    "rul_upper": 21.5,
+    "decision_RUL": 12.4,
+    "anomaly_score": 17.28,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 49.5
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 41.6
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 5.4
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 18 <= 22",
+      "U1 point estimate 25 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 137,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 147,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-068": {
+    "work_order_id": "WO-FD001-U068-C177",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-068",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 178,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 187,
+    "pred_RUL": 8.4,
+    "rul_lower": 3.6,
+    "rul_upper": 12.7,
+    "decision_RUL": 3.6,
+    "anomaly_score": 5.98,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 19.6
+      },
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 15.7
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 13.7
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 13 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 177,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 187,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-072": {
+    "work_order_id": "WO-FD001-U072-C121",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-072",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 14,
+    "due_by_cycle": 145,
+    "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 24 cycles; increase monitoring frequency.",
+    "cycles_seen": 131,
+    "pred_RUL": 64.1,
+    "rul_lower": 46.6,
+    "rul_upper": 85.1,
+    "decision_RUL": 64.1,
+    "anomaly_score": 1.05,
+    "alarm": false,
+    "suspected_component": "Not localised (sensors inside healthy envelope)",
+    "top_sensors": [
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 43.2
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 11.7
+      },
+      {
+        "sensor": "s21",
+        "name": "LPT coolant bleed (W32)",
+        "share_%": 9.9
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 66 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 121,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 131,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-076": {
+    "work_order_id": "WO-FD001-U076-C195",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-076",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 196,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 205,
+    "pred_RUL": 6.1,
+    "rul_lower": 1.3,
+    "rul_upper": 10.4,
+    "decision_RUL": 1.3,
+    "anomaly_score": 14.16,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 38.2
+      },
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 33.0
+      },
+      {
+        "sensor": "s12",
+        "name": "Fuel flow / Ps30 ratio (phi)",
+        "share_%": 9.6
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 14 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 195,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 205,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-077": {
+    "work_order_id": "WO-FD001-U077-C152",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-077",
+    "severity": "HIGH",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 3,
+    "due_by_cycle": 165,
+    "recommended_action": "Schedule maintenance on Fan within 11 cycles; reserve parts and crew now.",
+    "cycles_seen": 162,
+    "pred_RUL": 30.3,
+    "rul_lower": 23.2,
+    "rul_upper": 39.2,
+    "decision_RUL": 30.3,
+    "anomaly_score": 3.88,
+    "alarm": true,
+    "suspected_component": "Fan",
+    "top_sensors": [
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 21.9
+      },
+      {
+        "sensor": "s7",
+        "name": "HPC outlet pressure (P30)",
+        "share_%": 15.5
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 14.0
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R2 pred_RUL 30 <= 40"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 152,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 162,
+        "severity": "HIGH"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-081": {
+    "work_order_id": "WO-FD001-U081-C203",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-081",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 204,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+    "cycles_seen": 213,
+    "pred_RUL": 4.5,
+    "rul_lower": 0.0,
+    "rul_upper": 8.8,
+    "decision_RUL": 0.0,
+    "anomaly_score": 6.6,
+    "alarm": true,
+    "suspected_component": "High-pressure compressor (HPC)",
+    "top_sensors": [
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 26.8
+      },
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 15.6
+      },
+      {
+        "sensor": "s7",
+        "name": "HPC outlet pressure (P30)",
+        "share_%": 11.0
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 12 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 203,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 213,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-082": {
+    "work_order_id": "WO-FD001-U082-C152",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-082",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 0,
+    "due_by_cycle": 153,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 162,
+    "pred_RUL": 9.7,
+    "rul_lower": 4.9,
+    "rul_upper": 14.0,
+    "decision_RUL": 4.9,
+    "anomaly_score": 10.82,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 24.9
+      },
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 14.9
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 10.3
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 15 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 152,
+        "severity": "CRITICAL"
+      },
+      {
+        "cycle": 162,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-084": {
+    "work_order_id": "WO-FD001-U084-C162",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-084",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 13,
+    "due_by_cycle": 185,
+    "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 23 cycles; increase monitoring frequency.",
+    "cycles_seen": 172,
+    "pred_RUL": 61.5,
+    "rul_lower": 44.0,
+    "rul_upper": 82.5,
+    "decision_RUL": 61.5,
+    "anomaly_score": 1.83,
+    "alarm": true,
+    "suspected_component": "High-pressure compressor (HPC)",
+    "top_sensors": [
+      {
+        "sensor": "s7",
+        "name": "HPC outlet pressure (P30)",
+        "share_%": 17.5
+      },
+      {
+        "sensor": "s15",
+        "name": "Bypass ratio (BPR)",
+        "share_%": 15.1
+      },
+      {
+        "sensor": "s17",
+        "name": "Bleed enthalpy (htBleed)",
+        "share_%": 13.4
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 65 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 162,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 172,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-090": {
+    "work_order_id": "WO-FD001-U090-C136",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-090",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 147,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 146,
+    "pred_RUL": 23.5,
+    "rul_lower": 16.4,
+    "rul_upper": 32.4,
+    "decision_RUL": 16.4,
+    "anomaly_score": 4.83,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 33.2
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 30.5
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 16.7
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 16 <= 22",
+      "U1 point estimate 24 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 136,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 146,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-091": {
+    "work_order_id": "WO-FD001-U091-C224",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-091",
+    "severity": "HIGH",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 5,
+    "due_by_cycle": 239,
+    "recommended_action": "Schedule maintenance on Fan within 15 cycles; reserve parts and crew now.",
+    "cycles_seen": 234,
+    "pred_RUL": 33.3,
+    "rul_lower": 26.2,
+    "rul_upper": 42.2,
+    "decision_RUL": 33.3,
+    "anomaly_score": 2.08,
+    "alarm": true,
+    "suspected_component": "Fan",
+    "top_sensors": [
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 21.8
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 17.4
+      },
+      {
+        "sensor": "s13",
+        "name": "Corrected fan speed (NRf)",
+        "share_%": 11.0
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R2 pred_RUL 39 <= 40"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 224,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 234,
+        "severity": "HIGH"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-092": {
+    "work_order_id": "WO-FD001-U092-C140",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-092",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 151,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+    "cycles_seen": 150,
+    "pred_RUL": 24.3,
+    "rul_lower": 17.2,
+    "rul_upper": 33.2,
+    "decision_RUL": 17.2,
+    "anomaly_score": 1.78,
+    "alarm": true,
+    "suspected_component": "High-pressure compressor (HPC)",
+    "top_sensors": [
+      {
+        "sensor": "s7",
+        "name": "HPC outlet pressure (P30)",
+        "share_%": 19.7
+      },
+      {
+        "sensor": "s12",
+        "name": "Fuel flow / Ps30 ratio (phi)",
+        "share_%": 14.4
+      },
+      {
+        "sensor": "s20",
+        "name": "HPT coolant bleed (W31)",
+        "share_%": 13.3
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 17 <= 22",
+      "U1 point estimate 24 alone would give HIGH; uncertainty pushes it to CRITICAL"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 140,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 150,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-093": {
+    "work_order_id": "WO-FD001-U093-C234",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-093",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 13,
+    "due_by_cycle": 257,
+    "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 23 cycles; increase monitoring frequency.",
+    "cycles_seen": 244,
+    "pred_RUL": 67.6,
+    "rul_lower": 50.1,
+    "rul_upper": 88.6,
+    "decision_RUL": 67.6,
+    "anomaly_score": 2.37,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 47.5
+      },
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 22.1
+      },
+      {
+        "sensor": "s12",
+        "name": "Fuel flow / Ps30 ratio (phi)",
+        "share_%": 14.8
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 64 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 234,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 244,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-094": {
+    "work_order_id": "WO-FD001-U094-C123",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-094",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 17,
+    "due_by_cycle": 150,
+    "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 27 cycles; increase monitoring frequency.",
+    "cycles_seen": 133,
+    "pred_RUL": 52.3,
+    "rul_lower": 39.1,
+    "rul_upper": 64.4,
+    "decision_RUL": 52.3,
+    "anomaly_score": 1.28,
+    "alarm": false,
+    "suspected_component": "Not localised (sensors inside healthy envelope)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 29.8
+      },
+      {
+        "sensor": "s7",
+        "name": "HPC outlet pressure (P30)",
+        "share_%": 25.2
+      },
+      {
+        "sensor": "s13",
+        "name": "Corrected fan speed (NRf)",
+        "share_%": 12.4
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 72 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 123,
+        "severity": "MEDIUM"
+      },
+      {
+        "cycle": 133,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-100": {
+    "work_order_id": "WO-FD001-U100-C188",
+    "created_at": "2026-11-01T05:24:39+00:00",
+    "asset": "FD001/engine-100",
+    "severity": "CRITICAL",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 1,
+    "due_by_cycle": 199,
+    "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+    "cycles_seen": 198,
+    "pred_RUL": 20.6,
+    "rul_lower": 13.5,
+    "rul_upper": 29.5,
+    "decision_RUL": 13.5,
+    "anomaly_score": 43.34,
+    "alarm": true,
+    "suspected_component": "Engine core (HPC/HPT spool)",
+    "top_sensors": [
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 61.7
+      },
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 35.2
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 1.7
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R1 conservative RUL (90% lower bound) 14 <= 22"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 188,
+        "severity": "HIGH"
+      },
+      {
+        "cycle": 198,
+        "severity": "CRITICAL"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-079": {
+    "work_order_id": "WO-FD001-U079-C101",
+    "created_at": "2026-11-01T05:24:40+00:00",
+    "asset": "FD001/engine-079",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 22,
+    "due_by_cycle": 123,
+    "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 22 cycles; increase monitoring frequency.",
+    "cycles_seen": 101,
+    "pred_RUL": 62.6,
+    "rul_lower": 45.1,
+    "rul_upper": 83.6,
+    "decision_RUL": 62.6,
+    "anomaly_score": 0.85,
+    "alarm": false,
+    "suspected_component": "Not localised (sensors inside healthy envelope)",
+    "top_sensors": [
+      {
+        "sensor": "s9",
+        "name": "Core speed (Nc)",
+        "share_%": 28.0
+      },
+      {
+        "sensor": "s20",
+        "name": "HPT coolant bleed (W31)",
+        "share_%": 16.6
+      },
+      {
+        "sensor": "s14",
+        "name": "Corrected core speed (NRc)",
+        "share_%": 12.2
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 63 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 101,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  },
+  "FD001/engine-098": {
+    "work_order_id": "WO-FD001-U098-C121",
+    "created_at": "2026-11-01T05:24:40+00:00",
+    "asset": "FD001/engine-098",
+    "severity": "MEDIUM",
+    "status": "AUTO_APPROVED",
+    "due_within_cycles": 22,
+    "due_by_cycle": 143,
+    "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 22 cycles; increase monitoring frequency.",
+    "cycles_seen": 121,
+    "pred_RUL": 58.9,
+    "rul_lower": 45.7,
+    "rul_upper": 71.0,
+    "decision_RUL": 58.9,
+    "anomaly_score": 0.62,
+    "alarm": false,
+    "suspected_component": "Not localised (sensors inside healthy envelope)",
+    "top_sensors": [
+      {
+        "sensor": "s8",
+        "name": "Fan speed (Nf)",
+        "share_%": 24.2
+      },
+      {
+        "sensor": "s11",
+        "name": "HPC static pressure (Ps30)",
+        "share_%": 23.3
+      },
+      {
+        "sensor": "s4",
+        "name": "LPT outlet temperature (T50)",
+        "share_%": 13.1
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "rules_fired": [
+      "R3 pred_RUL 59 <= 75"
+    ],
+    "model_version": "registry v2",
+    "history": [
+      {
+        "cycle": 121,
+        "severity": "MEDIUM"
+      }
+    ],
+    "last_updated": "2026-11-01T05:24:41+00:00"
+  }
+}

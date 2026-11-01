@@ -1,0 +1,52 @@
+{
+  "work_order_id": "WO-FD001-U058-C166",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-058",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 10,
+  "due_by_cycle": 186,
+  "recommended_action": "Schedule maintenance on Fan within 15 cycles; reserve parts and crew now.",
+  "cycles_seen": 176,
+  "pred_RUL": 37.4,
+  "rul_lower": 30.3,
+  "rul_upper": 46.3,
+  "decision_RUL": 37.4,
+  "anomaly_score": 2.57,
+  "alarm": true,
+  "suspected_component": "Fan",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 24.5
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 18.3
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 16.1
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 37 <= 40"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 166,
+      "severity": "MEDIUM"
+    },
+    {
+      "cycle": 176,
+      "severity": "HIGH"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "work_order_id": "WO-FD001-U077-C152",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-077",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 3,
+  "due_by_cycle": 165,
+  "recommended_action": "Schedule maintenance on Fan within 11 cycles; reserve parts and crew now.",
+  "cycles_seen": 162,
+  "pred_RUL": 30.3,
+  "rul_lower": 23.2,
+  "rul_upper": 39.2,
+  "decision_RUL": 30.3,
+  "anomaly_score": 3.88,
+  "alarm": true,
+  "suspected_component": "Fan",
+  "top_sensors": [
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 21.9
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 15.5
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 14.0
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 30 <= 40"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 152,
+      "severity": "MEDIUM"
+    },
+    {
+      "cycle": 162,
+      "severity": "HIGH"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

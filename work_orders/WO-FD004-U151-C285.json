@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD004-U151-C285",
-  "created_at": "2026-10-31T09:25:51+00:00",
+  "created_at": "2026-11-01T06:05:15+00:00",
   "asset": "FD004/engine-151",
   "severity": "CRITICAL",
   "status": "AUTO_APPROVED",
   "due_within_cycles": 1,
+  "due_by_cycle": 286,
   "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
   "cycles_seen": 285,
   "pred_RUL": 26.5,
@@ -37,5 +38,13 @@
     "R1 conservative RUL (90% lower bound) 15 <= 22",
     "U1 point estimate 26 alone would give HIGH; uncertainty pushes it to CRITICAL"
   ],
-  "model_version": "registry v1"
+  "model_version": "registry v1",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 285,
+      "severity": "CRITICAL"
+    }
+  ]
 }

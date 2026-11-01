@@ -49,4 +49,20 @@ def score_fleet(raw_df, fd, models_dir, model_version=None):
     snap["alarm"] = last_flags.loc[snap["unit"], "alarm"].to_numpy().astype(bool)
     snap["top_sensors"] = [hm.top_contributors(row) for _, row in last.iterrows()]
     snap["model_version"] = model_version
+    snap["sensor_suspect"], snap["sensor_fault_score"] = "", 0.0
+    snap["rul_backup"], snap["rul_backup_lower"] = np.nan, np.nan
+    sh_path = Path(models_dir) / f"sensor_health_{fd}.joblib"
+    if sh_path.exists():
+        sh = joblib.load(sh_path)
+        suspects = sh.last_suspects(feats)
+        if suspects:
+            fixed = pd.concat([sh.repair_raw(raw_df, feats, prep, u, s) for u, (s, _) in suspects.items()])
+            last2 = last_cycle(prep.transform(fixed)).set_index("unit")
+            bp = np.clip(rul_model.predict(last2[prep.feature_names_]), 0, None)
+            bl = unc.interval(bp)[0] if unc is not None else bp
+            backup = pd.DataFrame({"bp": np.round(bp, 1), "bl": np.round(bl, 1)}, index=last2.index)
+            for u, (s, score) in suspects.items():
+                m = snap["unit"] == u
+                snap.loc[m, "sensor_suspect"], snap.loc[m, "sensor_fault_score"] = s, score
+                snap.loc[m, "rul_backup"], snap.loc[m, "rul_backup_lower"] = backup.loc[u, "bp"], backup.loc[u, "bl"]
     return snap

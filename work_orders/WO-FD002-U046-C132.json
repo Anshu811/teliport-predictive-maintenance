@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD002-U046-C132",
-  "created_at": "2026-10-31T09:25:50+00:00",
+  "created_at": "2026-11-01T06:05:14+00:00",
   "asset": "FD002/engine-046",
   "severity": "MEDIUM",
   "status": "PENDING_HUMAN_REVIEW",
   "due_within_cycles": 41,
+  "due_by_cycle": 173,
   "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 41 cycles; increase monitoring frequency.",
   "cycles_seen": 132,
   "pred_RUL": 110.5,
@@ -40,5 +41,13 @@
     "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)",
     "X1 human review: Health monitor alarm but RUL model sees > 100 cycles: possible sensor fault or unseen failure mode"
   ],
-  "model_version": "registry v1"
+  "model_version": "registry v1",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 132,
+      "severity": "MEDIUM"
+    }
+  ]
 }

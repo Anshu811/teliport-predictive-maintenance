@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD002-U110-C219",
-  "created_at": "2026-10-31T09:25:51+00:00",
+  "created_at": "2026-11-01T06:05:14+00:00",
   "asset": "FD002/engine-110",
   "severity": "MEDIUM",
   "status": "AUTO_APPROVED",
   "due_within_cycles": 30,
+  "due_by_cycle": 249,
   "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 30 cycles; increase monitoring frequency.",
   "cycles_seen": 219,
   "pred_RUL": 78.9,
@@ -37,5 +38,13 @@
     "R4 pred_RUL 79 > 75 (healthy)",
     "E1 anomaly alarm active -> escalate LOW to MEDIUM (inspect)"
   ],
-  "model_version": "registry v1"
+  "model_version": "registry v1",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 219,
+      "severity": "MEDIUM"
+    }
+  ]
 }

@@ -1,0 +1,52 @@
+{
+  "work_order_id": "WO-FD001-U094-C123",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-094",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 17,
+  "due_by_cycle": 150,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 27 cycles; increase monitoring frequency.",
+  "cycles_seen": 133,
+  "pred_RUL": 52.3,
+  "rul_lower": 39.1,
+  "rul_upper": 64.4,
+  "decision_RUL": 52.3,
+  "anomaly_score": 1.28,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 29.8
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 25.2
+    },
+    {
+      "sensor": "s13",
+      "name": "Corrected fan speed (NRf)",
+      "share_%": 12.4
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 72 <= 75"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 123,
+      "severity": "MEDIUM"
+    },
+    {
+      "cycle": 133,
+      "severity": "MEDIUM"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

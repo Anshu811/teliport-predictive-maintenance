@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD002-U254-C131",
-  "created_at": "2026-10-31T09:25:51+00:00",
+  "created_at": "2026-11-01T06:05:14+00:00",
   "asset": "FD002/engine-254",
   "severity": "HIGH",
   "status": "AUTO_APPROVED",
   "due_within_cycles": 12,
+  "due_by_cycle": 143,
   "recommended_action": "Schedule maintenance on Engine core (HPC/HPT spool) within 12 cycles; reserve parts and crew now.",
   "cycles_seen": 131,
   "pred_RUL": 32.6,
@@ -36,5 +37,13 @@
   "rules_fired": [
     "R2 pred_RUL 33 <= 40"
   ],
-  "model_version": "registry v1"
+  "model_version": "registry v1",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 131,
+      "severity": "HIGH"
+    }
+  ]
 }

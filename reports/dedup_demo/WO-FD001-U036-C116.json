@@ -1,0 +1,54 @@
+{
+  "work_order_id": "WO-FD001-U036-C116",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-036",
+  "severity": "CRITICAL",
+  "status": "PENDING_HUMAN_REVIEW",
+  "due_within_cycles": 1,
+  "due_by_cycle": 127,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Fan / bypass duct before further operation.",
+  "cycles_seen": 126,
+  "pred_RUL": 17.4,
+  "rul_lower": 12.6,
+  "rul_upper": 21.7,
+  "decision_RUL": 12.6,
+  "anomaly_score": 1.71,
+  "alarm": true,
+  "suspected_component": "Fan / bypass duct",
+  "top_sensors": [
+    {
+      "sensor": "s15",
+      "name": "Bypass ratio (BPR)",
+      "share_%": 24.0
+    },
+    {
+      "sensor": "s3",
+      "name": "HPC outlet temperature (T30)",
+      "share_%": 19.1
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 16.0
+    }
+  ],
+  "needs_human_review": true,
+  "review_reasons": [
+    "RUL model predicts near-failure but no anomaly alarm: verify sensors/data"
+  ],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 13 <= 22"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 116,
+      "severity": "HIGH"
+    },
+    {
+      "cycle": 126,
+      "severity": "CRITICAL"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

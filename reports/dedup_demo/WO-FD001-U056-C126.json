@@ -1,0 +1,53 @@
+{
+  "work_order_id": "WO-FD001-U056-C126",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-056",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 0,
+  "due_by_cycle": 127,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace High-pressure compressor (HPC) before further operation.",
+  "cycles_seen": 136,
+  "pred_RUL": 17.4,
+  "rul_lower": 12.6,
+  "rul_upper": 21.7,
+  "decision_RUL": 12.6,
+  "anomaly_score": 2.43,
+  "alarm": true,
+  "suspected_component": "High-pressure compressor (HPC)",
+  "top_sensors": [
+    {
+      "sensor": "s12",
+      "name": "Fuel flow / Ps30 ratio (phi)",
+      "share_%": 51.2
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 10.7
+    },
+    {
+      "sensor": "s3",
+      "name": "HPC outlet temperature (T30)",
+      "share_%": 8.0
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 21 <= 22",
+    "U1 point estimate 28 alone would give HIGH; uncertainty pushes it to CRITICAL"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 126,
+      "severity": "CRITICAL"
+    },
+    {
+      "cycle": 136,
+      "severity": "CRITICAL"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

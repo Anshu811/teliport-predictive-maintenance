@@ -1,0 +1,6 @@
+scenario,snapshots,flagged_%,right_sensor_%,RMSE_model,RMSE_with_backup,critical_caught_before_%,critical_caught_after_%,false_CRITICAL_after,human_review_%
+clean,514,0.0,,9.33,9.33,98.1,98.1,0,0.4
+bias_up,514,99.6,99.6,10.59,9.46,96.6,98.5,1,99.8
+bias_down,514,99.2,99.8,15.45,9.4,73.8,97.6,0,99.4
+stuck,514,55.1,98.9,13.14,10.42,87.9,96.1,0,56.2
+drift,514,76.7,99.5,10.62,9.54,96.6,97.6,1,79.8

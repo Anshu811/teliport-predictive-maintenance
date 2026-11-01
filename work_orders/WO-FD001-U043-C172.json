@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD001-U043-C172",
-  "created_at": "2026-10-31T09:25:50+00:00",
+  "created_at": "2026-11-01T06:05:14+00:00",
   "asset": "FD001/engine-043",
   "severity": "MEDIUM",
   "status": "AUTO_APPROVED",
   "due_within_cycles": 22,
+  "due_by_cycle": 194,
   "recommended_action": "Plan borescope inspection of High-pressure compressor (HPC) within 22 cycles; increase monitoring frequency.",
   "cycles_seen": 172,
   "pred_RUL": 58.2,
@@ -36,5 +37,13 @@
   "rules_fired": [
     "R3 pred_RUL 58 <= 75"
   ],
-  "model_version": "registry v2"
+  "model_version": "registry v2",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 172,
+      "severity": "MEDIUM"
+    }
+  ]
 }

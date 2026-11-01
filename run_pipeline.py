@@ -207,6 +207,7 @@ def run_full(subsets, demo_retrain):
     models, retrain_log = train_register_deploy(subsets, demo_retrain)
     decisions = score_and_triage({fd: load_subset(fd, DATA_DIR)[1] for fd in subsets})
     agent_eval = evaluate_agent(decisions, subsets)
+    agent_eval["sensor_flags"] = int((decisions["sensor_suspect"].fillna("") != "").sum())
 
     models.to_csv(REPORTS / "pipeline_model_summary.csv")
     decisions.to_csv(REPORTS / "triage_decisions_test.csv", index=False)

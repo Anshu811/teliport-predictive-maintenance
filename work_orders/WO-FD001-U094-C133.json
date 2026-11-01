@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD001-U094-C133",
-  "created_at": "2026-10-31T09:25:50+00:00",
+  "created_at": "2026-11-01T06:05:14+00:00",
   "asset": "FD001/engine-094",
   "severity": "MEDIUM",
   "status": "AUTO_APPROVED",
   "due_within_cycles": 19,
+  "due_by_cycle": 152,
   "recommended_action": "Plan borescope inspection of Engine core (HPC/HPT spool) within 19 cycles; increase monitoring frequency.",
   "cycles_seen": 133,
   "pred_RUL": 52.3,
@@ -36,5 +37,13 @@
   "rules_fired": [
     "R3 pred_RUL 52 <= 75"
   ],
-  "model_version": "registry v2"
+  "model_version": "registry v2",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 133,
+      "severity": "MEDIUM"
+    }
+  ]
 }

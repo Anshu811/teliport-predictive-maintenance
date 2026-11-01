@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD001-U090-C146",
-  "created_at": "2026-10-31T09:25:50+00:00",
+  "created_at": "2026-11-01T06:05:14+00:00",
   "asset": "FD001/engine-090",
   "severity": "CRITICAL",
   "status": "AUTO_APPROVED",
   "due_within_cycles": 1,
+  "due_by_cycle": 147,
   "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
   "cycles_seen": 146,
   "pred_RUL": 23.5,
@@ -37,5 +38,13 @@
     "R1 conservative RUL (90% lower bound) 16 <= 22",
     "U1 point estimate 24 alone would give HIGH; uncertainty pushes it to CRITICAL"
   ],
-  "model_version": "registry v2"
+  "model_version": "registry v2",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 146,
+      "severity": "CRITICAL"
+    }
+  ]
 }

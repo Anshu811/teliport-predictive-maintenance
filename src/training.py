@@ -7,6 +7,7 @@ from pathlib import Path
 import joblib
 
 from anomaly import HealthMonitor
+from sensor_health import SensorHealth
 from features import CMAPSSPreprocessor, DEFAULT_RUL_CAP
 from modeling import RULUncertainty, SeedBag, cross_validate, fit_model, make_lgbm
 
@@ -34,8 +35,9 @@ def train_pipeline(fd, train_raw, models_dir=None, params=None, monitor_cfg=None
     unc = RULUncertainty().fit(oof["y_true"], oof["y_pred"])          # calibrated on unseen engines
     model = fit_model(tr, F, lambda: SeedBag(params, seeds), cap, weighted=True)
     hm = HealthMonitor(**monitor_cfg).fit(tr, prep.sensors)
+    sh = SensorHealth().fit(tr, prep)                                 # sensor-fault detector
     return {"prep": prep, "model": model, "unc": unc, "hm": hm, "features": F,
-            "params": params, "monitor_cfg": monitor_cfg, "train_features": tr}
+            "params": params, "monitor_cfg": monitor_cfg, "train_features": tr, "sh": sh}
 
 
 def save_pipeline(p, fd, models_dir):
@@ -45,6 +47,8 @@ def save_pipeline(p, fd, models_dir):
     joblib.dump(p["model"], models_dir / f"lgbm_{fd}.joblib")
     joblib.dump(p["unc"], models_dir / f"uncertainty_{fd}.joblib")
     joblib.dump(p["hm"], models_dir / f"health_monitor_{fd}.joblib")
+    if p.get("sh") is not None:
+        joblib.dump(p["sh"], models_dir / f"sensor_health_{fd}.joblib")
     stale = models_dir / f"deployed_{fd}.json"          # MLOps deploy() rewrites it right after
     if stale.exists():
         stale.unlink()

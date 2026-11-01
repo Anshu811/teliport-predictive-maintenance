@@ -1,708 +1,708 @@
-subset,unit,cycles_seen,pred_RUL,rul_lower,rul_upper,anomaly_score,alarm,severity,suspected_component,needs_human_review,work_order_id,wo_status,due_within_cycles,model_version
-FD001,1,31,119.3,94.3,149.4,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,2,49,116.8,91.8,146.9,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,3,126,48.7,35.5,60.8,0.91,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD001-U003-C126,AUTO_APPROVED,17.0,registry v2
-FD001,4,106,75.2,57.7,96.2,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,5,98,89.4,65.3,115.3,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,6,105,103.0,78.0,133.1,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,7,160,110.4,85.4,140.5,0.75,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,8,166,92.7,68.6,118.6,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,9,55,118.5,93.5,148.6,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,10,192,95.5,71.4,121.4,1.11,False,LOW,High-pressure compressor (HPC),False,,NO_ACTION,,registry v2
-FD001,11,83,110.3,85.3,140.4,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,12,217,112.2,87.2,142.3,1.17,True,MEDIUM,Engine core (HPC/HPT spool),True,WO-FD001-U012-C217,PENDING_HUMAN_REVIEW,43.0,registry v2
-FD001,13,195,95.5,71.4,121.4,1.11,False,LOW,Low-pressure turbine (LPT),False,,NO_ACTION,,registry v2
-FD001,14,46,124.1,99.1,154.2,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,15,76,97.4,73.3,123.3,0.74,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,16,113,91.4,67.3,117.3,0.67,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,17,165,49.0,35.8,61.1,3.02,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD001-U017-C165,AUTO_APPROVED,17.0,registry v2
-FD001,18,133,29.1,22.0,38.0,4.97,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U018-C133,AUTO_APPROVED,1.0,registry v2
-FD001,19,135,89.3,65.2,115.2,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,20,184,13.4,8.6,17.7,5.25,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD001-U020-C184,AUTO_APPROVED,1.0,registry v2
-FD001,21,148,59.4,46.2,71.5,7.02,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD001-U021-C148,AUTO_APPROVED,23.0,registry v2
-FD001,22,39,124.5,99.5,154.6,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,23,130,125.2,100.2,155.3,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,24,186,20.8,13.7,29.7,28.87,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U024-C186,AUTO_APPROVED,1.0,registry v2
-FD001,25,48,124.3,99.3,154.4,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,26,76,116.8,91.8,146.9,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,27,140,77.9,60.4,98.9,0.82,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,28,158,97.9,73.8,123.8,0.96,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,29,171,96.2,72.1,122.1,1.56,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD001-U029-C171,AUTO_APPROVED,36.0,registry v2
-FD001,30,143,100.9,75.9,131.0,0.52,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,31,196,8.2,3.4,12.5,6.09,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD001-U031-C196,AUTO_APPROVED,1.0,registry v2
-FD001,32,145,45.1,31.9,57.2,3.69,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD001-U032-C145,AUTO_APPROVED,15.0,registry v2
-FD001,33,50,121.9,96.9,152.0,0.14,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,34,203,5.0,0.2,9.3,19.97,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U034-C203,AUTO_APPROVED,1.0,registry v2
-FD001,35,198,11.4,6.6,15.7,4.81,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U035-C198,AUTO_APPROVED,1.0,registry v2
-FD001,36,126,17.4,12.6,21.7,1.71,True,CRITICAL,Fan / bypass duct,False,WO-FD001-U036-C126,AUTO_APPROVED,1.0,registry v2
-FD001,37,121,25.7,18.6,34.6,6.68,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U037-C121,AUTO_APPROVED,1.0,registry v2
-FD001,38,125,46.6,33.4,58.7,4.11,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD001-U038-C125,AUTO_APPROVED,16.0,registry v2
-FD001,39,37,125.5,100.5,155.6,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,40,133,30.3,23.2,39.2,1.12,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD001-U040-C133,AUTO_APPROVED,11.0,registry v2
-FD001,41,123,22.8,15.7,31.7,7.72,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U041-C123,AUTO_APPROVED,1.0,registry v2
-FD001,42,156,14.1,9.3,18.4,12.31,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U042-C156,AUTO_APPROVED,1.0,registry v2
-FD001,43,172,58.2,45.0,70.3,1.2,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD001-U043-C172,AUTO_APPROVED,22.0,registry v2
-FD001,44,54,118.7,93.7,148.8,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,45,152,96.2,72.1,122.1,0.57,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,46,146,37.2,30.1,46.1,1.85,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD001-U046-C146,AUTO_APPROVED,15.0,registry v2
-FD001,47,73,130.5,105.5,160.6,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,48,78,100.5,75.5,130.6,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,49,303,19.4,14.6,23.7,10.75,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD001-U049-C303,AUTO_APPROVED,1.0,registry v2
-FD001,50,74,94.8,70.7,120.7,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,51,144,93.1,69.0,119.0,0.54,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,52,189,26.9,19.8,35.8,17.34,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U052-C189,AUTO_APPROVED,1.0,registry v2
-FD001,53,164,30.2,23.1,39.1,12.58,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD001-U053-C164,AUTO_APPROVED,11.0,registry v2
-FD001,54,121,109.2,84.2,139.3,0.82,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,55,113,114.5,89.5,144.6,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,56,136,17.4,12.6,21.7,2.43,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD001-U056-C136,AUTO_APPROVED,1.0,registry v2
-FD001,57,160,96.9,72.8,122.8,0.65,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,58,176,37.4,30.3,46.3,2.57,True,HIGH,Fan,False,WO-FD001-U058-C176,AUTO_APPROVED,15.0,registry v2
-FD001,59,94,110.4,85.4,140.5,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,60,147,96.1,72.0,122.0,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,61,159,21.9,14.8,30.8,5.2,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD001-U061-C159,AUTO_APPROVED,1.0,registry v2
-FD001,62,232,49.9,36.7,62.0,6.65,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD001-U062-C232,AUTO_APPROVED,18.0,registry v2
-FD001,63,155,76.8,59.3,97.8,0.83,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,64,168,29.8,22.7,38.7,3.03,True,HIGH,Low-pressure turbine (LPT),False,WO-FD001-U064-C168,AUTO_APPROVED,11.0,registry v2
-FD001,65,71,118.0,93.0,148.1,0.45,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,66,147,17.2,12.4,21.5,17.28,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U066-C147,AUTO_APPROVED,1.0,registry v2
-FD001,67,71,109.7,84.7,139.8,0.44,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,68,187,8.4,3.6,12.7,5.98,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U068-C187,AUTO_APPROVED,1.0,registry v2
-FD001,69,54,115.1,90.1,145.2,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,70,152,86.8,62.7,112.7,0.55,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,71,68,117.7,92.7,147.8,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,72,131,64.1,46.6,85.1,1.05,False,MEDIUM,High-pressure compressor (HPC),False,WO-FD001-U072-C131,AUTO_APPROVED,23.0,registry v2
-FD001,73,112,102.0,77.0,132.1,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,74,137,108.6,83.6,138.7,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,75,88,83.3,59.2,109.2,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,76,205,6.1,1.3,10.4,14.16,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U076-C205,AUTO_APPROVED,1.0,registry v2
-FD001,77,162,30.3,23.2,39.2,3.88,True,HIGH,Fan,False,WO-FD001-U077-C162,AUTO_APPROVED,11.0,registry v2
-FD001,78,72,119.1,94.1,149.2,0.45,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,79,101,62.6,45.1,83.6,0.85,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD001-U079-C101,AUTO_APPROVED,22.0,registry v2
-FD001,80,133,91.5,67.4,117.4,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,81,213,4.5,0.0,8.8,6.6,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD001-U081-C213,AUTO_APPROVED,1.0,registry v2
-FD001,82,162,9.7,4.9,14.0,10.82,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U082-C162,AUTO_APPROVED,1.0,registry v2
-FD001,83,73,114.7,89.7,144.8,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,84,172,61.5,44.0,82.5,1.83,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD001-U084-C172,AUTO_APPROVED,22.0,registry v2
-FD001,85,34,122.8,97.8,152.9,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,86,110,94.3,70.2,120.2,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,87,56,106.4,81.4,136.5,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,88,68,116.7,91.7,146.8,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,89,177,119.4,94.4,149.5,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,90,146,23.5,16.4,32.4,4.83,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U090-C146,AUTO_APPROVED,1.0,registry v2
-FD001,91,234,33.3,26.2,42.2,2.08,True,HIGH,Low-pressure turbine (LPT),False,WO-FD001-U091-C234,AUTO_APPROVED,13.0,registry v2
-FD001,92,150,24.3,17.2,33.2,1.78,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD001-U092-C150,AUTO_APPROVED,1.0,registry v2
-FD001,93,244,67.6,50.1,88.6,2.37,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD001-U093-C244,AUTO_APPROVED,25.0,registry v2
-FD001,94,133,52.3,39.1,64.4,1.28,False,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD001-U094-C133,AUTO_APPROVED,19.0,registry v2
-FD001,95,89,96.4,72.3,122.3,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,96,97,117.7,92.7,147.8,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,97,134,89.4,65.3,115.3,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,98,121,58.9,45.7,71.0,0.62,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD001-U098-C121,AUTO_APPROVED,22.0,registry v2
-FD001,99,97,119.2,94.2,149.3,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v2
-FD001,100,198,20.6,13.5,29.5,43.34,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD001-U100-C198,AUTO_APPROVED,1.0,registry v2
-FD002,1,258,18.1,13.4,23.6,19.26,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U001-C258,AUTO_APPROVED,1.0,registry v1
-FD002,2,55,120.6,92.7,151.3,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,3,165,107.9,80.0,138.6,1.15,False,LOW,Engine core (HPC/HPT spool),False,,NO_ACTION,,registry v1
-FD002,4,86,83.0,57.1,113.9,0.67,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,5,148,12.6,7.9,18.1,19.71,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U005-C148,AUTO_APPROVED,1.0,registry v1
-FD002,6,63,121.6,93.7,152.3,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,7,184,5.7,1.0,11.2,11.43,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U007-C184,AUTO_APPROVED,1.0,registry v1
-FD002,8,173,85.1,59.2,116.0,1.49,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U008-C173,AUTO_APPROVED,29.0,registry v1
-FD002,9,161,10.3,5.6,15.8,11.22,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U009-C161,AUTO_APPROVED,1.0,registry v1
-FD002,10,84,109.8,81.9,140.5,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,11,162,8.4,3.7,13.9,14.4,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U011-C162,AUTO_APPROVED,1.0,registry v1
-FD002,12,74,110.7,82.8,141.4,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,13,164,29.2,21.7,37.8,4.6,True,CRITICAL,Fan / bypass duct,False,WO-FD002-U013-C164,AUTO_APPROVED,1.0,registry v1
-FD002,14,160,11.2,6.5,16.7,5.11,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U014-C160,AUTO_APPROVED,1.0,registry v1
-FD002,15,165,36.5,29.0,45.1,2.33,True,HIGH,High-pressure compressor (HPC),False,WO-FD002-U015-C165,AUTO_APPROVED,14.0,registry v1
-FD002,16,88,85.6,59.7,116.5,0.6,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,17,264,72.6,54.1,93.0,2.52,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD002-U017-C264,AUTO_APPROVED,27.0,registry v1
-FD002,18,40,122.8,94.9,153.5,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,19,172,21.7,14.2,30.3,23.54,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U019-C172,AUTO_APPROVED,1.0,registry v1
-FD002,20,101,54.9,43.2,67.3,0.69,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U020-C101,AUTO_APPROVED,21.0,registry v1
-FD002,21,128,93.9,68.0,124.8,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,22,159,8.8,4.1,14.3,16.85,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U022-C159,AUTO_APPROVED,1.0,registry v1
-FD002,23,49,124.7,96.8,155.4,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,24,210,88.4,62.5,119.3,5.68,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U024-C210,AUTO_APPROVED,31.0,registry v1
-FD002,25,147,72.5,54.0,92.9,0.95,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U025-C147,AUTO_APPROVED,27.0,registry v1
-FD002,26,76,112.6,84.7,143.3,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,27,68,117.6,89.7,148.3,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,28,23,130.8,102.9,161.5,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,29,101,98.4,72.5,129.3,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,30,184,77.1,58.6,97.5,1.6,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U030-C184,AUTO_APPROVED,29.0,registry v1
-FD002,31,123,89.9,64.0,120.8,1.35,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD002-U031-C123,AUTO_APPROVED,32.0,registry v1
-FD002,32,170,12.2,7.5,17.7,7.9,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U032-C170,AUTO_APPROVED,1.0,registry v1
-FD002,33,135,68.0,49.5,88.4,0.63,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U033-C135,AUTO_APPROVED,24.0,registry v1
-FD002,34,52,125.6,97.7,156.3,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,35,77,63.2,44.7,83.6,0.63,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U035-C077,AUTO_APPROVED,22.0,registry v1
-FD002,36,163,90.4,64.5,121.3,0.99,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,37,49,126.3,98.4,157.0,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,38,127,59.4,47.7,71.8,0.74,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U038-C127,AUTO_APPROVED,23.0,registry v1
-FD002,39,149,61.7,43.2,82.1,0.73,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U039-C149,AUTO_APPROVED,21.0,registry v1
-FD002,40,183,38.7,31.2,47.3,1.68,True,HIGH,Fan / bypass duct,False,WO-FD002-U040-C183,AUTO_APPROVED,15.0,registry v1
-FD002,41,210,40.8,29.1,53.2,2.36,True,MEDIUM,Fan / bypass duct,False,WO-FD002-U041-C210,AUTO_APPROVED,14.0,registry v1
-FD002,42,137,26.8,19.3,35.4,3.26,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U042-C137,AUTO_APPROVED,1.0,registry v1
-FD002,43,184,21.7,14.2,30.3,9.08,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U043-C184,AUTO_APPROVED,1.0,registry v1
-FD002,44,164,5.7,1.0,11.2,15.89,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U044-C164,AUTO_APPROVED,1.0,registry v1
-FD002,45,195,14.4,9.7,19.9,17.5,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U045-C195,AUTO_APPROVED,1.0,registry v1
-FD002,46,132,110.5,82.6,141.2,1.01,True,MEDIUM,Engine core (HPC/HPT spool),True,WO-FD002-U046-C132,PENDING_HUMAN_REVIEW,41.0,registry v1
-FD002,47,81,111.5,83.6,142.2,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,48,132,15.7,11.0,21.2,8.76,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U048-C132,AUTO_APPROVED,1.0,registry v1
-FD002,49,65,121.6,93.7,152.3,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,50,164,5.4,0.7,10.9,12.97,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U050-C164,AUTO_APPROVED,1.0,registry v1
-FD002,51,37,126.8,98.9,157.5,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,52,165,50.7,39.0,63.1,1.55,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U052-C165,AUTO_APPROVED,19.0,registry v1
-FD002,53,149,48.7,37.0,61.1,1.33,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U053-C149,AUTO_APPROVED,18.0,registry v1
-FD002,54,74,120.4,92.5,151.1,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,55,123,99.0,73.1,129.9,1.0,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,56,73,124.6,96.7,155.3,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,57,76,120.3,92.4,151.0,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,58,247,26.4,18.9,35.0,8.27,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U058-C247,AUTO_APPROVED,1.0,registry v1
-FD002,59,22,121.4,93.5,152.1,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,60,144,90.1,64.2,121.0,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,61,70,124.7,96.8,155.4,0.11,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,62,205,36.3,28.8,44.9,3.6,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD002-U062-C205,AUTO_APPROVED,14.0,registry v1
-FD002,63,174,36.2,28.7,44.8,4.1,True,HIGH,High-pressure compressor (HPC),False,WO-FD002-U063-C174,AUTO_APPROVED,14.0,registry v1
-FD002,64,233,16.2,11.5,21.7,5.83,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U064-C233,AUTO_APPROVED,1.0,registry v1
-FD002,65,367,8.1,3.4,13.6,8.33,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U065-C367,AUTO_APPROVED,1.0,registry v1
-FD002,66,63,114.1,86.2,144.8,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,67,146,72.6,54.1,93.0,1.29,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U067-C146,AUTO_APPROVED,27.0,registry v1
-FD002,68,218,51.9,40.2,64.3,5.54,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U068-C218,AUTO_APPROVED,20.0,registry v1
-FD002,69,158,111.5,83.6,142.2,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,70,264,17.9,13.2,23.4,6.13,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U070-C264,AUTO_APPROVED,1.0,registry v1
-FD002,71,65,119.9,92.0,150.6,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,72,143,106.6,78.7,137.3,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,73,151,65.7,47.2,86.1,0.76,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U073-C151,AUTO_APPROVED,23.0,registry v1
-FD002,74,103,99.7,73.8,130.6,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,75,192,100.6,72.7,131.3,2.69,True,MEDIUM,Engine core (HPC/HPT spool),True,WO-FD002-U075-C192,PENDING_HUMAN_REVIEW,36.0,registry v1
-FD002,76,222,38.2,30.7,46.8,4.38,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD002-U076-C222,AUTO_APPROVED,15.0,registry v1
-FD002,77,67,115.7,87.8,146.4,0.25,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,78,128,48.8,37.1,61.2,4.45,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U078-C128,AUTO_APPROVED,18.0,registry v1
-FD002,79,113,99.3,73.4,130.2,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,80,278,19.6,14.9,25.1,8.22,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U080-C278,AUTO_APPROVED,1.0,registry v1
-FD002,81,76,116.8,88.9,147.5,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,82,96,93.8,67.9,124.7,0.61,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,83,21,123.4,95.5,154.1,0.18,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,84,204,19.5,14.8,25.0,7.92,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U084-C204,AUTO_APPROVED,1.0,registry v1
-FD002,85,183,47.8,36.1,60.2,3.44,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U085-C183,AUTO_APPROVED,18.0,registry v1
-FD002,86,83,117.6,89.7,148.3,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,87,131,23.0,15.5,31.6,2.57,True,CRITICAL,Fan / bypass duct,False,WO-FD002-U087-C131,AUTO_APPROVED,1.0,registry v1
-FD002,88,166,85.8,59.9,116.7,0.71,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,89,59,123.8,95.9,154.5,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,90,163,6.6,1.9,12.1,11.3,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U090-C163,AUTO_APPROVED,1.0,registry v1
-FD002,91,278,13.6,8.9,19.1,4.76,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U091-C278,AUTO_APPROVED,1.0,registry v1
-FD002,92,123,88.0,62.1,118.9,0.55,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,93,76,117.9,90.0,148.6,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,94,117,93.4,67.5,124.3,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,95,78,99.4,73.5,130.3,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,96,140,40.5,28.8,52.9,0.87,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U096-C140,AUTO_APPROVED,14.0,registry v1
-FD002,97,213,22.0,14.5,30.6,2.45,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U097-C213,AUTO_APPROVED,1.0,registry v1
-FD002,98,113,98.0,72.1,128.9,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,99,163,8.5,3.8,14.0,6.67,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U099-C163,AUTO_APPROVED,1.0,registry v1
-FD002,100,149,18.0,13.3,23.5,29.87,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U100-C149,AUTO_APPROVED,1.0,registry v1
-FD002,101,38,117.2,89.3,147.9,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,102,122,6.1,1.4,11.6,5.88,True,CRITICAL,Fan / bypass duct,False,WO-FD002-U102-C122,AUTO_APPROVED,1.0,registry v1
-FD002,103,186,6.7,2.0,12.2,4.97,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U103-C186,AUTO_APPROVED,1.0,registry v1
-FD002,104,141,74.3,55.8,94.7,0.95,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U104-C141,AUTO_APPROVED,27.0,registry v1
-FD002,105,61,122.8,94.9,153.5,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,106,72,109.1,81.2,139.8,0.35,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,107,132,65.0,46.5,85.4,0.7,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U107-C132,AUTO_APPROVED,23.0,registry v1
-FD002,108,174,125.2,97.3,155.9,1.0,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,109,144,39.1,31.6,47.7,2.2,True,HIGH,High-pressure compressor (HPC),False,WO-FD002-U109-C144,AUTO_APPROVED,15.0,registry v1
-FD002,110,219,78.9,60.4,99.3,1.67,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD002-U110-C219,AUTO_APPROVED,30.0,registry v1
-FD002,111,131,12.3,7.6,17.8,16.85,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U111-C131,AUTO_APPROVED,1.0,registry v1
-FD002,112,109,46.5,34.8,58.9,1.14,True,MEDIUM,Low-pressure turbine (LPT),False,WO-FD002-U112-C109,AUTO_APPROVED,17.0,registry v1
-FD002,113,45,123.7,95.8,154.4,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,114,153,76.7,58.2,97.1,0.99,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,115,210,76.7,58.2,97.1,1.12,True,MEDIUM,Low-pressure turbine (LPT),False,WO-FD002-U115-C210,AUTO_APPROVED,29.0,registry v1
-FD002,116,171,7.1,2.4,12.6,6.0,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U116-C171,AUTO_APPROVED,1.0,registry v1
-FD002,117,55,119.9,92.0,150.6,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,118,97,112.2,84.3,142.9,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,119,202,98.1,72.2,129.0,1.04,False,LOW,Fan / bypass duct,False,,NO_ACTION,,registry v1
-FD002,120,160,17.4,12.7,22.9,5.97,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U120-C160,AUTO_APPROVED,1.0,registry v1
-FD002,121,59,91.8,65.9,122.7,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,122,29,125.4,97.5,156.1,0.16,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,123,61,118.7,90.8,149.4,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,124,149,7.7,3.0,13.2,6.12,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U124-C149,AUTO_APPROVED,1.0,registry v1
-FD002,125,79,113.0,85.1,143.7,0.74,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,126,99,97.1,71.2,128.0,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,127,126,71.4,52.9,91.8,0.8,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U127-C126,AUTO_APPROVED,26.0,registry v1
-FD002,128,110,98.9,73.0,129.8,0.64,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,129,218,80.2,54.3,111.1,5.44,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U129-C218,AUTO_APPROVED,27.0,registry v1
-FD002,130,141,122.9,95.0,153.6,0.94,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,131,73,120.1,92.2,150.8,0.21,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,132,122,33.5,26.0,42.1,1.02,True,HIGH,Low-pressure turbine (LPT),False,WO-FD002-U132-C122,AUTO_APPROVED,13.0,registry v1
-FD002,133,186,49.6,37.9,62.0,8.66,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U133-C186,AUTO_APPROVED,18.0,registry v1
-FD002,134,186,8.9,4.2,14.4,66.52,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U134-C186,AUTO_APPROVED,1.0,registry v1
-FD002,135,120,116.1,88.2,146.8,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,136,77,108.5,80.6,139.2,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,137,226,89.8,63.9,120.7,1.53,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U137-C226,AUTO_APPROVED,31.0,registry v1
-FD002,138,200,5.1,0.4,10.6,9.38,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U138-C200,AUTO_APPROVED,1.0,registry v1
-FD002,139,116,55.0,43.3,67.4,2.57,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U139-C116,AUTO_APPROVED,21.0,registry v1
-FD002,140,306,55.2,43.5,67.6,4.82,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U140-C306,AUTO_APPROVED,21.0,registry v1
-FD002,141,69,109.9,82.0,140.6,0.51,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,142,163,45.2,33.5,57.6,1.44,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD002-U142-C163,AUTO_APPROVED,16.0,registry v1
-FD002,143,226,83.7,57.8,114.6,2.05,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U143-C226,AUTO_APPROVED,28.0,registry v1
-FD002,144,143,35.8,28.3,44.4,3.15,True,HIGH,High-pressure compressor (HPC),False,WO-FD002-U144-C143,AUTO_APPROVED,14.0,registry v1
-FD002,145,142,105.5,77.6,136.2,0.92,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,146,144,11.0,6.3,16.5,5.64,True,CRITICAL,Fan / bypass duct,False,WO-FD002-U146-C144,AUTO_APPROVED,1.0,registry v1
-FD002,147,78,109.0,81.1,139.7,0.37,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,148,157,9.6,4.9,15.1,12.11,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U148-C157,AUTO_APPROVED,1.0,registry v1
-FD002,149,70,122.9,95.0,153.6,0.11,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,150,196,32.9,25.4,41.5,4.24,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD002-U150-C196,AUTO_APPROVED,12.0,registry v1
-FD002,151,141,89.3,63.4,120.2,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,152,90,60.8,42.3,81.2,0.95,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U152-C090,AUTO_APPROVED,21.0,registry v1
-FD002,153,146,90.7,64.8,121.6,1.51,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U153-C146,AUTO_APPROVED,32.0,registry v1
-FD002,154,58,121.3,93.4,152.0,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,155,72,122.9,95.0,153.6,0.13,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,156,75,98.8,72.9,129.7,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,157,161,130.4,102.5,161.1,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,158,171,20.9,13.4,29.5,9.85,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U158-C171,AUTO_APPROVED,1.0,registry v1
-FD002,159,187,9.9,5.2,15.4,3.63,True,CRITICAL,Fan / bypass duct,False,WO-FD002-U159-C187,AUTO_APPROVED,1.0,registry v1
-FD002,160,124,44.9,33.2,57.3,2.72,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U160-C124,AUTO_APPROVED,16.0,registry v1
-FD002,161,174,17.2,12.5,22.7,22.79,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U161-C174,AUTO_APPROVED,1.0,registry v1
-FD002,162,185,48.3,36.6,60.7,1.89,True,MEDIUM,Low-pressure turbine (LPT),False,WO-FD002-U162-C185,AUTO_APPROVED,18.0,registry v1
-FD002,163,144,89.3,63.4,120.2,1.15,False,LOW,Engine core (HPC/HPT spool),False,,NO_ACTION,,registry v1
-FD002,164,199,8.3,3.6,13.8,10.58,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U164-C199,AUTO_APPROVED,1.0,registry v1
-FD002,165,35,122.0,94.1,152.7,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,166,97,94.0,68.1,124.9,0.54,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,167,78,92.3,66.4,123.2,0.81,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,168,107,86.3,60.4,117.2,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,169,80,115.8,87.9,146.5,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,170,85,115.8,87.9,146.5,0.62,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,171,243,30.0,22.5,38.6,12.83,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD002-U171-C243,AUTO_APPROVED,11.0,registry v1
-FD002,172,128,104.6,76.7,135.3,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,173,117,11.1,6.4,16.6,5.77,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U173-C117,AUTO_APPROVED,1.0,registry v1
-FD002,174,51,116.4,88.5,147.1,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,175,83,121.5,93.6,152.2,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,176,200,22.5,15.0,31.1,9.88,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U176-C200,AUTO_APPROVED,1.0,registry v1
-FD002,177,191,3.6,0.0,9.1,27.14,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U177-C191,AUTO_APPROVED,1.0,registry v1
-FD002,178,54,124.1,96.2,154.8,0.25,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,179,156,35.7,28.2,44.3,2.44,True,HIGH,High-pressure compressor (HPC),False,WO-FD002-U179-C156,AUTO_APPROVED,14.0,registry v1
-FD002,180,154,92.9,67.0,123.8,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,181,199,57.5,45.8,69.9,2.53,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U181-C199,AUTO_APPROVED,22.0,registry v1
-FD002,182,134,16.5,11.8,22.0,4.42,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U182-C134,AUTO_APPROVED,1.0,registry v1
-FD002,183,150,61.2,42.7,81.6,2.22,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U183-C150,AUTO_APPROVED,21.0,registry v1
-FD002,184,64,125.5,97.6,156.2,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,185,254,13.7,9.0,19.2,41.5,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U185-C254,AUTO_APPROVED,1.0,registry v1
-FD002,186,166,8.6,3.9,14.1,12.5,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U186-C166,AUTO_APPROVED,1.0,registry v1
-FD002,187,84,122.0,94.1,152.7,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,188,86,110.0,82.1,140.7,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,189,178,42.5,30.8,54.9,2.99,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD002-U189-C178,AUTO_APPROVED,15.0,registry v1
-FD002,190,158,16.2,11.5,21.7,5.38,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U190-C158,AUTO_APPROVED,1.0,registry v1
-FD002,191,95,98.3,72.4,129.2,0.44,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,192,161,18.5,13.8,24.0,6.71,True,CRITICAL,Low-pressure turbine (LPT),False,WO-FD002-U192-C161,AUTO_APPROVED,1.0,registry v1
-FD002,193,245,38.0,30.5,46.6,2.12,True,HIGH,High-pressure compressor (HPC),False,WO-FD002-U193-C245,AUTO_APPROVED,15.0,registry v1
-FD002,194,50,122.0,94.1,152.7,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,195,262,73.0,54.5,93.4,8.41,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U195-C262,AUTO_APPROVED,27.0,registry v1
-FD002,196,109,91.5,65.6,122.4,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,197,59,121.8,93.9,152.5,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,198,120,41.7,30.0,54.1,1.94,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD002-U198-C120,AUTO_APPROVED,15.0,registry v1
-FD002,199,117,114.9,87.0,145.6,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,200,60,124.2,96.3,154.9,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,201,25,123.6,95.7,154.3,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,202,124,86.4,60.5,117.3,0.96,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,203,115,126.3,98.4,157.0,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,204,41,121.6,93.7,152.3,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,205,31,105.9,78.0,136.6,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,206,162,55.4,43.7,67.8,1.82,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U206-C162,AUTO_APPROVED,21.0,registry v1
-FD002,207,141,97.2,71.3,128.1,1.81,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U207-C141,AUTO_APPROVED,35.0,registry v1
-FD002,208,166,10.2,5.5,15.7,6.59,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U208-C166,AUTO_APPROVED,1.0,registry v1
-FD002,209,131,25.7,18.2,34.3,6.61,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U209-C131,AUTO_APPROVED,1.0,registry v1
-FD002,210,182,4.8,0.1,10.3,39.16,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U210-C182,AUTO_APPROVED,1.0,registry v1
-FD002,211,155,6.3,1.6,11.8,9.64,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U211-C155,AUTO_APPROVED,1.0,registry v1
-FD002,212,187,67.3,48.8,87.7,2.64,True,MEDIUM,Fan / bypass duct,False,WO-FD002-U212-C187,AUTO_APPROVED,24.0,registry v1
-FD002,213,159,88.8,62.9,119.7,0.68,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,214,75,111.3,83.4,142.0,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,215,71,111.0,83.1,141.7,0.37,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,216,100,52.8,41.1,65.2,0.68,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD002-U216-C100,AUTO_APPROVED,20.0,registry v1
-FD002,217,49,125.2,97.3,155.9,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,218,33,122.9,95.0,153.6,0.45,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,219,161,65.1,46.6,85.5,2.94,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U219-C161,AUTO_APPROVED,23.0,registry v1
-FD002,220,54,122.6,94.7,153.3,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,221,55,106.4,78.5,137.1,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,222,180,59.6,47.9,72.0,1.39,True,MEDIUM,Low-pressure turbine (LPT),False,WO-FD002-U222-C180,AUTO_APPROVED,23.0,registry v1
-FD002,223,29,124.7,96.8,155.4,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,224,43,124.1,96.2,154.8,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,225,166,10.1,5.4,15.6,4.5,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U225-C166,AUTO_APPROVED,1.0,registry v1
-FD002,226,165,90.8,64.9,121.7,1.11,False,LOW,High-pressure compressor (HPC),False,,NO_ACTION,,registry v1
-FD002,227,180,9.6,4.9,15.1,3.98,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U227-C180,AUTO_APPROVED,1.0,registry v1
-FD002,228,44,117.7,89.8,148.4,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,229,109,83.4,57.5,114.3,0.51,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,230,125,100.2,72.3,130.9,1.0,True,MEDIUM,Not localised (sensors inside healthy envelope),True,WO-FD002-U230-C125,PENDING_HUMAN_REVIEW,36.0,registry v1
-FD002,231,187,8.6,3.9,14.1,8.44,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U231-C187,AUTO_APPROVED,1.0,registry v1
-FD002,232,159,99.3,73.4,130.2,1.68,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U232-C159,AUTO_APPROVED,36.0,registry v1
-FD002,233,40,121.2,93.3,151.9,0.18,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,234,147,95.4,69.5,126.3,0.68,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,235,102,124.0,96.1,154.7,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,236,274,15.6,10.9,21.1,10.83,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U236-C274,AUTO_APPROVED,1.0,registry v1
-FD002,237,235,49.7,38.0,62.1,2.3,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD002-U237-C235,AUTO_APPROVED,19.0,registry v1
-FD002,238,94,115.9,88.0,146.6,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,239,106,104.4,76.5,135.1,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,240,50,111.8,83.9,142.5,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,241,44,125.1,97.2,155.8,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,242,194,14.3,9.6,19.8,2.92,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD002-U242-C194,AUTO_APPROVED,1.0,registry v1
-FD002,243,40,122.0,94.1,152.7,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,244,49,125.0,97.1,155.7,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,245,265,12.7,8.0,18.2,20.01,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U245-C265,AUTO_APPROVED,1.0,registry v1
-FD002,246,80,118.9,91.0,149.6,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,247,87,122.7,94.8,153.4,0.11,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,248,162,57.4,45.7,69.8,4.75,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U248-C162,AUTO_APPROVED,22.0,registry v1
-FD002,249,36,124.0,96.1,154.7,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,250,234,22.9,15.4,31.5,20.66,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD002-U250-C234,AUTO_APPROVED,1.0,registry v1
-FD002,251,64,110.1,82.2,140.8,0.44,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,252,249,6.1,1.4,11.6,5.74,True,CRITICAL,Fan / bypass duct,False,WO-FD002-U252-C249,AUTO_APPROVED,1.0,registry v1
-FD002,253,139,30.9,23.4,39.5,1.44,True,HIGH,High-pressure compressor (HPC),False,WO-FD002-U253-C139,AUTO_APPROVED,11.0,registry v1
-FD002,254,131,32.6,25.1,41.2,1.97,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD002-U254-C131,AUTO_APPROVED,12.0,registry v1
-FD002,255,150,118.5,90.6,149.2,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,256,59,121.8,93.9,152.5,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,257,199,56.5,44.8,68.9,2.21,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U257-C199,AUTO_APPROVED,22.0,registry v1
-FD002,258,98,118.7,90.8,149.4,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD002,259,123,63.7,45.2,84.1,4.01,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD002-U259-C123,AUTO_APPROVED,22.0,registry v1
-FD003,1,233,47.4,35.1,63.9,1.4,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U001-C233,AUTO_APPROVED,17.0,registry v1
-FD003,2,124,56.6,44.3,73.1,1.05,False,MEDIUM,Low-pressure turbine (LPT),False,WO-FD003-U002-C124,AUTO_APPROVED,22.0,registry v1
-FD003,3,234,31.6,25.5,40.5,1.91,True,HIGH,High-pressure compressor (HPC),False,WO-FD003-U003-C234,AUTO_APPROVED,12.0,registry v1
-FD003,4,68,120.2,95.8,150.4,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,5,138,92.4,71.7,126.5,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,6,64,117.1,92.7,147.3,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,7,158,72.1,55.5,96.2,0.97,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD003-U007-C158,AUTO_APPROVED,27.0,registry v1
-FD003,8,192,47.7,35.4,64.2,2.4,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U008-C192,AUTO_APPROVED,17.0,registry v1
-FD003,9,238,62.6,46.0,86.7,3.53,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U009-C238,AUTO_APPROVED,23.0,registry v1
-FD003,10,131,78.4,61.8,102.5,1.98,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD003-U010-C131,AUTO_APPROVED,30.0,registry v1
-FD003,11,103,77.7,61.1,101.8,0.7,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,12,146,117.8,93.4,148.0,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,13,65,117.3,92.9,147.5,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,14,169,29.8,23.7,38.7,3.0,True,HIGH,High-pressure compressor (HPC),False,WO-FD003-U014-C169,AUTO_APPROVED,11.0,registry v1
-FD003,15,112,103.7,79.3,133.9,0.18,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,16,126,51.8,39.5,68.3,0.57,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD003-U016-C126,AUTO_APPROVED,19.0,registry v1
-FD003,17,230,121.7,97.3,151.9,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,18,244,109.8,85.4,140.0,0.37,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,19,115,106.3,81.9,136.5,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,20,207,55.3,43.0,71.8,0.96,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD003-U020-C207,AUTO_APPROVED,21.0,registry v1
-FD003,21,263,16.7,12.2,21.3,5.87,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U021-C263,AUTO_APPROVED,1.0,registry v1
-FD003,22,119,110.3,85.9,140.5,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,23,405,82.4,61.7,116.5,0.87,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,24,475,9.2,4.7,13.8,6.32,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U024-C475,AUTO_APPROVED,1.0,registry v1
-FD003,25,169,55.0,42.7,71.5,1.5,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U025-C169,AUTO_APPROVED,21.0,registry v1
-FD003,26,130,12.0,7.5,16.6,12.4,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD003-U026-C130,AUTO_APPROVED,1.0,registry v1
-FD003,27,104,110.7,86.3,140.9,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,28,70,118.1,93.7,148.3,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,29,89,115.3,90.9,145.5,0.37,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,30,333,90.5,69.8,124.6,1.14,False,LOW,High-pressure compressor (HPC),False,,NO_ACTION,,registry v1
-FD003,31,152,79.7,63.1,103.8,2.43,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD003-U031-C152,AUTO_APPROVED,31.0,registry v1
-FD003,32,120,53.5,41.2,70.0,2.26,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD003-U032-C120,AUTO_APPROVED,20.0,registry v1
-FD003,33,180,84.9,64.2,119.0,1.39,False,LOW,Engine core (HPC/HPT spool),False,,NO_ACTION,,registry v1
-FD003,34,105,74.6,58.0,98.7,0.4,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD003-U034-C105,AUTO_APPROVED,29.0,registry v1
-FD003,35,144,95.8,75.1,129.9,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,36,90,114.7,90.3,144.9,0.09,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,37,47,125.7,101.3,155.9,0.03,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,38,133,26.8,20.7,35.7,3.12,True,CRITICAL,Low-pressure turbine (LPT),False,WO-FD003-U038-C133,AUTO_APPROVED,1.0,registry v1
-FD003,39,310,8.6,4.1,13.2,7.53,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U039-C310,AUTO_APPROVED,1.0,registry v1
-FD003,40,313,40.9,28.6,57.4,2.63,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U040-C313,AUTO_APPROVED,14.0,registry v1
-FD003,41,101,115.3,90.9,145.5,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,42,87,117.9,93.5,148.1,0.09,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,43,133,110.7,86.3,140.9,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,44,146,63.1,46.5,87.2,0.53,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD003-U044-C146,AUTO_APPROVED,23.0,registry v1
-FD003,45,88,125.3,100.9,155.5,0.12,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,46,180,7.8,3.3,12.4,5.75,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U046-C180,AUTO_APPROVED,1.0,registry v1
-FD003,47,56,123.4,99.0,153.6,0.14,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,48,179,55.6,43.3,72.1,1.16,False,MEDIUM,Fan / bypass duct,False,WO-FD003-U048-C179,AUTO_APPROVED,21.0,registry v1
-FD003,49,211,115.7,91.3,145.9,0.57,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,50,147,13.4,8.9,18.0,4.89,True,CRITICAL,Low-pressure turbine (LPT),False,WO-FD003-U050-C147,AUTO_APPROVED,1.0,registry v1
-FD003,51,118,80.6,59.9,114.7,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,52,38,125.0,100.6,155.2,0.07,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,53,108,100.4,76.0,130.6,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,54,50,124.1,99.7,154.3,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,55,203,54.5,42.2,71.0,2.27,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U055-C203,AUTO_APPROVED,21.0,registry v1
-FD003,56,162,77.1,60.5,101.2,1.21,False,LOW,Engine core (HPC/HPT spool),False,,NO_ACTION,,registry v1
-FD003,57,158,72.4,55.8,96.5,0.64,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD003-U057-C158,AUTO_APPROVED,27.0,registry v1
-FD003,58,119,48.8,36.5,65.3,1.35,False,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U058-C119,AUTO_APPROVED,18.0,registry v1
-FD003,59,149,49.4,37.1,65.9,2.1,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD003-U059-C149,AUTO_APPROVED,18.0,registry v1
-FD003,60,112,115.6,91.2,145.8,0.21,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,61,78,124.6,100.2,154.8,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,62,224,66.8,50.2,90.9,1.1,False,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U062-C224,AUTO_APPROVED,25.0,registry v1
-FD003,63,137,119.2,94.8,149.4,0.25,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,64,271,26.9,20.8,35.8,3.65,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U064-C271,AUTO_APPROVED,1.0,registry v1
-FD003,65,79,124.7,100.3,154.9,0.06,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,66,122,86.4,65.7,120.5,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,67,186,111.9,87.5,142.1,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,68,188,109.4,85.0,139.6,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,69,105,94.3,73.6,128.4,0.62,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,70,84,89.8,69.1,123.9,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,71,367,31.1,25.0,40.0,3.45,True,HIGH,High-pressure compressor (HPC),False,WO-FD003-U071-C367,AUTO_APPROVED,12.0,registry v1
-FD003,72,232,46.5,34.2,63.0,1.83,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U072-C232,AUTO_APPROVED,17.0,registry v1
-FD003,73,109,121.1,96.7,151.3,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,74,68,124.2,99.8,154.4,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,75,191,45.5,33.2,62.0,1.47,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U075-C191,AUTO_APPROVED,16.0,registry v1
-FD003,76,180,29.7,23.6,38.6,6.4,True,HIGH,High-pressure compressor (HPC),False,WO-FD003-U076-C180,AUTO_APPROVED,11.0,registry v1
-FD003,77,381,82.9,62.2,117.0,1.36,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD003-U077-C381,AUTO_APPROVED,31.0,registry v1
-FD003,78,279,22.0,15.9,30.9,3.83,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U078-C279,AUTO_APPROVED,1.0,registry v1
-FD003,79,170,19.0,14.5,23.6,3.75,True,CRITICAL,Low-pressure turbine (LPT),False,WO-FD003-U079-C170,AUTO_APPROVED,1.0,registry v1
-FD003,80,85,117.3,92.9,147.5,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,81,155,16.7,12.2,21.3,3.09,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U081-C155,AUTO_APPROVED,1.0,registry v1
-FD003,82,194,3.0,0.0,7.6,5.57,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U082-C194,AUTO_APPROVED,1.0,registry v1
-FD003,83,168,112.2,87.8,142.4,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,84,76,82.1,61.4,116.2,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,85,118,62.8,46.2,86.9,0.4,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD003-U085-C118,AUTO_APPROVED,23.0,registry v1
-FD003,86,174,19.7,15.2,24.3,10.57,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD003-U086-C174,AUTO_APPROVED,1.0,registry v1
-FD003,87,218,77.5,60.9,101.6,4.01,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD003-U087-C218,AUTO_APPROVED,30.0,registry v1
-FD003,88,41,120.1,95.7,150.3,0.18,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,89,120,42.4,30.1,58.9,0.6,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD003-U089-C120,AUTO_APPROVED,15.0,registry v1
-FD003,90,206,64.6,48.0,88.7,4.77,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD003-U090-C206,AUTO_APPROVED,24.0,registry v1
-FD003,91,56,119.5,95.1,149.7,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,92,266,13.4,8.9,18.0,5.14,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U092-C266,AUTO_APPROVED,1.0,registry v1
-FD003,93,158,67.3,50.7,91.4,0.44,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD003-U093-C158,AUTO_APPROVED,25.0,registry v1
-FD003,94,333,7.6,3.1,12.2,6.55,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U094-C333,AUTO_APPROVED,1.0,registry v1
-FD003,95,213,101.8,77.4,132.0,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,96,358,104.7,80.3,134.9,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,97,95,113.7,89.3,143.9,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD003,98,182,17.2,12.7,21.8,19.55,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD003-U098-C182,AUTO_APPROVED,1.0,registry v1
-FD003,99,289,9.6,5.1,14.2,6.74,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U099-C289,AUTO_APPROVED,1.0,registry v1
-FD003,100,247,25.0,18.9,33.9,3.13,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD003-U100-C247,AUTO_APPROVED,1.0,registry v1
-FD004,1,230,29.2,17.7,41.5,3.22,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U001-C230,AUTO_APPROVED,1.0,registry v1
-FD004,2,153,39.1,27.6,51.4,3.3,True,HIGH,High-pressure compressor (HPC),False,WO-FD004-U002-C153,AUTO_APPROVED,13.0,registry v1
-FD004,3,141,117.1,88.6,147.0,0.35,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,4,208,83.0,54.5,118.1,0.75,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,5,51,123.9,95.4,153.8,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,6,146,85.6,57.1,120.7,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,7,54,122.4,93.9,152.3,0.12,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,8,248,12.7,5.9,18.7,32.53,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U008-C248,AUTO_APPROVED,1.0,registry v1
-FD004,9,284,91.5,63.0,126.6,0.73,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,10,23,123.1,94.6,153.0,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,11,82,119.4,90.9,149.3,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,12,270,8.8,2.0,14.8,8.35,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U012-C270,AUTO_APPROVED,1.0,registry v1
-FD004,13,227,83.1,54.6,118.2,0.73,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,14,102,120.8,92.3,150.7,0.15,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,15,168,40.5,25.0,58.0,2.37,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U015-C168,AUTO_APPROVED,12.0,registry v1
-FD004,16,240,121.0,92.5,150.9,0.52,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,17,334,109.7,81.2,139.6,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,18,247,106.8,78.3,136.7,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,19,24,124.9,96.4,154.8,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,20,115,100.7,72.2,130.6,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,21,202,102.3,73.8,132.2,0.66,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,22,158,7.8,1.0,13.8,21.74,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U022-C158,AUTO_APPROVED,1.0,registry v1
-FD004,23,162,25.7,14.2,38.0,3.23,True,CRITICAL,Low-pressure turbine (LPT),False,WO-FD004-U023-C162,AUTO_APPROVED,1.0,registry v1
-FD004,24,174,107.6,79.1,137.5,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,25,486,47.5,32.0,65.0,3.65,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U025-C486,AUTO_APPROVED,16.0,registry v1
-FD004,26,90,95.0,66.5,130.1,0.45,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,27,144,55.0,39.5,72.5,0.86,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD004-U027-C144,AUTO_APPROVED,19.0,registry v1
-FD004,28,20,124.6,96.1,154.5,0.15,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,29,216,79.7,59.6,104.9,1.01,False,LOW,Engine core (HPC/HPT spool),False,,NO_ACTION,,registry v1
-FD004,30,229,114.3,85.8,144.2,0.68,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,31,134,7.9,1.1,13.9,6.47,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U031-C134,AUTO_APPROVED,1.0,registry v1
-FD004,32,260,24.5,13.0,36.8,5.11,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U032-C260,AUTO_APPROVED,1.0,registry v1
-FD004,33,107,122.8,94.3,152.7,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,34,361,88.6,60.1,123.7,1.11,False,LOW,Bleed air system,False,,NO_ACTION,,registry v1
-FD004,35,278,33.7,22.2,46.0,11.44,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD004-U035-C278,AUTO_APPROVED,11.0,registry v1
-FD004,36,159,71.4,51.3,96.6,0.55,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD004-U036-C159,AUTO_APPROVED,25.0,registry v1
-FD004,37,345,70.3,50.2,95.5,1.11,False,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U037-C345,AUTO_APPROVED,25.0,registry v1
-FD004,38,125,12.5,5.7,18.5,6.96,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U038-C125,AUTO_APPROVED,1.0,registry v1
-FD004,39,214,82.0,53.5,117.1,0.65,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,40,266,13.8,7.0,19.8,6.41,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U040-C266,AUTO_APPROVED,1.0,registry v1
-FD004,41,414,93.4,64.9,128.5,1.04,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U041-C414,AUTO_APPROVED,32.0,registry v1
-FD004,42,200,26.7,15.2,39.0,4.06,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U042-C200,AUTO_APPROVED,1.0,registry v1
-FD004,43,120,52.2,36.7,69.7,1.98,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U043-C120,AUTO_APPROVED,18.0,registry v1
-FD004,44,406,50.6,35.1,68.1,1.6,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U044-C406,AUTO_APPROVED,17.0,registry v1
-FD004,45,78,106.8,78.3,136.7,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,46,37,120.6,92.1,150.5,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,47,224,34.5,23.0,46.8,6.8,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD004-U047-C224,AUTO_APPROVED,11.0,registry v1
-FD004,48,214,43.9,28.4,61.4,2.04,True,MEDIUM,Fan,False,WO-FD004-U048-C214,AUTO_APPROVED,14.0,registry v1
-FD004,49,273,22.5,11.0,34.8,4.55,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U049-C273,AUTO_APPROVED,1.0,registry v1
-FD004,50,206,88.3,59.8,123.4,0.8,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,51,137,99.7,71.2,134.8,0.62,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,52,58,124.4,95.9,154.3,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,53,67,121.1,92.6,151.0,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,54,81,117.8,89.3,147.7,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,55,103,124.8,96.3,154.7,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,56,180,71.0,50.9,96.2,0.87,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD004-U056-C180,AUTO_APPROVED,25.0,registry v1
-FD004,57,121,96.9,68.4,132.0,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,58,185,4.4,0.0,10.4,11.69,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U058-C185,AUTO_APPROVED,1.0,registry v1
-FD004,59,37,124.9,96.4,154.8,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,60,135,119.3,90.8,149.2,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,61,396,43.3,27.8,60.8,1.94,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U061-C396,AUTO_APPROVED,13.0,registry v1
-FD004,62,240,34.9,23.4,47.2,3.2,True,HIGH,High-pressure compressor (HPC),False,WO-FD004-U062-C240,AUTO_APPROVED,11.0,registry v1
-FD004,63,158,124.3,95.8,154.2,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,64,251,60.1,40.0,85.3,1.32,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD004-U064-C251,AUTO_APPROVED,20.0,registry v1
-FD004,65,186,14.8,8.0,20.8,5.46,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U065-C186,AUTO_APPROVED,1.0,registry v1
-FD004,66,97,110.4,81.9,140.3,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,67,150,38.5,27.0,50.8,0.96,False,HIGH,Not localised (sensors inside healthy envelope),True,WO-FD004-U067-C150,PENDING_HUMAN_REVIEW,13.0,registry v1
-FD004,68,241,56.9,41.4,74.4,23.08,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U068-C241,AUTO_APPROVED,20.0,registry v1
-FD004,69,162,11.4,4.6,17.4,11.79,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U069-C162,AUTO_APPROVED,1.0,registry v1
-FD004,70,190,42.2,26.7,59.7,1.62,True,MEDIUM,Fan,False,WO-FD004-U070-C190,AUTO_APPROVED,13.0,registry v1
-FD004,71,292,18.8,12.0,24.8,4.27,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U071-C292,AUTO_APPROVED,1.0,registry v1
-FD004,72,118,122.0,93.5,151.9,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,73,149,32.4,20.9,44.7,8.43,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U073-C149,AUTO_APPROVED,1.0,registry v1
-FD004,74,223,90.6,62.1,125.7,0.78,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,75,203,117.9,89.4,147.8,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,76,48,124.8,96.3,154.7,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,77,108,33.6,22.1,45.9,2.87,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD004-U077-C108,AUTO_APPROVED,11.0,registry v1
-FD004,78,106,73.3,53.2,98.5,0.6,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD004-U078-C106,AUTO_APPROVED,26.0,registry v1
-FD004,79,184,92.8,64.3,127.9,0.86,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,80,112,106.8,78.3,136.7,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,81,60,120.6,92.1,150.5,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,82,146,14.8,8.0,20.8,5.69,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U082-C146,AUTO_APPROVED,1.0,registry v1
-FD004,83,274,118.7,90.2,148.6,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,84,88,122.2,93.7,152.1,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,85,174,117.6,89.1,147.5,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,86,254,74.4,54.3,99.6,0.61,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD004-U086-C254,AUTO_APPROVED,27.0,registry v1
-FD004,87,167,118.8,90.3,148.7,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,88,140,61.0,40.9,86.2,1.1,False,MEDIUM,High-pressure compressor (HPC),False,WO-FD004-U088-C140,AUTO_APPROVED,20.0,registry v1
-FD004,89,285,97.0,68.5,132.1,1.0,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,90,118,78.7,58.6,103.9,0.6,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,91,144,51.2,35.7,68.7,6.12,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U091-C144,AUTO_APPROVED,17.0,registry v1
-FD004,92,116,74.4,54.3,99.6,0.98,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD004-U092-C116,AUTO_APPROVED,27.0,registry v1
-FD004,93,200,123.5,95.0,153.4,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,94,105,114.5,86.0,144.4,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,95,110,117.6,89.1,147.5,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,96,123,98.1,69.6,133.2,0.96,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,97,51,121.9,93.4,151.8,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,98,82,112.1,83.6,142.0,0.6,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,99,237,36.7,25.2,49.0,1.9,True,HIGH,High-pressure compressor (HPC),False,WO-FD004-U099-C237,AUTO_APPROVED,12.0,registry v1
-FD004,100,196,10.7,3.9,16.7,5.32,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U100-C196,AUTO_APPROVED,1.0,registry v1
-FD004,101,166,13.8,7.0,19.8,10.92,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U101-C166,AUTO_APPROVED,1.0,registry v1
-FD004,102,443,20.4,8.9,32.7,4.75,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U102-C443,AUTO_APPROVED,1.0,registry v1
-FD004,103,145,15.5,8.7,21.5,11.55,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U103-C145,AUTO_APPROVED,1.0,registry v1
-FD004,104,65,121.9,93.4,151.8,0.66,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,105,351,93.5,65.0,128.6,0.92,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,106,148,78.8,58.7,104.0,0.7,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,107,121,47.3,31.8,64.8,1.34,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD004-U107-C121,AUTO_APPROVED,15.0,registry v1
-FD004,108,145,125.3,96.8,155.2,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,109,66,124.5,96.0,154.4,0.15,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,110,348,62.6,42.5,87.8,1.27,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U110-C348,AUTO_APPROVED,21.0,registry v1
-FD004,111,342,17.6,10.8,23.6,6.9,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U111-C342,AUTO_APPROVED,1.0,registry v1
-FD004,112,88,82.3,53.8,117.4,0.68,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,113,132,14.6,7.8,20.6,8.28,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U113-C132,AUTO_APPROVED,1.0,registry v1
-FD004,114,218,20.5,9.0,32.8,3.07,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U114-C218,AUTO_APPROVED,1.0,registry v1
-FD004,115,82,117.4,88.9,147.3,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,116,161,10.2,3.4,16.2,6.49,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U116-C161,AUTO_APPROVED,1.0,registry v1
-FD004,117,97,112.8,84.3,142.7,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,118,178,20.2,8.7,32.5,4.42,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U118-C178,AUTO_APPROVED,1.0,registry v1
-FD004,119,228,100.4,71.9,130.3,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,120,170,125.5,97.0,155.4,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,121,194,35.4,23.9,47.7,5.82,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD004-U121-C194,AUTO_APPROVED,11.0,registry v1
-FD004,122,117,124.4,95.9,154.3,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,123,236,27.1,15.6,39.4,3.05,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U123-C236,AUTO_APPROVED,1.0,registry v1
-FD004,124,230,68.4,48.3,93.6,7.46,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U124-C230,AUTO_APPROVED,24.0,registry v1
-FD004,125,21,125.1,96.6,155.0,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,126,220,19.9,13.1,25.9,14.64,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U126-C220,AUTO_APPROVED,1.0,registry v1
-FD004,127,98,124.3,95.8,154.2,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,128,139,125.0,96.5,154.9,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,129,315,107.7,79.2,137.6,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,130,107,109.2,80.7,139.1,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,131,193,97.5,69.0,132.6,1.09,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U131-C193,AUTO_APPROVED,34.0,registry v1
-FD004,132,115,112.2,83.7,142.1,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,133,74,123.9,95.4,153.8,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,134,266,48.3,32.8,65.8,2.21,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U134-C266,AUTO_APPROVED,16.0,registry v1
-FD004,135,435,10.8,4.0,16.8,6.94,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U135-C435,AUTO_APPROVED,1.0,registry v1
-FD004,136,56,119.0,90.5,148.9,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,137,291,118.8,90.3,148.7,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,138,239,93.3,64.8,128.4,0.66,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,139,88,123.4,94.9,153.3,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,140,160,111.9,83.4,141.8,0.56,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,141,19,124.9,96.4,154.8,0.15,False,LOW,Not localised (sensors inside healthy envelope),True,,NO_ACTION,,registry v1
-FD004,142,69,122.7,94.2,152.6,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,143,327,60.2,40.1,85.4,1.22,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U143-C327,AUTO_APPROVED,20.0,registry v1
-FD004,144,34,119.9,91.4,149.8,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,145,102,65.5,45.4,90.7,0.67,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD004-U145-C102,AUTO_APPROVED,22.0,registry v1
-FD004,146,84,120.4,91.9,150.3,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,147,116,82.8,54.3,117.9,2.9,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U147-C116,AUTO_APPROVED,27.0,registry v1
-FD004,148,126,109.2,80.7,139.1,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,149,320,69.8,49.7,95.0,1.35,False,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U149-C320,AUTO_APPROVED,24.0,registry v1
-FD004,150,202,54.6,39.1,72.1,3.89,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U150-C202,AUTO_APPROVED,19.0,registry v1
-FD004,151,285,26.5,15.0,38.8,2.76,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U151-C285,AUTO_APPROVED,1.0,registry v1
-FD004,152,195,94.9,66.4,130.0,0.51,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,153,130,113.5,85.0,143.4,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,154,122,40.4,24.9,57.9,1.16,False,MEDIUM,High-pressure compressor (HPC),False,WO-FD004-U154-C122,AUTO_APPROVED,12.0,registry v1
-FD004,155,161,9.7,2.9,15.7,9.03,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U155-C161,AUTO_APPROVED,1.0,registry v1
-FD004,156,28,120.7,92.2,150.6,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,157,138,125.2,96.7,155.1,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,158,171,7.2,0.4,13.2,5.26,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U158-C171,AUTO_APPROVED,1.0,registry v1
-FD004,159,160,26.0,14.5,38.3,3.21,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U159-C160,AUTO_APPROVED,1.0,registry v1
-FD004,160,122,96.3,67.8,131.4,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,161,257,101.1,72.6,131.0,0.83,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,162,99,95.8,67.3,130.9,0.61,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,163,122,99.7,71.2,134.8,0.77,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,164,29,125.5,97.0,155.4,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,165,178,122.3,93.8,152.2,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,166,63,116.8,88.3,146.7,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,167,99,117.5,89.0,147.4,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,168,74,111.8,83.3,141.7,0.21,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,169,34,125.5,97.0,155.4,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,170,48,124.6,96.1,154.5,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,171,355,106.1,77.6,136.0,0.73,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,172,132,18.1,11.3,24.1,5.78,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U172-C132,AUTO_APPROVED,1.0,registry v1
-FD004,173,151,6.3,0.0,12.3,6.66,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U173-C151,AUTO_APPROVED,1.0,registry v1
-FD004,174,135,14.7,7.9,20.7,11.15,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U174-C135,AUTO_APPROVED,1.0,registry v1
-FD004,175,116,113.5,85.0,143.4,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,176,185,98.5,70.0,133.6,1.94,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U176-C185,AUTO_APPROVED,35.0,registry v1
-FD004,177,146,20.4,8.9,32.7,9.3,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U177-C146,AUTO_APPROVED,1.0,registry v1
-FD004,178,279,110.2,81.7,140.1,0.8,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,179,262,15.4,8.6,21.4,4.2,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U179-C262,AUTO_APPROVED,1.0,registry v1
-FD004,180,367,20.5,9.0,32.8,4.11,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U180-C367,AUTO_APPROVED,1.0,registry v1
-FD004,181,199,40.0,24.5,57.5,11.23,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD004-U181-C199,AUTO_APPROVED,12.0,registry v1
-FD004,182,98,119.2,90.7,149.1,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,183,125,15.3,8.5,21.3,5.37,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U183-C125,AUTO_APPROVED,1.0,registry v1
-FD004,184,154,8.2,1.4,14.2,7.08,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U184-C154,AUTO_APPROVED,1.0,registry v1
-FD004,185,203,48.3,32.8,65.8,3.16,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD004-U185-C203,AUTO_APPROVED,16.0,registry v1
-FD004,186,47,122.8,94.3,152.7,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,187,121,28.2,16.7,40.5,4.41,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U187-C121,AUTO_APPROVED,1.0,registry v1
-FD004,188,157,119.7,91.2,149.6,0.72,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,189,107,102.9,74.4,132.8,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,190,200,49.8,34.3,67.3,1.31,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD004-U190-C200,AUTO_APPROVED,17.0,registry v1
-FD004,191,71,123.7,95.2,153.6,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,192,203,82.6,54.1,117.7,0.56,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,193,263,101.9,73.4,131.8,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,194,214,19.0,12.2,25.0,4.13,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U194-C214,AUTO_APPROVED,1.0,registry v1
-FD004,195,186,123.2,94.7,153.1,0.56,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,196,70,115.7,87.2,145.6,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,197,196,30.9,19.4,43.2,10.21,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U197-C196,AUTO_APPROVED,1.0,registry v1
-FD004,198,115,8.7,1.9,14.7,6.93,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U198-C115,AUTO_APPROVED,1.0,registry v1
-FD004,199,177,81.1,52.6,116.2,0.54,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,200,115,93.7,65.2,128.8,0.85,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,201,139,92.0,63.5,127.1,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,202,222,8.9,2.1,14.9,28.34,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U202-C222,AUTO_APPROVED,1.0,registry v1
-FD004,203,87,122.6,94.1,152.5,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,204,19,122.7,94.2,152.6,0.2,False,LOW,Not localised (sensors inside healthy envelope),True,,NO_ACTION,,registry v1
-FD004,205,95,107.6,79.1,137.5,0.77,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,206,291,119.4,90.9,149.3,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,207,179,122.0,93.5,151.9,0.55,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,208,180,105.8,77.3,135.7,1.55,True,MEDIUM,Engine core (HPC/HPT spool),True,WO-FD004-U208-C180,PENDING_HUMAN_REVIEW,38.0,registry v1
-FD004,209,171,12.4,5.6,18.4,5.47,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U209-C171,AUTO_APPROVED,1.0,registry v1
-FD004,210,135,95.6,67.1,130.7,0.88,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,211,206,116.2,87.7,146.1,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,212,261,81.9,53.4,117.0,1.23,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U212-C261,AUTO_APPROVED,26.0,registry v1
-FD004,213,288,17.7,10.9,23.7,7.14,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U213-C288,AUTO_APPROVED,1.0,registry v1
-FD004,214,102,92.0,63.5,127.1,0.52,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,215,72,121.8,93.3,151.7,0.14,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,216,264,17.2,10.4,23.2,8.14,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U216-C264,AUTO_APPROVED,1.0,registry v1
-FD004,217,141,65.0,44.9,90.2,0.77,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD004-U217-C141,AUTO_APPROVED,22.0,registry v1
-FD004,218,63,117.3,88.8,147.2,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,219,110,46.8,31.3,64.3,1.39,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U219-C110,AUTO_APPROVED,15.0,registry v1
-FD004,220,65,124.8,96.3,154.7,0.21,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,221,176,74.8,54.7,100.0,0.55,False,MEDIUM,Not localised (sensors inside healthy envelope),False,WO-FD004-U221-C176,AUTO_APPROVED,27.0,registry v1
-FD004,222,178,43.7,28.2,61.2,1.35,True,MEDIUM,Fan,False,WO-FD004-U222-C178,AUTO_APPROVED,14.0,registry v1
-FD004,223,305,51.7,36.2,69.2,1.86,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U223-C305,AUTO_APPROVED,18.0,registry v1
-FD004,224,152,12.8,6.0,18.8,7.69,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U224-C152,AUTO_APPROVED,1.0,registry v1
-FD004,225,39,122.9,94.4,152.8,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,226,59,109.6,81.1,139.5,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,227,62,125.0,96.5,154.9,0.35,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,228,126,124.1,95.6,154.0,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,229,20,123.0,94.5,152.9,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,230,157,109.2,80.7,139.1,1.23,False,LOW,Engine core (HPC/HPT spool),False,,NO_ACTION,,registry v1
-FD004,231,230,30.0,18.5,42.3,2.49,True,CRITICAL,Fan,False,WO-FD004-U231-C230,AUTO_APPROVED,1.0,registry v1
-FD004,232,370,125.0,96.5,154.9,0.84,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,233,111,112.8,84.3,142.7,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,234,179,53.0,37.5,70.5,1.59,True,MEDIUM,Engine core (HPC/HPT spool),False,WO-FD004-U234-C179,AUTO_APPROVED,18.0,registry v1
-FD004,235,362,27.3,15.8,39.6,4.69,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U235-C362,AUTO_APPROVED,1.0,registry v1
-FD004,236,176,88.7,60.2,123.8,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,237,221,14.7,7.9,20.7,4.46,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U237-C221,AUTO_APPROVED,1.0,registry v1
-FD004,238,177,11.6,4.8,17.6,6.49,True,CRITICAL,High-pressure compressor (HPC),False,WO-FD004-U238-C177,AUTO_APPROVED,1.0,registry v1
-FD004,239,28,121.2,92.7,151.1,0.44,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,240,204,41.3,25.8,58.8,1.74,True,MEDIUM,High-pressure compressor (HPC),False,WO-FD004-U240-C204,AUTO_APPROVED,12.0,registry v1
-FD004,241,42,122.7,94.2,152.6,0.16,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,242,112,98.7,70.2,133.8,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,243,199,95.1,66.6,130.2,0.57,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,244,184,36.1,24.6,48.4,7.3,True,HIGH,Engine core (HPC/HPT spool),False,WO-FD004-U244-C184,AUTO_APPROVED,12.0,registry v1
-FD004,245,63,123.8,95.3,153.7,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,246,29,124.9,96.4,154.8,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,247,94,99.1,70.6,134.2,0.66,False,LOW,Not localised (sensors inside healthy envelope),False,,NO_ACTION,,registry v1
-FD004,248,281,31.9,20.4,44.2,12.21,True,CRITICAL,Engine core (HPC/HPT spool),False,WO-FD004-U248-C281,AUTO_APPROVED,1.0,registry v1
+subset,unit,cycles_seen,pred_RUL,rul_lower,rul_upper,anomaly_score,alarm,severity,suspected_component,needs_human_review,sensor_suspect,work_order_id,wo_status,due_within_cycles,model_version
+FD001,1,31,119.3,94.3,149.4,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,2,49,116.8,91.8,146.9,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,3,126,48.7,35.5,60.8,0.91,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD001-U003-C126,AUTO_APPROVED,17.0,registry v2
+FD001,4,106,75.2,57.7,96.2,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,5,98,89.4,65.3,115.3,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,6,105,103.0,78.0,133.1,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,7,160,110.4,85.4,140.5,0.75,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,8,166,92.7,68.6,118.6,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,9,55,118.5,93.5,148.6,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,10,192,95.5,71.4,121.4,1.11,False,LOW,High-pressure compressor (HPC),False,,,NO_ACTION,,registry v2
+FD001,11,83,110.3,85.3,140.4,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,12,217,112.2,87.2,142.3,1.17,True,MEDIUM,Engine core (HPC/HPT spool),True,,WO-FD001-U012-C217,PENDING_HUMAN_REVIEW,43.0,registry v2
+FD001,13,195,95.5,71.4,121.4,1.11,False,LOW,Low-pressure turbine (LPT),False,,,NO_ACTION,,registry v2
+FD001,14,46,124.1,99.1,154.2,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,15,76,97.4,73.3,123.3,0.74,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,16,113,91.4,67.3,117.3,0.67,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,17,165,49.0,35.8,61.1,3.02,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD001-U017-C165,AUTO_APPROVED,17.0,registry v2
+FD001,18,133,29.1,22.0,38.0,4.97,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U018-C133,AUTO_APPROVED,1.0,registry v2
+FD001,19,135,89.3,65.2,115.2,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,20,184,13.4,8.6,17.7,5.25,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD001-U020-C184,AUTO_APPROVED,1.0,registry v2
+FD001,21,148,59.4,46.2,71.5,7.02,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD001-U021-C148,AUTO_APPROVED,23.0,registry v2
+FD001,22,39,124.5,99.5,154.6,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,23,130,125.2,100.2,155.3,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,24,186,20.8,13.7,29.7,28.87,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U024-C186,AUTO_APPROVED,1.0,registry v2
+FD001,25,48,124.3,99.3,154.4,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,26,76,116.8,91.8,146.9,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,27,140,77.9,60.4,98.9,0.82,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,28,158,97.9,73.8,123.8,0.96,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,29,171,96.2,72.1,122.1,1.56,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD001-U029-C171,AUTO_APPROVED,36.0,registry v2
+FD001,30,143,100.9,75.9,131.0,0.52,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,31,196,8.2,3.4,12.5,6.09,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD001-U031-C196,AUTO_APPROVED,1.0,registry v2
+FD001,32,145,45.1,31.9,57.2,3.69,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD001-U032-C145,AUTO_APPROVED,15.0,registry v2
+FD001,33,50,121.9,96.9,152.0,0.14,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,34,203,5.0,0.2,9.3,19.97,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U034-C203,AUTO_APPROVED,1.0,registry v2
+FD001,35,198,11.4,6.6,15.7,4.81,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U035-C198,AUTO_APPROVED,1.0,registry v2
+FD001,36,126,17.4,12.6,21.7,1.71,True,CRITICAL,Fan / bypass duct,False,,WO-FD001-U036-C126,AUTO_APPROVED,1.0,registry v2
+FD001,37,121,25.7,18.6,34.6,6.68,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U037-C121,AUTO_APPROVED,1.0,registry v2
+FD001,38,125,46.6,33.4,58.7,4.11,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD001-U038-C125,AUTO_APPROVED,16.0,registry v2
+FD001,39,37,125.5,100.5,155.6,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,40,133,30.3,23.2,39.2,1.12,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD001-U040-C133,AUTO_APPROVED,11.0,registry v2
+FD001,41,123,22.8,15.7,31.7,7.72,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U041-C123,AUTO_APPROVED,1.0,registry v2
+FD001,42,156,14.1,9.3,18.4,12.31,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U042-C156,AUTO_APPROVED,1.0,registry v2
+FD001,43,172,58.2,45.0,70.3,1.2,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD001-U043-C172,AUTO_APPROVED,22.0,registry v2
+FD001,44,54,118.7,93.7,148.8,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,45,152,96.2,72.1,122.1,0.57,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,46,146,37.2,30.1,46.1,1.85,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD001-U046-C146,AUTO_APPROVED,15.0,registry v2
+FD001,47,73,130.5,105.5,160.6,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,48,78,100.5,75.5,130.6,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,49,303,19.4,14.6,23.7,10.75,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD001-U049-C303,AUTO_APPROVED,1.0,registry v2
+FD001,50,74,94.8,70.7,120.7,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,51,144,93.1,69.0,119.0,0.54,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,52,189,26.9,19.8,35.8,17.34,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U052-C189,AUTO_APPROVED,1.0,registry v2
+FD001,53,164,30.2,23.1,39.1,12.58,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD001-U053-C164,AUTO_APPROVED,11.0,registry v2
+FD001,54,121,109.2,84.2,139.3,0.82,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,55,113,114.5,89.5,144.6,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,56,136,17.4,12.6,21.7,2.43,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD001-U056-C136,AUTO_APPROVED,1.0,registry v2
+FD001,57,160,96.9,72.8,122.8,0.65,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,58,176,37.4,30.3,46.3,2.57,True,HIGH,Fan,False,,WO-FD001-U058-C176,AUTO_APPROVED,15.0,registry v2
+FD001,59,94,110.4,85.4,140.5,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,60,147,96.1,72.0,122.0,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,61,159,21.9,14.8,30.8,5.2,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD001-U061-C159,AUTO_APPROVED,1.0,registry v2
+FD001,62,232,49.9,36.7,62.0,6.65,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD001-U062-C232,AUTO_APPROVED,18.0,registry v2
+FD001,63,155,76.8,59.3,97.8,0.83,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,64,168,29.8,22.7,38.7,3.03,True,HIGH,Low-pressure turbine (LPT),False,,WO-FD001-U064-C168,AUTO_APPROVED,11.0,registry v2
+FD001,65,71,118.0,93.0,148.1,0.45,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,66,147,17.2,12.4,21.5,17.28,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U066-C147,AUTO_APPROVED,1.0,registry v2
+FD001,67,71,109.7,84.7,139.8,0.44,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,68,187,8.4,3.6,12.7,5.98,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U068-C187,AUTO_APPROVED,1.0,registry v2
+FD001,69,54,115.1,90.1,145.2,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,70,152,86.8,62.7,112.7,0.55,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,71,68,117.7,92.7,147.8,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,72,131,64.1,46.6,85.1,1.05,False,MEDIUM,High-pressure compressor (HPC),False,,WO-FD001-U072-C131,AUTO_APPROVED,23.0,registry v2
+FD001,73,112,102.0,77.0,132.1,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,74,137,108.6,83.6,138.7,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,75,88,83.3,59.2,109.2,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,76,205,6.1,1.3,10.4,14.16,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U076-C205,AUTO_APPROVED,1.0,registry v2
+FD001,77,162,30.3,23.2,39.2,3.88,True,HIGH,Fan,False,,WO-FD001-U077-C162,AUTO_APPROVED,11.0,registry v2
+FD001,78,72,119.1,94.1,149.2,0.45,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,79,101,62.6,45.1,83.6,0.85,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD001-U079-C101,AUTO_APPROVED,22.0,registry v2
+FD001,80,133,91.5,67.4,117.4,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,81,213,4.5,0.0,8.8,6.6,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD001-U081-C213,AUTO_APPROVED,1.0,registry v2
+FD001,82,162,9.7,4.9,14.0,10.82,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U082-C162,AUTO_APPROVED,1.0,registry v2
+FD001,83,73,114.7,89.7,144.8,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,84,172,61.5,44.0,82.5,1.83,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD001-U084-C172,AUTO_APPROVED,22.0,registry v2
+FD001,85,34,122.8,97.8,152.9,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,86,110,94.3,70.2,120.2,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,87,56,106.4,81.4,136.5,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,88,68,116.7,91.7,146.8,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,89,177,119.4,94.4,149.5,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,90,146,23.5,16.4,32.4,4.83,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U090-C146,AUTO_APPROVED,1.0,registry v2
+FD001,91,234,33.3,26.2,42.2,2.08,True,HIGH,Low-pressure turbine (LPT),False,,WO-FD001-U091-C234,AUTO_APPROVED,13.0,registry v2
+FD001,92,150,24.3,17.2,33.2,1.78,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD001-U092-C150,AUTO_APPROVED,1.0,registry v2
+FD001,93,244,67.6,50.1,88.6,2.37,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD001-U093-C244,AUTO_APPROVED,25.0,registry v2
+FD001,94,133,52.3,39.1,64.4,1.28,False,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD001-U094-C133,AUTO_APPROVED,19.0,registry v2
+FD001,95,89,96.4,72.3,122.3,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,96,97,117.7,92.7,147.8,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,97,134,89.4,65.3,115.3,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,98,121,58.9,45.7,71.0,0.62,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD001-U098-C121,AUTO_APPROVED,22.0,registry v2
+FD001,99,97,119.2,94.2,149.3,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v2
+FD001,100,198,20.6,13.5,29.5,43.34,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD001-U100-C198,AUTO_APPROVED,1.0,registry v2
+FD002,1,258,18.1,13.4,23.6,19.26,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U001-C258,AUTO_APPROVED,1.0,registry v1
+FD002,2,55,120.6,92.7,151.3,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,3,165,107.9,80.0,138.6,1.15,False,LOW,Engine core (HPC/HPT spool),False,,,NO_ACTION,,registry v1
+FD002,4,86,83.0,57.1,113.9,0.67,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,5,148,12.6,7.9,18.1,19.71,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U005-C148,AUTO_APPROVED,1.0,registry v1
+FD002,6,63,121.6,93.7,152.3,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,7,184,5.7,1.0,11.2,11.43,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U007-C184,AUTO_APPROVED,1.0,registry v1
+FD002,8,173,85.1,59.2,116.0,1.49,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U008-C173,AUTO_APPROVED,29.0,registry v1
+FD002,9,161,10.3,5.6,15.8,11.22,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U009-C161,AUTO_APPROVED,1.0,registry v1
+FD002,10,84,109.8,81.9,140.5,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,11,162,8.4,3.7,13.9,14.4,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U011-C162,AUTO_APPROVED,1.0,registry v1
+FD002,12,74,110.7,82.8,141.4,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,13,164,29.2,21.7,37.8,4.6,True,CRITICAL,Fan / bypass duct,False,,WO-FD002-U013-C164,AUTO_APPROVED,1.0,registry v1
+FD002,14,160,11.2,6.5,16.7,5.11,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U014-C160,AUTO_APPROVED,1.0,registry v1
+FD002,15,165,36.5,29.0,45.1,2.33,True,HIGH,High-pressure compressor (HPC),False,,WO-FD002-U015-C165,AUTO_APPROVED,14.0,registry v1
+FD002,16,88,85.6,59.7,116.5,0.6,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,17,264,72.6,54.1,93.0,2.52,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD002-U017-C264,AUTO_APPROVED,27.0,registry v1
+FD002,18,40,122.8,94.9,153.5,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,19,172,21.7,14.2,30.3,23.54,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U019-C172,AUTO_APPROVED,1.0,registry v1
+FD002,20,101,54.9,43.2,67.3,0.69,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U020-C101,AUTO_APPROVED,21.0,registry v1
+FD002,21,128,93.9,68.0,124.8,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,22,159,8.8,4.1,14.3,16.85,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U022-C159,AUTO_APPROVED,1.0,registry v1
+FD002,23,49,124.7,96.8,155.4,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,24,210,88.4,62.5,119.3,5.68,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U024-C210,AUTO_APPROVED,31.0,registry v1
+FD002,25,147,72.5,54.0,92.9,0.95,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U025-C147,AUTO_APPROVED,27.0,registry v1
+FD002,26,76,112.6,84.7,143.3,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,27,68,117.6,89.7,148.3,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,28,23,130.8,102.9,161.5,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,29,101,98.4,72.5,129.3,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,30,184,77.1,58.6,97.5,1.6,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U030-C184,AUTO_APPROVED,29.0,registry v1
+FD002,31,123,89.9,64.0,120.8,1.35,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD002-U031-C123,AUTO_APPROVED,32.0,registry v1
+FD002,32,170,12.2,7.5,17.7,7.9,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U032-C170,AUTO_APPROVED,1.0,registry v1
+FD002,33,135,68.0,49.5,88.4,0.63,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U033-C135,AUTO_APPROVED,24.0,registry v1
+FD002,34,52,125.6,97.7,156.3,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,35,77,63.2,44.7,83.6,0.63,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U035-C077,AUTO_APPROVED,22.0,registry v1
+FD002,36,163,90.4,64.5,121.3,0.99,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,37,49,126.3,98.4,157.0,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,38,127,59.4,47.7,71.8,0.74,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U038-C127,AUTO_APPROVED,23.0,registry v1
+FD002,39,149,61.7,43.2,82.1,0.73,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U039-C149,AUTO_APPROVED,21.0,registry v1
+FD002,40,183,38.7,31.2,47.3,1.68,True,HIGH,Fan / bypass duct,False,,WO-FD002-U040-C183,AUTO_APPROVED,15.0,registry v1
+FD002,41,210,40.8,29.1,53.2,2.36,True,MEDIUM,Fan / bypass duct,False,,WO-FD002-U041-C210,AUTO_APPROVED,14.0,registry v1
+FD002,42,137,26.8,19.3,35.4,3.26,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U042-C137,AUTO_APPROVED,1.0,registry v1
+FD002,43,184,21.7,14.2,30.3,9.08,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U043-C184,AUTO_APPROVED,1.0,registry v1
+FD002,44,164,5.7,1.0,11.2,15.89,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U044-C164,AUTO_APPROVED,1.0,registry v1
+FD002,45,195,14.4,9.7,19.9,17.5,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U045-C195,AUTO_APPROVED,1.0,registry v1
+FD002,46,132,110.5,82.6,141.2,1.01,True,MEDIUM,Engine core (HPC/HPT spool),True,,WO-FD002-U046-C132,PENDING_HUMAN_REVIEW,41.0,registry v1
+FD002,47,81,111.5,83.6,142.2,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,48,132,15.7,11.0,21.2,8.76,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U048-C132,AUTO_APPROVED,1.0,registry v1
+FD002,49,65,121.6,93.7,152.3,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,50,164,5.4,0.7,10.9,12.97,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U050-C164,AUTO_APPROVED,1.0,registry v1
+FD002,51,37,126.8,98.9,157.5,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,52,165,50.7,39.0,63.1,1.55,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U052-C165,AUTO_APPROVED,19.0,registry v1
+FD002,53,149,48.7,37.0,61.1,1.33,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U053-C149,AUTO_APPROVED,18.0,registry v1
+FD002,54,74,120.4,92.5,151.1,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,55,123,99.0,73.1,129.9,1.0,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,56,73,124.6,96.7,155.3,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,57,76,120.3,92.4,151.0,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,58,247,26.4,18.9,35.0,8.27,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U058-C247,AUTO_APPROVED,1.0,registry v1
+FD002,59,22,121.4,93.5,152.1,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,60,144,90.1,64.2,121.0,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,61,70,124.7,96.8,155.4,0.11,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,62,205,36.3,28.8,44.9,3.6,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD002-U062-C205,AUTO_APPROVED,14.0,registry v1
+FD002,63,174,36.2,28.7,44.8,4.1,True,HIGH,High-pressure compressor (HPC),False,,WO-FD002-U063-C174,AUTO_APPROVED,14.0,registry v1
+FD002,64,233,16.2,11.5,21.7,5.83,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U064-C233,AUTO_APPROVED,1.0,registry v1
+FD002,65,367,8.1,3.4,13.6,8.33,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U065-C367,AUTO_APPROVED,1.0,registry v1
+FD002,66,63,114.1,86.2,144.8,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,67,146,72.6,54.1,93.0,1.29,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U067-C146,AUTO_APPROVED,27.0,registry v1
+FD002,68,218,51.9,40.2,64.3,5.54,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U068-C218,AUTO_APPROVED,20.0,registry v1
+FD002,69,158,111.5,83.6,142.2,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,70,264,17.9,13.2,23.4,6.13,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U070-C264,AUTO_APPROVED,1.0,registry v1
+FD002,71,65,119.9,92.0,150.6,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,72,143,106.6,78.7,137.3,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,73,151,65.7,47.2,86.1,0.76,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U073-C151,AUTO_APPROVED,23.0,registry v1
+FD002,74,103,99.7,73.8,130.6,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,75,192,100.6,72.7,131.3,2.69,True,MEDIUM,Engine core (HPC/HPT spool),True,,WO-FD002-U075-C192,PENDING_HUMAN_REVIEW,36.0,registry v1
+FD002,76,222,38.2,30.7,46.8,4.38,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD002-U076-C222,AUTO_APPROVED,15.0,registry v1
+FD002,77,67,115.7,87.8,146.4,0.25,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,78,128,48.8,37.1,61.2,4.45,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U078-C128,AUTO_APPROVED,18.0,registry v1
+FD002,79,113,99.3,73.4,130.2,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,80,278,19.6,14.9,25.1,8.22,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U080-C278,AUTO_APPROVED,1.0,registry v1
+FD002,81,76,116.8,88.9,147.5,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,82,96,93.8,67.9,124.7,0.61,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,83,21,123.4,95.5,154.1,0.18,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,84,204,19.5,14.8,25.0,7.92,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U084-C204,AUTO_APPROVED,1.0,registry v1
+FD002,85,183,47.8,36.1,60.2,3.44,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U085-C183,AUTO_APPROVED,18.0,registry v1
+FD002,86,83,117.6,89.7,148.3,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,87,131,23.0,15.5,31.6,2.57,True,CRITICAL,Fan / bypass duct,False,,WO-FD002-U087-C131,AUTO_APPROVED,1.0,registry v1
+FD002,88,166,85.8,59.9,116.7,0.71,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,89,59,123.8,95.9,154.5,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,90,163,6.6,1.9,12.1,11.3,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U090-C163,AUTO_APPROVED,1.0,registry v1
+FD002,91,278,13.6,8.9,19.1,4.76,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U091-C278,AUTO_APPROVED,1.0,registry v1
+FD002,92,123,88.0,62.1,118.9,0.55,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,93,76,117.9,90.0,148.6,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,94,117,93.4,67.5,124.3,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,95,78,99.4,73.5,130.3,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,96,140,40.5,28.8,52.9,0.87,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U096-C140,AUTO_APPROVED,14.0,registry v1
+FD002,97,213,22.0,14.5,30.6,2.45,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U097-C213,AUTO_APPROVED,1.0,registry v1
+FD002,98,113,98.0,72.1,128.9,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,99,163,8.5,3.8,14.0,6.67,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U099-C163,AUTO_APPROVED,1.0,registry v1
+FD002,100,149,18.0,13.3,23.5,29.87,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U100-C149,AUTO_APPROVED,1.0,registry v1
+FD002,101,38,117.2,89.3,147.9,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,102,122,6.1,1.4,11.6,5.88,True,CRITICAL,Fan / bypass duct,False,,WO-FD002-U102-C122,AUTO_APPROVED,1.0,registry v1
+FD002,103,186,6.7,2.0,12.2,4.97,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U103-C186,AUTO_APPROVED,1.0,registry v1
+FD002,104,141,74.3,55.8,94.7,0.95,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U104-C141,AUTO_APPROVED,27.0,registry v1
+FD002,105,61,122.8,94.9,153.5,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,106,72,109.1,81.2,139.8,0.35,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,107,132,65.0,46.5,85.4,0.7,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U107-C132,AUTO_APPROVED,23.0,registry v1
+FD002,108,174,125.2,97.3,155.9,1.0,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,109,144,39.1,31.6,47.7,2.2,True,HIGH,High-pressure compressor (HPC),False,,WO-FD002-U109-C144,AUTO_APPROVED,15.0,registry v1
+FD002,110,219,78.9,60.4,99.3,1.67,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD002-U110-C219,AUTO_APPROVED,30.0,registry v1
+FD002,111,131,12.3,7.6,17.8,16.85,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U111-C131,AUTO_APPROVED,1.0,registry v1
+FD002,112,109,46.5,34.8,58.9,1.14,True,MEDIUM,Low-pressure turbine (LPT),False,,WO-FD002-U112-C109,AUTO_APPROVED,17.0,registry v1
+FD002,113,45,123.7,95.8,154.4,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,114,153,76.7,58.2,97.1,0.99,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,115,210,76.7,58.2,97.1,1.12,True,MEDIUM,Low-pressure turbine (LPT),False,,WO-FD002-U115-C210,AUTO_APPROVED,29.0,registry v1
+FD002,116,171,7.1,2.4,12.6,6.0,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U116-C171,AUTO_APPROVED,1.0,registry v1
+FD002,117,55,119.9,92.0,150.6,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,118,97,112.2,84.3,142.9,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,119,202,98.1,72.2,129.0,1.04,False,LOW,Fan / bypass duct,False,,,NO_ACTION,,registry v1
+FD002,120,160,17.4,12.7,22.9,5.97,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U120-C160,AUTO_APPROVED,1.0,registry v1
+FD002,121,59,91.8,65.9,122.7,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,122,29,125.4,97.5,156.1,0.16,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,123,61,118.7,90.8,149.4,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,124,149,7.7,3.0,13.2,6.12,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U124-C149,AUTO_APPROVED,1.0,registry v1
+FD002,125,79,113.0,85.1,143.7,0.74,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,126,99,97.1,71.2,128.0,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,127,126,71.4,52.9,91.8,0.8,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U127-C126,AUTO_APPROVED,26.0,registry v1
+FD002,128,110,98.9,73.0,129.8,0.64,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,129,218,80.2,54.3,111.1,5.44,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U129-C218,AUTO_APPROVED,27.0,registry v1
+FD002,130,141,122.9,95.0,153.6,0.94,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,131,73,120.1,92.2,150.8,0.21,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,132,122,33.5,26.0,42.1,1.02,True,HIGH,Low-pressure turbine (LPT),False,,WO-FD002-U132-C122,AUTO_APPROVED,13.0,registry v1
+FD002,133,186,49.6,37.9,62.0,8.66,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U133-C186,AUTO_APPROVED,18.0,registry v1
+FD002,134,186,8.9,4.2,14.4,66.52,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U134-C186,AUTO_APPROVED,1.0,registry v1
+FD002,135,120,116.1,88.2,146.8,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,136,77,108.5,80.6,139.2,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,137,226,89.8,63.9,120.7,1.53,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U137-C226,AUTO_APPROVED,31.0,registry v1
+FD002,138,200,5.1,0.4,10.6,9.38,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U138-C200,AUTO_APPROVED,1.0,registry v1
+FD002,139,116,55.0,43.3,67.4,2.57,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U139-C116,AUTO_APPROVED,21.0,registry v1
+FD002,140,306,55.2,43.5,67.6,4.82,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U140-C306,AUTO_APPROVED,21.0,registry v1
+FD002,141,69,109.9,82.0,140.6,0.51,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,142,163,45.2,33.5,57.6,1.44,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD002-U142-C163,AUTO_APPROVED,16.0,registry v1
+FD002,143,226,83.7,57.8,114.6,2.05,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U143-C226,AUTO_APPROVED,28.0,registry v1
+FD002,144,143,35.8,28.3,44.4,3.15,True,HIGH,High-pressure compressor (HPC),False,,WO-FD002-U144-C143,AUTO_APPROVED,14.0,registry v1
+FD002,145,142,105.5,77.6,136.2,0.92,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,146,144,11.0,6.3,16.5,5.64,True,CRITICAL,Fan / bypass duct,False,,WO-FD002-U146-C144,AUTO_APPROVED,1.0,registry v1
+FD002,147,78,109.0,81.1,139.7,0.37,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,148,157,9.6,4.9,15.1,12.11,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U148-C157,AUTO_APPROVED,1.0,registry v1
+FD002,149,70,122.9,95.0,153.6,0.11,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,150,196,32.9,25.4,41.5,4.24,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD002-U150-C196,AUTO_APPROVED,12.0,registry v1
+FD002,151,141,89.3,63.4,120.2,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,152,90,60.8,42.3,81.2,0.95,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U152-C090,AUTO_APPROVED,21.0,registry v1
+FD002,153,146,90.7,64.8,121.6,1.51,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U153-C146,AUTO_APPROVED,32.0,registry v1
+FD002,154,58,121.3,93.4,152.0,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,155,72,122.9,95.0,153.6,0.13,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,156,75,98.8,72.9,129.7,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,157,161,130.4,102.5,161.1,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,158,171,20.9,13.4,29.5,9.85,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U158-C171,AUTO_APPROVED,1.0,registry v1
+FD002,159,187,9.9,5.2,15.4,3.63,True,CRITICAL,Fan / bypass duct,False,,WO-FD002-U159-C187,AUTO_APPROVED,1.0,registry v1
+FD002,160,124,44.9,33.2,57.3,2.72,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U160-C124,AUTO_APPROVED,16.0,registry v1
+FD002,161,174,17.2,12.5,22.7,22.79,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U161-C174,AUTO_APPROVED,1.0,registry v1
+FD002,162,185,48.3,36.6,60.7,1.89,True,MEDIUM,Low-pressure turbine (LPT),False,,WO-FD002-U162-C185,AUTO_APPROVED,18.0,registry v1
+FD002,163,144,89.3,63.4,120.2,1.15,False,LOW,Engine core (HPC/HPT spool),False,,,NO_ACTION,,registry v1
+FD002,164,199,8.3,3.6,13.8,10.58,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U164-C199,AUTO_APPROVED,1.0,registry v1
+FD002,165,35,122.0,94.1,152.7,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,166,97,94.0,68.1,124.9,0.54,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,167,78,92.3,66.4,123.2,0.81,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,168,107,86.3,60.4,117.2,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,169,80,115.8,87.9,146.5,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,170,85,115.8,87.9,146.5,0.62,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,171,243,30.0,22.5,38.6,12.83,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD002-U171-C243,AUTO_APPROVED,11.0,registry v1
+FD002,172,128,104.6,76.7,135.3,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,173,117,11.1,6.4,16.6,5.77,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U173-C117,AUTO_APPROVED,1.0,registry v1
+FD002,174,51,116.4,88.5,147.1,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,175,83,121.5,93.6,152.2,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,176,200,22.5,15.0,31.1,9.88,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U176-C200,AUTO_APPROVED,1.0,registry v1
+FD002,177,191,3.6,0.0,9.1,27.14,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U177-C191,AUTO_APPROVED,1.0,registry v1
+FD002,178,54,124.1,96.2,154.8,0.25,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,179,156,35.7,28.2,44.3,2.44,True,HIGH,High-pressure compressor (HPC),False,,WO-FD002-U179-C156,AUTO_APPROVED,14.0,registry v1
+FD002,180,154,92.9,67.0,123.8,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,181,199,57.5,45.8,69.9,2.53,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U181-C199,AUTO_APPROVED,22.0,registry v1
+FD002,182,134,16.5,11.8,22.0,4.42,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U182-C134,AUTO_APPROVED,1.0,registry v1
+FD002,183,150,61.2,42.7,81.6,2.22,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U183-C150,AUTO_APPROVED,21.0,registry v1
+FD002,184,64,125.5,97.6,156.2,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,185,254,13.7,9.0,19.2,41.5,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U185-C254,AUTO_APPROVED,1.0,registry v1
+FD002,186,166,8.6,3.9,14.1,12.5,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U186-C166,AUTO_APPROVED,1.0,registry v1
+FD002,187,84,122.0,94.1,152.7,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,188,86,110.0,82.1,140.7,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,189,178,42.5,30.8,54.9,2.99,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD002-U189-C178,AUTO_APPROVED,15.0,registry v1
+FD002,190,158,16.2,11.5,21.7,5.38,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U190-C158,AUTO_APPROVED,1.0,registry v1
+FD002,191,95,98.3,72.4,129.2,0.44,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,192,161,18.5,13.8,24.0,6.71,True,CRITICAL,Low-pressure turbine (LPT),False,,WO-FD002-U192-C161,AUTO_APPROVED,1.0,registry v1
+FD002,193,245,38.0,30.5,46.6,2.12,True,HIGH,High-pressure compressor (HPC),False,,WO-FD002-U193-C245,AUTO_APPROVED,15.0,registry v1
+FD002,194,50,122.0,94.1,152.7,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,195,262,73.0,54.5,93.4,8.41,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U195-C262,AUTO_APPROVED,27.0,registry v1
+FD002,196,109,91.5,65.6,122.4,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,197,59,121.8,93.9,152.5,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,198,120,41.7,30.0,54.1,1.94,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD002-U198-C120,AUTO_APPROVED,15.0,registry v1
+FD002,199,117,114.9,87.0,145.6,0.69,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,200,60,124.2,96.3,154.9,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,201,25,123.6,95.7,154.3,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,202,124,86.4,60.5,117.3,0.96,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,203,115,126.3,98.4,157.0,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,204,41,121.6,93.7,152.3,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,205,31,105.9,78.0,136.6,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,206,162,55.4,43.7,67.8,1.82,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U206-C162,AUTO_APPROVED,21.0,registry v1
+FD002,207,141,97.2,71.3,128.1,1.81,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U207-C141,AUTO_APPROVED,35.0,registry v1
+FD002,208,166,10.2,5.5,15.7,6.59,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U208-C166,AUTO_APPROVED,1.0,registry v1
+FD002,209,131,25.7,18.2,34.3,6.61,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U209-C131,AUTO_APPROVED,1.0,registry v1
+FD002,210,182,4.8,0.1,10.3,39.16,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U210-C182,AUTO_APPROVED,1.0,registry v1
+FD002,211,155,6.3,1.6,11.8,9.64,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U211-C155,AUTO_APPROVED,1.0,registry v1
+FD002,212,187,67.3,48.8,87.7,2.64,True,MEDIUM,Fan / bypass duct,False,,WO-FD002-U212-C187,AUTO_APPROVED,24.0,registry v1
+FD002,213,159,88.8,62.9,119.7,0.68,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,214,75,111.3,83.4,142.0,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,215,71,111.0,83.1,141.7,0.37,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,216,100,52.8,41.1,65.2,0.68,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD002-U216-C100,AUTO_APPROVED,20.0,registry v1
+FD002,217,49,125.2,97.3,155.9,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,218,33,122.9,95.0,153.6,0.45,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,219,161,65.1,46.6,85.5,2.94,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U219-C161,AUTO_APPROVED,23.0,registry v1
+FD002,220,54,122.6,94.7,153.3,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,221,55,106.4,78.5,137.1,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,222,180,59.6,47.9,72.0,1.39,True,MEDIUM,Low-pressure turbine (LPT),False,,WO-FD002-U222-C180,AUTO_APPROVED,23.0,registry v1
+FD002,223,29,124.7,96.8,155.4,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,224,43,124.1,96.2,154.8,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,225,166,10.1,5.4,15.6,4.5,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U225-C166,AUTO_APPROVED,1.0,registry v1
+FD002,226,165,90.8,64.9,121.7,1.11,False,LOW,High-pressure compressor (HPC),False,,,NO_ACTION,,registry v1
+FD002,227,180,9.6,4.9,15.1,3.98,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U227-C180,AUTO_APPROVED,1.0,registry v1
+FD002,228,44,117.7,89.8,148.4,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,229,109,83.4,57.5,114.3,0.51,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,230,125,100.2,72.3,130.9,1.0,True,MEDIUM,Not localised (sensors inside healthy envelope),True,,WO-FD002-U230-C125,PENDING_HUMAN_REVIEW,36.0,registry v1
+FD002,231,187,8.6,3.9,14.1,8.44,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U231-C187,AUTO_APPROVED,1.0,registry v1
+FD002,232,159,99.3,73.4,130.2,1.68,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U232-C159,AUTO_APPROVED,36.0,registry v1
+FD002,233,40,121.2,93.3,151.9,0.18,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,234,147,95.4,69.5,126.3,0.68,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,235,102,124.0,96.1,154.7,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,236,274,15.6,10.9,21.1,10.83,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U236-C274,AUTO_APPROVED,1.0,registry v1
+FD002,237,235,49.7,38.0,62.1,2.3,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD002-U237-C235,AUTO_APPROVED,19.0,registry v1
+FD002,238,94,115.9,88.0,146.6,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,239,106,104.4,76.5,135.1,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,240,50,111.8,83.9,142.5,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,241,44,125.1,97.2,155.8,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,242,194,14.3,9.6,19.8,2.92,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD002-U242-C194,AUTO_APPROVED,1.0,registry v1
+FD002,243,40,122.0,94.1,152.7,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,244,49,125.0,97.1,155.7,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,245,265,12.7,8.0,18.2,20.01,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U245-C265,AUTO_APPROVED,1.0,registry v1
+FD002,246,80,118.9,91.0,149.6,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,247,87,122.7,94.8,153.4,0.11,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,248,162,57.4,45.7,69.8,4.75,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U248-C162,AUTO_APPROVED,22.0,registry v1
+FD002,249,36,124.0,96.1,154.7,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,250,234,22.9,15.4,31.5,20.66,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD002-U250-C234,AUTO_APPROVED,1.0,registry v1
+FD002,251,64,110.1,82.2,140.8,0.44,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,252,249,6.1,1.4,11.6,5.74,True,CRITICAL,Fan / bypass duct,False,,WO-FD002-U252-C249,AUTO_APPROVED,1.0,registry v1
+FD002,253,139,30.9,23.4,39.5,1.44,True,HIGH,High-pressure compressor (HPC),False,,WO-FD002-U253-C139,AUTO_APPROVED,11.0,registry v1
+FD002,254,131,32.6,25.1,41.2,1.97,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD002-U254-C131,AUTO_APPROVED,12.0,registry v1
+FD002,255,150,118.5,90.6,149.2,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,256,59,121.8,93.9,152.5,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,257,199,56.5,44.8,68.9,2.21,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U257-C199,AUTO_APPROVED,22.0,registry v1
+FD002,258,98,118.7,90.8,149.4,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD002,259,123,63.7,45.2,84.1,4.01,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD002-U259-C123,AUTO_APPROVED,22.0,registry v1
+FD003,1,233,47.4,35.1,63.9,1.4,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U001-C233,AUTO_APPROVED,17.0,registry v1
+FD003,2,124,56.6,44.3,73.1,1.05,False,MEDIUM,Low-pressure turbine (LPT),False,,WO-FD003-U002-C124,AUTO_APPROVED,22.0,registry v1
+FD003,3,234,31.6,25.5,40.5,1.91,True,HIGH,High-pressure compressor (HPC),False,,WO-FD003-U003-C234,AUTO_APPROVED,12.0,registry v1
+FD003,4,68,120.2,95.8,150.4,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,5,138,92.4,71.7,126.5,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,6,64,117.1,92.7,147.3,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,7,158,72.1,55.5,96.2,0.97,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD003-U007-C158,AUTO_APPROVED,27.0,registry v1
+FD003,8,192,47.7,35.4,64.2,2.4,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U008-C192,AUTO_APPROVED,17.0,registry v1
+FD003,9,238,62.6,46.0,86.7,3.53,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U009-C238,AUTO_APPROVED,23.0,registry v1
+FD003,10,131,78.4,61.8,102.5,1.98,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD003-U010-C131,AUTO_APPROVED,30.0,registry v1
+FD003,11,103,77.7,61.1,101.8,0.7,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,12,146,117.8,93.4,148.0,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,13,65,117.3,92.9,147.5,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,14,169,29.8,23.7,38.7,3.0,True,HIGH,High-pressure compressor (HPC),False,,WO-FD003-U014-C169,AUTO_APPROVED,11.0,registry v1
+FD003,15,112,103.7,79.3,133.9,0.18,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,16,126,51.8,39.5,68.3,0.57,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD003-U016-C126,AUTO_APPROVED,19.0,registry v1
+FD003,17,230,121.7,97.3,151.9,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,18,244,109.8,85.4,140.0,0.37,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,19,115,106.3,81.9,136.5,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,20,207,55.3,43.0,71.8,0.96,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD003-U020-C207,AUTO_APPROVED,21.0,registry v1
+FD003,21,263,16.7,12.2,21.3,5.87,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U021-C263,AUTO_APPROVED,1.0,registry v1
+FD003,22,119,110.3,85.9,140.5,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,23,405,82.4,61.7,116.5,0.87,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,24,475,9.2,4.7,13.8,6.32,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U024-C475,AUTO_APPROVED,1.0,registry v1
+FD003,25,169,55.0,42.7,71.5,1.5,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U025-C169,AUTO_APPROVED,21.0,registry v1
+FD003,26,130,12.0,7.5,16.6,12.4,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD003-U026-C130,AUTO_APPROVED,1.0,registry v1
+FD003,27,104,110.7,86.3,140.9,0.2,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,28,70,118.1,93.7,148.3,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,29,89,115.3,90.9,145.5,0.37,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,30,333,90.5,69.8,124.6,1.14,False,LOW,High-pressure compressor (HPC),False,,,NO_ACTION,,registry v1
+FD003,31,152,79.7,63.1,103.8,2.43,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD003-U031-C152,AUTO_APPROVED,31.0,registry v1
+FD003,32,120,53.5,41.2,70.0,2.26,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD003-U032-C120,AUTO_APPROVED,20.0,registry v1
+FD003,33,180,84.9,64.2,119.0,1.39,False,LOW,Engine core (HPC/HPT spool),False,,,NO_ACTION,,registry v1
+FD003,34,105,74.6,58.0,98.7,0.4,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD003-U034-C105,AUTO_APPROVED,29.0,registry v1
+FD003,35,144,95.8,75.1,129.9,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,36,90,114.7,90.3,144.9,0.09,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,37,47,125.7,101.3,155.9,0.03,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,38,133,26.8,20.7,35.7,3.12,True,CRITICAL,Low-pressure turbine (LPT),False,,WO-FD003-U038-C133,AUTO_APPROVED,1.0,registry v1
+FD003,39,310,8.6,4.1,13.2,7.53,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U039-C310,AUTO_APPROVED,1.0,registry v1
+FD003,40,313,40.9,28.6,57.4,2.63,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U040-C313,AUTO_APPROVED,14.0,registry v1
+FD003,41,101,115.3,90.9,145.5,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,42,87,117.9,93.5,148.1,0.09,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,43,133,110.7,86.3,140.9,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,44,146,63.1,46.5,87.2,0.53,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD003-U044-C146,AUTO_APPROVED,23.0,registry v1
+FD003,45,88,125.3,100.9,155.5,0.12,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,46,180,7.8,3.3,12.4,5.75,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U046-C180,AUTO_APPROVED,1.0,registry v1
+FD003,47,56,123.4,99.0,153.6,0.14,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,48,179,55.6,43.3,72.1,1.16,False,MEDIUM,Fan / bypass duct,False,,WO-FD003-U048-C179,AUTO_APPROVED,21.0,registry v1
+FD003,49,211,115.7,91.3,145.9,0.57,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,50,147,13.4,8.9,18.0,4.89,True,CRITICAL,Low-pressure turbine (LPT),False,,WO-FD003-U050-C147,AUTO_APPROVED,1.0,registry v1
+FD003,51,118,80.6,59.9,114.7,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,52,38,125.0,100.6,155.2,0.07,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,53,108,100.4,76.0,130.6,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,54,50,124.1,99.7,154.3,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,55,203,54.5,42.2,71.0,2.27,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U055-C203,AUTO_APPROVED,21.0,registry v1
+FD003,56,162,77.1,60.5,101.2,1.21,False,LOW,Engine core (HPC/HPT spool),False,,,NO_ACTION,,registry v1
+FD003,57,158,72.4,55.8,96.5,0.64,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD003-U057-C158,AUTO_APPROVED,27.0,registry v1
+FD003,58,119,48.8,36.5,65.3,1.35,False,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U058-C119,AUTO_APPROVED,18.0,registry v1
+FD003,59,149,49.4,37.1,65.9,2.1,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD003-U059-C149,AUTO_APPROVED,18.0,registry v1
+FD003,60,112,115.6,91.2,145.8,0.21,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,61,78,124.6,100.2,154.8,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,62,224,66.8,50.2,90.9,1.1,False,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U062-C224,AUTO_APPROVED,25.0,registry v1
+FD003,63,137,119.2,94.8,149.4,0.25,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,64,271,26.9,20.8,35.8,3.65,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U064-C271,AUTO_APPROVED,1.0,registry v1
+FD003,65,79,124.7,100.3,154.9,0.06,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,66,122,86.4,65.7,120.5,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,67,186,111.9,87.5,142.1,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,68,188,109.4,85.0,139.6,0.53,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,69,105,94.3,73.6,128.4,0.62,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,70,84,89.8,69.1,123.9,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,71,367,31.1,25.0,40.0,3.45,True,HIGH,High-pressure compressor (HPC),False,,WO-FD003-U071-C367,AUTO_APPROVED,12.0,registry v1
+FD003,72,232,46.5,34.2,63.0,1.83,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U072-C232,AUTO_APPROVED,17.0,registry v1
+FD003,73,109,121.1,96.7,151.3,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,74,68,124.2,99.8,154.4,0.22,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,75,191,45.5,33.2,62.0,1.47,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U075-C191,AUTO_APPROVED,16.0,registry v1
+FD003,76,180,29.7,23.6,38.6,6.4,True,HIGH,High-pressure compressor (HPC),False,,WO-FD003-U076-C180,AUTO_APPROVED,11.0,registry v1
+FD003,77,381,82.9,62.2,117.0,1.36,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD003-U077-C381,AUTO_APPROVED,31.0,registry v1
+FD003,78,279,22.0,15.9,30.9,3.83,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U078-C279,AUTO_APPROVED,1.0,registry v1
+FD003,79,170,19.0,14.5,23.6,3.75,True,CRITICAL,Low-pressure turbine (LPT),False,,WO-FD003-U079-C170,AUTO_APPROVED,1.0,registry v1
+FD003,80,85,117.3,92.9,147.5,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,81,155,16.7,12.2,21.3,3.09,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U081-C155,AUTO_APPROVED,1.0,registry v1
+FD003,82,194,3.0,0.0,7.6,5.57,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U082-C194,AUTO_APPROVED,1.0,registry v1
+FD003,83,168,112.2,87.8,142.4,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,84,76,82.1,61.4,116.2,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,85,118,62.8,46.2,86.9,0.4,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD003-U085-C118,AUTO_APPROVED,23.0,registry v1
+FD003,86,174,19.7,15.2,24.3,10.57,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD003-U086-C174,AUTO_APPROVED,1.0,registry v1
+FD003,87,218,77.5,60.9,101.6,4.01,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD003-U087-C218,AUTO_APPROVED,30.0,registry v1
+FD003,88,41,120.1,95.7,150.3,0.18,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,89,120,42.4,30.1,58.9,0.6,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD003-U089-C120,AUTO_APPROVED,15.0,registry v1
+FD003,90,206,64.6,48.0,88.7,4.77,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD003-U090-C206,AUTO_APPROVED,24.0,registry v1
+FD003,91,56,119.5,95.1,149.7,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,92,266,13.4,8.9,18.0,5.14,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U092-C266,AUTO_APPROVED,1.0,registry v1
+FD003,93,158,67.3,50.7,91.4,0.44,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD003-U093-C158,AUTO_APPROVED,25.0,registry v1
+FD003,94,333,7.6,3.1,12.2,6.55,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U094-C333,AUTO_APPROVED,1.0,registry v1
+FD003,95,213,101.8,77.4,132.0,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,96,358,104.7,80.3,134.9,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,97,95,113.7,89.3,143.9,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD003,98,182,17.2,12.7,21.8,19.55,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD003-U098-C182,AUTO_APPROVED,1.0,registry v1
+FD003,99,289,9.6,5.1,14.2,6.74,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U099-C289,AUTO_APPROVED,1.0,registry v1
+FD003,100,247,25.0,18.9,33.9,3.13,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD003-U100-C247,AUTO_APPROVED,1.0,registry v1
+FD004,1,230,29.2,17.7,41.5,3.22,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U001-C230,AUTO_APPROVED,1.0,registry v1
+FD004,2,153,39.1,27.6,51.4,3.3,True,HIGH,High-pressure compressor (HPC),False,,WO-FD004-U002-C153,AUTO_APPROVED,13.0,registry v1
+FD004,3,141,117.1,88.6,147.0,0.35,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,4,208,83.0,54.5,118.1,0.75,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,5,51,123.9,95.4,153.8,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,6,146,85.6,57.1,120.7,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,7,54,122.4,93.9,152.3,0.12,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,8,248,12.7,5.9,18.7,32.53,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U008-C248,AUTO_APPROVED,1.0,registry v1
+FD004,9,284,91.5,63.0,126.6,0.73,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,10,23,123.1,94.6,153.0,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,11,82,119.4,90.9,149.3,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,12,270,8.8,2.0,14.8,8.35,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U012-C270,AUTO_APPROVED,1.0,registry v1
+FD004,13,227,83.1,54.6,118.2,0.73,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,14,102,120.8,92.3,150.7,0.15,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,15,168,40.5,25.0,58.0,2.37,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U015-C168,AUTO_APPROVED,12.0,registry v1
+FD004,16,240,121.0,92.5,150.9,0.52,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,17,334,109.7,81.2,139.6,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,18,247,106.8,78.3,136.7,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,19,24,124.9,96.4,154.8,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,20,115,100.7,72.2,130.6,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,21,202,102.3,73.8,132.2,0.66,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,22,158,7.8,1.0,13.8,21.74,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U022-C158,AUTO_APPROVED,1.0,registry v1
+FD004,23,162,25.7,14.2,38.0,3.23,True,CRITICAL,Low-pressure turbine (LPT),False,,WO-FD004-U023-C162,AUTO_APPROVED,1.0,registry v1
+FD004,24,174,107.6,79.1,137.5,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,25,486,47.5,32.0,65.0,3.65,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U025-C486,AUTO_APPROVED,16.0,registry v1
+FD004,26,90,95.0,66.5,130.1,0.45,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,27,144,55.0,39.5,72.5,0.86,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD004-U027-C144,AUTO_APPROVED,19.0,registry v1
+FD004,28,20,124.6,96.1,154.5,0.15,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,29,216,79.7,59.6,104.9,1.01,False,LOW,Engine core (HPC/HPT spool),False,,,NO_ACTION,,registry v1
+FD004,30,229,114.3,85.8,144.2,0.68,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,31,134,7.9,1.1,13.9,6.47,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U031-C134,AUTO_APPROVED,1.0,registry v1
+FD004,32,260,24.5,13.0,36.8,5.11,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U032-C260,AUTO_APPROVED,1.0,registry v1
+FD004,33,107,122.8,94.3,152.7,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,34,361,88.6,60.1,123.7,1.11,False,LOW,Bleed air system,False,,,NO_ACTION,,registry v1
+FD004,35,278,33.7,22.2,46.0,11.44,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD004-U035-C278,AUTO_APPROVED,11.0,registry v1
+FD004,36,159,71.4,51.3,96.6,0.55,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD004-U036-C159,AUTO_APPROVED,25.0,registry v1
+FD004,37,345,70.3,50.2,95.5,1.11,False,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U037-C345,AUTO_APPROVED,25.0,registry v1
+FD004,38,125,12.5,5.7,18.5,6.96,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U038-C125,AUTO_APPROVED,1.0,registry v1
+FD004,39,214,82.0,53.5,117.1,0.65,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,40,266,13.8,7.0,19.8,6.41,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U040-C266,AUTO_APPROVED,1.0,registry v1
+FD004,41,414,93.4,64.9,128.5,1.04,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U041-C414,AUTO_APPROVED,32.0,registry v1
+FD004,42,200,26.7,15.2,39.0,4.06,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U042-C200,AUTO_APPROVED,1.0,registry v1
+FD004,43,120,52.2,36.7,69.7,1.98,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U043-C120,AUTO_APPROVED,18.0,registry v1
+FD004,44,406,50.6,35.1,68.1,1.6,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U044-C406,AUTO_APPROVED,17.0,registry v1
+FD004,45,78,106.8,78.3,136.7,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,46,37,120.6,92.1,150.5,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,47,224,34.5,23.0,46.8,6.8,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD004-U047-C224,AUTO_APPROVED,11.0,registry v1
+FD004,48,214,43.9,28.4,61.4,2.04,True,MEDIUM,Fan,False,,WO-FD004-U048-C214,AUTO_APPROVED,14.0,registry v1
+FD004,49,273,22.5,11.0,34.8,4.55,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U049-C273,AUTO_APPROVED,1.0,registry v1
+FD004,50,206,88.3,59.8,123.4,0.8,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,51,137,99.7,71.2,134.8,0.62,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,52,58,124.4,95.9,154.3,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,53,67,121.1,92.6,151.0,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,54,81,117.8,89.3,147.7,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,55,103,124.8,96.3,154.7,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,56,180,71.0,50.9,96.2,0.87,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD004-U056-C180,AUTO_APPROVED,25.0,registry v1
+FD004,57,121,96.9,68.4,132.0,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,58,185,4.4,0.0,10.4,11.69,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U058-C185,AUTO_APPROVED,1.0,registry v1
+FD004,59,37,124.9,96.4,154.8,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,60,135,119.3,90.8,149.2,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,61,396,43.3,27.8,60.8,1.94,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U061-C396,AUTO_APPROVED,13.0,registry v1
+FD004,62,240,34.9,23.4,47.2,3.2,True,HIGH,High-pressure compressor (HPC),False,,WO-FD004-U062-C240,AUTO_APPROVED,11.0,registry v1
+FD004,63,158,124.3,95.8,154.2,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,64,251,60.1,40.0,85.3,1.32,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD004-U064-C251,AUTO_APPROVED,20.0,registry v1
+FD004,65,186,14.8,8.0,20.8,5.46,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U065-C186,AUTO_APPROVED,1.0,registry v1
+FD004,66,97,110.4,81.9,140.3,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,67,150,38.5,27.0,50.8,0.96,False,HIGH,Not localised (sensors inside healthy envelope),True,,WO-FD004-U067-C150,PENDING_HUMAN_REVIEW,13.0,registry v1
+FD004,68,241,56.9,41.4,74.4,23.08,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U068-C241,AUTO_APPROVED,20.0,registry v1
+FD004,69,162,11.4,4.6,17.4,11.79,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U069-C162,AUTO_APPROVED,1.0,registry v1
+FD004,70,190,42.2,26.7,59.7,1.62,True,MEDIUM,Fan,False,,WO-FD004-U070-C190,AUTO_APPROVED,13.0,registry v1
+FD004,71,292,18.8,12.0,24.8,4.27,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U071-C292,AUTO_APPROVED,1.0,registry v1
+FD004,72,118,122.0,93.5,151.9,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,73,149,32.4,20.9,44.7,8.43,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U073-C149,AUTO_APPROVED,1.0,registry v1
+FD004,74,223,90.6,62.1,125.7,0.78,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,75,203,117.9,89.4,147.8,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,76,48,124.8,96.3,154.7,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,77,108,33.6,22.1,45.9,2.87,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD004-U077-C108,AUTO_APPROVED,11.0,registry v1
+FD004,78,106,73.3,53.2,98.5,0.6,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD004-U078-C106,AUTO_APPROVED,26.0,registry v1
+FD004,79,184,92.8,64.3,127.9,0.86,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,80,112,106.8,78.3,136.7,0.63,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,81,60,120.6,92.1,150.5,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,82,146,14.8,8.0,20.8,5.69,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U082-C146,AUTO_APPROVED,1.0,registry v1
+FD004,83,274,118.7,90.2,148.6,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,84,88,122.2,93.7,152.1,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,85,174,117.6,89.1,147.5,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,86,254,74.4,54.3,99.6,0.61,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD004-U086-C254,AUTO_APPROVED,27.0,registry v1
+FD004,87,167,118.8,90.3,148.7,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,88,140,61.0,40.9,86.2,1.1,False,MEDIUM,High-pressure compressor (HPC),False,,WO-FD004-U088-C140,AUTO_APPROVED,20.0,registry v1
+FD004,89,285,97.0,68.5,132.1,1.0,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,90,118,78.7,58.6,103.9,0.6,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,91,144,51.2,35.7,68.7,6.12,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U091-C144,AUTO_APPROVED,17.0,registry v1
+FD004,92,116,74.4,54.3,99.6,0.98,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD004-U092-C116,AUTO_APPROVED,27.0,registry v1
+FD004,93,200,123.5,95.0,153.4,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,94,105,114.5,86.0,144.4,0.43,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,95,110,117.6,89.1,147.5,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,96,123,98.1,69.6,133.2,0.96,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,97,51,121.9,93.4,151.8,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,98,82,112.1,83.6,142.0,0.6,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,99,237,36.7,25.2,49.0,1.9,True,HIGH,High-pressure compressor (HPC),False,,WO-FD004-U099-C237,AUTO_APPROVED,12.0,registry v1
+FD004,100,196,10.7,3.9,16.7,5.32,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U100-C196,AUTO_APPROVED,1.0,registry v1
+FD004,101,166,13.8,7.0,19.8,10.92,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U101-C166,AUTO_APPROVED,1.0,registry v1
+FD004,102,443,20.4,8.9,32.7,4.75,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U102-C443,AUTO_APPROVED,1.0,registry v1
+FD004,103,145,15.5,8.7,21.5,11.55,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U103-C145,AUTO_APPROVED,1.0,registry v1
+FD004,104,65,121.9,93.4,151.8,0.66,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,105,351,93.5,65.0,128.6,0.92,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,106,148,78.8,58.7,104.0,0.7,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,107,121,47.3,31.8,64.8,1.34,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD004-U107-C121,AUTO_APPROVED,15.0,registry v1
+FD004,108,145,125.3,96.8,155.2,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,109,66,124.5,96.0,154.4,0.15,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,110,348,62.6,42.5,87.8,1.27,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U110-C348,AUTO_APPROVED,21.0,registry v1
+FD004,111,342,17.6,10.8,23.6,6.9,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U111-C342,AUTO_APPROVED,1.0,registry v1
+FD004,112,88,82.3,53.8,117.4,0.68,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,113,132,14.6,7.8,20.6,8.28,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U113-C132,AUTO_APPROVED,1.0,registry v1
+FD004,114,218,20.5,9.0,32.8,3.07,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U114-C218,AUTO_APPROVED,1.0,registry v1
+FD004,115,82,117.4,88.9,147.3,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,116,161,10.2,3.4,16.2,6.49,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U116-C161,AUTO_APPROVED,1.0,registry v1
+FD004,117,97,112.8,84.3,142.7,0.38,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,118,178,20.2,8.7,32.5,4.42,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U118-C178,AUTO_APPROVED,1.0,registry v1
+FD004,119,228,100.4,71.9,130.3,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,120,170,125.5,97.0,155.4,0.32,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,121,194,35.4,23.9,47.7,5.82,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD004-U121-C194,AUTO_APPROVED,11.0,registry v1
+FD004,122,117,124.4,95.9,154.3,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,123,236,27.1,15.6,39.4,3.05,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U123-C236,AUTO_APPROVED,1.0,registry v1
+FD004,124,230,68.4,48.3,93.6,7.46,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U124-C230,AUTO_APPROVED,24.0,registry v1
+FD004,125,21,125.1,96.6,155.0,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,126,220,19.9,13.1,25.9,14.64,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U126-C220,AUTO_APPROVED,1.0,registry v1
+FD004,127,98,124.3,95.8,154.2,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,128,139,125.0,96.5,154.9,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,129,315,107.7,79.2,137.6,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,130,107,109.2,80.7,139.1,0.26,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,131,193,97.5,69.0,132.6,1.09,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U131-C193,AUTO_APPROVED,34.0,registry v1
+FD004,132,115,112.2,83.7,142.1,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,133,74,123.9,95.4,153.8,0.33,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,134,266,48.3,32.8,65.8,2.21,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U134-C266,AUTO_APPROVED,16.0,registry v1
+FD004,135,435,10.8,4.0,16.8,6.94,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U135-C435,AUTO_APPROVED,1.0,registry v1
+FD004,136,56,119.0,90.5,148.9,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,137,291,118.8,90.3,148.7,0.24,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,138,239,93.3,64.8,128.4,0.66,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,139,88,123.4,94.9,153.3,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,140,160,111.9,83.4,141.8,0.56,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,141,19,124.9,96.4,154.8,0.15,False,LOW,Not localised (sensors inside healthy envelope),True,,,NO_ACTION,,registry v1
+FD004,142,69,122.7,94.2,152.6,0.31,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,143,327,60.2,40.1,85.4,1.22,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U143-C327,AUTO_APPROVED,20.0,registry v1
+FD004,144,34,119.9,91.4,149.8,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,145,102,65.5,45.4,90.7,0.67,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD004-U145-C102,AUTO_APPROVED,22.0,registry v1
+FD004,146,84,120.4,91.9,150.3,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,147,116,82.8,54.3,117.9,2.9,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U147-C116,AUTO_APPROVED,27.0,registry v1
+FD004,148,126,109.2,80.7,139.1,0.5,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,149,320,69.8,49.7,95.0,1.35,False,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U149-C320,AUTO_APPROVED,24.0,registry v1
+FD004,150,202,54.6,39.1,72.1,3.89,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U150-C202,AUTO_APPROVED,19.0,registry v1
+FD004,151,285,26.5,15.0,38.8,2.76,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U151-C285,AUTO_APPROVED,1.0,registry v1
+FD004,152,195,94.9,66.4,130.0,0.51,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,153,130,113.5,85.0,143.4,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,154,122,40.4,24.9,57.9,1.16,False,MEDIUM,High-pressure compressor (HPC),False,,WO-FD004-U154-C122,AUTO_APPROVED,12.0,registry v1
+FD004,155,161,9.7,2.9,15.7,9.03,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U155-C161,AUTO_APPROVED,1.0,registry v1
+FD004,156,28,120.7,92.2,150.6,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,157,138,125.2,96.7,155.1,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,158,171,7.2,0.4,13.2,5.26,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U158-C171,AUTO_APPROVED,1.0,registry v1
+FD004,159,160,26.0,14.5,38.3,3.21,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U159-C160,AUTO_APPROVED,1.0,registry v1
+FD004,160,122,96.3,67.8,131.4,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,161,257,101.1,72.6,131.0,0.83,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,162,99,95.8,67.3,130.9,0.61,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,163,122,99.7,71.2,134.8,0.77,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,164,29,125.5,97.0,155.4,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,165,178,122.3,93.8,152.2,0.41,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,166,63,116.8,88.3,146.7,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,167,99,117.5,89.0,147.4,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,168,74,111.8,83.3,141.7,0.21,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,169,34,125.5,97.0,155.4,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,170,48,124.6,96.1,154.5,0.19,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,171,355,106.1,77.6,136.0,0.73,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,172,132,18.1,11.3,24.1,5.78,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U172-C132,AUTO_APPROVED,1.0,registry v1
+FD004,173,151,6.3,0.0,12.3,6.66,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U173-C151,AUTO_APPROVED,1.0,registry v1
+FD004,174,135,14.7,7.9,20.7,11.15,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U174-C135,AUTO_APPROVED,1.0,registry v1
+FD004,175,116,113.5,85.0,143.4,0.17,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,176,185,98.5,70.0,133.6,1.94,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U176-C185,AUTO_APPROVED,35.0,registry v1
+FD004,177,146,20.4,8.9,32.7,9.3,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U177-C146,AUTO_APPROVED,1.0,registry v1
+FD004,178,279,110.2,81.7,140.1,0.8,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,179,262,15.4,8.6,21.4,4.2,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U179-C262,AUTO_APPROVED,1.0,registry v1
+FD004,180,367,20.5,9.0,32.8,4.11,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U180-C367,AUTO_APPROVED,1.0,registry v1
+FD004,181,199,40.0,24.5,57.5,11.23,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD004-U181-C199,AUTO_APPROVED,12.0,registry v1
+FD004,182,98,119.2,90.7,149.1,0.3,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,183,125,15.3,8.5,21.3,5.37,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U183-C125,AUTO_APPROVED,1.0,registry v1
+FD004,184,154,8.2,1.4,14.2,7.08,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U184-C154,AUTO_APPROVED,1.0,registry v1
+FD004,185,203,48.3,32.8,65.8,3.16,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD004-U185-C203,AUTO_APPROVED,16.0,registry v1
+FD004,186,47,122.8,94.3,152.7,0.39,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,187,121,28.2,16.7,40.5,4.41,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U187-C121,AUTO_APPROVED,1.0,registry v1
+FD004,188,157,119.7,91.2,149.6,0.72,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,189,107,102.9,74.4,132.8,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,190,200,49.8,34.3,67.3,1.31,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD004-U190-C200,AUTO_APPROVED,17.0,registry v1
+FD004,191,71,123.7,95.2,153.6,0.27,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,192,203,82.6,54.1,117.7,0.56,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,193,263,101.9,73.4,131.8,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,194,214,19.0,12.2,25.0,4.13,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U194-C214,AUTO_APPROVED,1.0,registry v1
+FD004,195,186,123.2,94.7,153.1,0.56,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,196,70,115.7,87.2,145.6,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,197,196,30.9,19.4,43.2,10.21,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U197-C196,AUTO_APPROVED,1.0,registry v1
+FD004,198,115,8.7,1.9,14.7,6.93,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U198-C115,AUTO_APPROVED,1.0,registry v1
+FD004,199,177,81.1,52.6,116.2,0.54,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,200,115,93.7,65.2,128.8,0.85,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,201,139,92.0,63.5,127.1,0.42,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,202,222,8.9,2.1,14.9,28.34,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U202-C222,AUTO_APPROVED,1.0,registry v1
+FD004,203,87,122.6,94.1,152.5,0.49,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,204,19,122.7,94.2,152.6,0.2,False,LOW,Not localised (sensors inside healthy envelope),True,,,NO_ACTION,,registry v1
+FD004,205,95,107.6,79.1,137.5,0.77,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,206,291,119.4,90.9,149.3,0.48,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,207,179,122.0,93.5,151.9,0.55,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,208,180,105.8,77.3,135.7,1.55,True,MEDIUM,Engine core (HPC/HPT spool),True,,WO-FD004-U208-C180,PENDING_HUMAN_REVIEW,38.0,registry v1
+FD004,209,171,12.4,5.6,18.4,5.47,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U209-C171,AUTO_APPROVED,1.0,registry v1
+FD004,210,135,95.6,67.1,130.7,0.88,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,211,206,116.2,87.7,146.1,0.28,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,212,261,81.9,53.4,117.0,1.23,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U212-C261,AUTO_APPROVED,26.0,registry v1
+FD004,213,288,17.7,10.9,23.7,7.14,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U213-C288,AUTO_APPROVED,1.0,registry v1
+FD004,214,102,92.0,63.5,127.1,0.52,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,215,72,121.8,93.3,151.7,0.14,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,216,264,17.2,10.4,23.2,8.14,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U216-C264,AUTO_APPROVED,1.0,registry v1
+FD004,217,141,65.0,44.9,90.2,0.77,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD004-U217-C141,AUTO_APPROVED,22.0,registry v1
+FD004,218,63,117.3,88.8,147.2,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,219,110,46.8,31.3,64.3,1.39,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U219-C110,AUTO_APPROVED,15.0,registry v1
+FD004,220,65,124.8,96.3,154.7,0.21,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,221,176,74.8,54.7,100.0,0.55,False,MEDIUM,Not localised (sensors inside healthy envelope),False,,WO-FD004-U221-C176,AUTO_APPROVED,27.0,registry v1
+FD004,222,178,43.7,28.2,61.2,1.35,True,MEDIUM,Fan,False,,WO-FD004-U222-C178,AUTO_APPROVED,14.0,registry v1
+FD004,223,305,51.7,36.2,69.2,1.86,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U223-C305,AUTO_APPROVED,18.0,registry v1
+FD004,224,152,12.8,6.0,18.8,7.69,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U224-C152,AUTO_APPROVED,1.0,registry v1
+FD004,225,39,122.9,94.4,152.8,0.36,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,226,59,109.6,81.1,139.5,0.46,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,227,62,125.0,96.5,154.9,0.35,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,228,126,124.1,95.6,154.0,0.4,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,229,20,123.0,94.5,152.9,0.23,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,230,157,109.2,80.7,139.1,1.23,False,LOW,Engine core (HPC/HPT spool),False,,,NO_ACTION,,registry v1
+FD004,231,230,30.0,18.5,42.3,2.49,True,CRITICAL,Fan,False,,WO-FD004-U231-C230,AUTO_APPROVED,1.0,registry v1
+FD004,232,370,125.0,96.5,154.9,0.84,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,233,111,112.8,84.3,142.7,0.47,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,234,179,53.0,37.5,70.5,1.59,True,MEDIUM,Engine core (HPC/HPT spool),False,,WO-FD004-U234-C179,AUTO_APPROVED,18.0,registry v1
+FD004,235,362,27.3,15.8,39.6,4.69,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U235-C362,AUTO_APPROVED,1.0,registry v1
+FD004,236,176,88.7,60.2,123.8,0.59,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,237,221,14.7,7.9,20.7,4.46,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U237-C221,AUTO_APPROVED,1.0,registry v1
+FD004,238,177,11.6,4.8,17.6,6.49,True,CRITICAL,High-pressure compressor (HPC),False,,WO-FD004-U238-C177,AUTO_APPROVED,1.0,registry v1
+FD004,239,28,121.2,92.7,151.1,0.44,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,240,204,41.3,25.8,58.8,1.74,True,MEDIUM,High-pressure compressor (HPC),False,,WO-FD004-U240-C204,AUTO_APPROVED,12.0,registry v1
+FD004,241,42,122.7,94.2,152.6,0.16,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,242,112,98.7,70.2,133.8,0.58,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,243,199,95.1,66.6,130.2,0.57,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,244,184,36.1,24.6,48.4,7.3,True,HIGH,Engine core (HPC/HPT spool),False,,WO-FD004-U244-C184,AUTO_APPROVED,12.0,registry v1
+FD004,245,63,123.8,95.3,153.7,0.34,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,246,29,124.9,96.4,154.8,0.29,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,247,94,99.1,70.6,134.2,0.66,False,LOW,Not localised (sensors inside healthy envelope),False,,,NO_ACTION,,registry v1
+FD004,248,281,31.9,20.4,44.2,12.21,True,CRITICAL,Engine core (HPC/HPT spool),False,,WO-FD004-U248-C281,AUTO_APPROVED,1.0,registry v1

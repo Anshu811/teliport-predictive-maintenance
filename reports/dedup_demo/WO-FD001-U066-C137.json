@@ -1,0 +1,53 @@
+{
+  "work_order_id": "WO-FD001-U066-C137",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-066",
+  "severity": "CRITICAL",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 0,
+  "due_by_cycle": 138,
+  "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
+  "cycles_seen": 147,
+  "pred_RUL": 17.2,
+  "rul_lower": 12.4,
+  "rul_upper": 21.5,
+  "decision_RUL": 12.4,
+  "anomaly_score": 17.28,
+  "alarm": true,
+  "suspected_component": "Engine core (HPC/HPT spool)",
+  "top_sensors": [
+    {
+      "sensor": "s14",
+      "name": "Corrected core speed (NRc)",
+      "share_%": 49.5
+    },
+    {
+      "sensor": "s9",
+      "name": "Core speed (Nc)",
+      "share_%": 41.6
+    },
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 5.4
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R1 conservative RUL (90% lower bound) 18 <= 22",
+    "U1 point estimate 25 alone would give HIGH; uncertainty pushes it to CRITICAL"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 137,
+      "severity": "CRITICAL"
+    },
+    {
+      "cycle": 147,
+      "severity": "CRITICAL"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

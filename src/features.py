@@ -46,7 +46,7 @@ class CMAPSSPreprocessor:
         out = (out.drop_duplicates(subset=["unit", "cycle"], keep="last")  # duplicate readings
                   .sort_values(["unit", "cycle"]).reset_index(drop=True))  # out-of-order data
         out[cols] = out.groupby("unit")[cols].ffill()                      # carry last good reading
-        out[cols] = out.groupby("unit")[cols].bfill()                      # gap at the very start
+        # no back-fill: an early gap is never filled with later (future) readings -> column median below
         out[cols] = out[cols].fillna(self.fill_values_)                    # whole column missing
         return out
 

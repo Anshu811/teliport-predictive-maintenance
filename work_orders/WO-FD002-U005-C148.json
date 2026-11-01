@@ -1,10 +1,11 @@
 {
   "work_order_id": "WO-FD002-U005-C148",
-  "created_at": "2026-10-31T09:25:50+00:00",
+  "created_at": "2026-11-01T06:05:14+00:00",
   "asset": "FD002/engine-005",
   "severity": "CRITICAL",
   "status": "AUTO_APPROVED",
   "due_within_cycles": 1,
+  "due_by_cycle": 149,
   "recommended_action": "Remove from service at the next stop; inspect and repair/replace Engine core (HPC/HPT spool) before further operation.",
   "cycles_seen": 148,
   "pred_RUL": 12.6,
@@ -36,5 +37,13 @@
   "rules_fired": [
     "R1 conservative RUL (90% lower bound) 8 <= 22"
   ],
-  "model_version": "registry v1"
+  "model_version": "registry v1",
+  "sensor_suspect": "",
+  "rul_backup": null,
+  "history": [
+    {
+      "cycle": 148,
+      "severity": "CRITICAL"
+    }
+  ]
 }

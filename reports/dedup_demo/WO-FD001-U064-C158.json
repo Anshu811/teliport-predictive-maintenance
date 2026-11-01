@@ -1,0 +1,52 @@
+{
+  "work_order_id": "WO-FD001-U064-C158",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-064",
+  "severity": "HIGH",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 6,
+  "due_by_cycle": 174,
+  "recommended_action": "Schedule maintenance on Low-pressure turbine (LPT) within 11 cycles; reserve parts and crew now.",
+  "cycles_seen": 168,
+  "pred_RUL": 29.8,
+  "rul_lower": 22.7,
+  "rul_upper": 38.7,
+  "decision_RUL": 29.8,
+  "anomaly_score": 3.03,
+  "alarm": true,
+  "suspected_component": "Low-pressure turbine (LPT)",
+  "top_sensors": [
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 17.8
+    },
+    {
+      "sensor": "s8",
+      "name": "Fan speed (Nf)",
+      "share_%": 17.8
+    },
+    {
+      "sensor": "s7",
+      "name": "HPC outlet pressure (P30)",
+      "share_%": 16.7
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R2 pred_RUL 30 <= 40"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 158,
+      "severity": "MEDIUM"
+    },
+    {
+      "cycle": 168,
+      "severity": "HIGH"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}

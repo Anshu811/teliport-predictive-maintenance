@@ -1,6 +1,6 @@
 {
-  "finished_at": "2026-10-31T09:25:51+00:00",
-  "runtime_minutes": 2.1,
+  "finished_at": "2026-11-01T06:05:15+00:00",
+  "runtime_minutes": 2.2,
   "subsets": [
     "FD001",
     "FD002",
@@ -55,7 +55,7 @@
   ],
   "retraining": {
     "subset": "FD001",
-    "started_at": "2026-10-31T09:25:29+00:00",
+    "started_at": "2026-11-01T06:04:52+00:00",
     "drift_max_psi": 0.083,
     "drift_top": {
       "s14": 0.083,
@@ -83,7 +83,8 @@
     "within_one_level_%": 99.9,
     "work_orders": 333,
     "work_orders_failing_before_due": 0,
-    "human_review_rate_%": 1.1
+    "human_review_rate_%": 1.1,
+    "sensor_flags": 0
   },
   "severity_counts": {
     "LOW": 374,

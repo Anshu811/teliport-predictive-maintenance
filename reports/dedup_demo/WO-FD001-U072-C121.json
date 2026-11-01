@@ -1,0 +1,52 @@
+{
+  "work_order_id": "WO-FD001-U072-C121",
+  "created_at": "2026-11-01T05:24:39+00:00",
+  "asset": "FD001/engine-072",
+  "severity": "MEDIUM",
+  "status": "AUTO_APPROVED",
+  "due_within_cycles": 14,
+  "due_by_cycle": 145,
+  "recommended_action": "Plan borescope inspection of the engine (full inspection, no single component stands out) within 24 cycles; increase monitoring frequency.",
+  "cycles_seen": 131,
+  "pred_RUL": 64.1,
+  "rul_lower": 46.6,
+  "rul_upper": 85.1,
+  "decision_RUL": 64.1,
+  "anomaly_score": 1.05,
+  "alarm": false,
+  "suspected_component": "Not localised (sensors inside healthy envelope)",
+  "top_sensors": [
+    {
+      "sensor": "s11",
+      "name": "HPC static pressure (Ps30)",
+      "share_%": 43.2
+    },
+    {
+      "sensor": "s4",
+      "name": "LPT outlet temperature (T50)",
+      "share_%": 11.7
+    },
+    {
+      "sensor": "s21",
+      "name": "LPT coolant bleed (W32)",
+      "share_%": 9.9
+    }
+  ],
+  "needs_human_review": false,
+  "review_reasons": [],
+  "rules_fired": [
+    "R3 pred_RUL 66 <= 75"
+  ],
+  "model_version": "registry v2",
+  "history": [
+    {
+      "cycle": 121,
+      "severity": "MEDIUM"
+    },
+    {
+      "cycle": 131,
+      "severity": "MEDIUM"
+    }
+  ],
+  "last_updated": "2026-11-01T05:24:41+00:00"
+}
